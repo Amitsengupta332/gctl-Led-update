@@ -1,0 +1,1282 @@
+<!-- =========================================================
+  RETAIL & SUPERMARKETS — SINGLE INDUSTRY PAGE
+  GCTL LED | Tailwind CSS | Reuses existing navbar/footer/main.js
+========================================================== -->
+
+<!-- Reusable inline SVG icon library -->
+<svg aria-hidden="true" class="hidden" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="retail-icon-tag" viewBox="0 0 24 24">
+    <path d="M20 13 11 22l-9-9V4h9l9 9Z" />
+    <path d="M7 8h.01" />
+  </symbol>
+  <symbol id="retail-icon-price" viewBox="0 0 24 24">
+    <path d="M12 2v20" />
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
+  </symbol>
+  <symbol id="retail-icon-pin" viewBox="0 0 24 24">
+    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+    <circle cx="12" cy="10" r="3" />
+  </symbol>
+  <symbol id="retail-icon-users" viewBox="0 0 24 24">
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+  </symbol>
+  <symbol id="retail-icon-badge" viewBox="0 0 24 24">
+    <path d="m12 15 3.5 2-1-4 3-2.7-4-.3L12 6l-1.5 4-4 .3 3 2.7-1 4 3.5-2Z" />
+    <circle cx="12" cy="12" r="10" />
+  </symbol>
+  <symbol id="retail-icon-cloud" viewBox="0 0 24 24">
+    <path d="M17.5 19H7a5 5 0 1 1 1.6-9.74A6 6 0 0 1 20 12a4 4 0 0 1-2.5 7Z" />
+    <path d="M12 12v7" />
+    <path d="m9 15 3-3 3 3" />
+  </symbol>
+  <symbol id="retail-icon-check" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" />
+    <path d="m8 12 2.5 2.5L16 9" />
+  </symbol>
+  <symbol id="retail-icon-store" viewBox="0 0 24 24">
+    <path d="M3 9 5 3h14l2 6" />
+    <path d="M5 13v8h14v-8" />
+    <path d="M9 21v-6h6v6" />
+    <path d="M3 9a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0" />
+  </symbol>
+  <symbol id="retail-icon-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3 2" />
+  </symbol>
+  <symbol id="retail-icon-chart" viewBox="0 0 24 24">
+    <path d="M4 19V9" />
+    <path d="M10 19V5" />
+    <path d="M16 19v-7" />
+    <path d="M22 19V3" />
+  </symbol>
+  <symbol id="retail-icon-eye" viewBox="0 0 24 24">
+    <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" />
+    <circle cx="12" cy="12" r="3" />
+  </symbol>
+  <symbol id="retail-icon-network" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="6" height="6" rx="1" />
+    <rect x="15" y="3" width="6" height="6" rx="1" />
+    <rect x="9" y="15" width="6" height="6" rx="1" />
+    <path d="M6 9v3h12V9" />
+    <path d="M12 12v3" />
+  </symbol>
+  <symbol id="retail-icon-tool" viewBox="0 0 24 24">
+    <path
+      d="M14.7 6.3a4 4 0 0 0-5-5L12 3.6 8.4 7.2 6.1 4.9a4 4 0 0 0 5 5L4 17l3 3 7.1-7.1a4 4 0 0 0 5-5L16.8 10.2 13.2 6.6l1.5-.3Z"
+    />
+  </symbol>
+  <symbol id="retail-icon-headset" viewBox="0 0 24 24">
+    <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+    <path d="M18 19c0 1.1-.9 2-2 2h-4" />
+    <rect x="3" y="13" width="4" height="6" rx="2" />
+    <rect x="17" y="13" width="4" height="6" rx="2" />
+  </symbol>
+  <symbol id="retail-icon-shield" viewBox="0 0 24 24">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+    <path d="m9 12 2 2 4-4" />
+  </symbol>
+  <symbol id="retail-icon-briefcase" viewBox="0 0 24 24">
+    <rect x="3" y="7" width="18" height="13" rx="2" />
+    <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+    <path d="M3 12h18" />
+  </symbol>
+  <symbol id="retail-icon-globe" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M2 12h20" />
+    <path d="M12 2a15 15 0 0 1 0 20" />
+    <path d="M12 2a15 15 0 0 0 0 20" />
+  </symbol>
+</svg>
+
+<div class="bg-white text-[#10243b]">
+  <!-- HERO -->
+  <section
+    class="relative overflow-hidden border-b border-[#dce8f4] bg-[#f7fbff]"
+  >
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <nav
+        aria-label="Breadcrumb"
+        class="flex min-h-[46px] items-center gap-2 text-[11px] font-medium text-slate-500 sm:text-[12px]"
+      >
+        <a href="/index.html" class="transition hover:text-[#0050a8]">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/industries.html" class="transition hover:text-[#0050a8]"
+          >Industries</a
+        >
+        <span aria-hidden="true">›</span>
+        <span class="text-[#0050a8]">Retail &amp; Supermarkets</span>
+      </nav>
+    </div>
+
+    <div class="mx-auto grid max-w-[1320px] lg:grid-cols-[43%_57%]">
+      <div
+        class="relative z-10 flex items-center px-4 py-10 sm:px-6 sm:py-12 lg:px-8 lg:py-14"
+      >
+        <div class="max-w-[560px]">
+          <p
+            class="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#0050a8]"
+          >
+            Smart Retail Display Solutions
+          </p>
+
+          <h1
+            class="mt-3 text-[34px] font-semibold leading-[1.07] tracking-[-0.035em] text-[#07366f] sm:text-[43px] lg:text-[48px]"
+          >
+            Retail &amp; Supermarket
+            <span class="block text-[#071f4d]">LED Display Solutions</span>
+          </h1>
+
+          <p
+            class="mt-5 max-w-[540px] text-[13px] leading-6 text-slate-600 sm:text-[14px] sm:leading-7"
+          >
+            Engage shoppers, promote products and create memorable in-store
+            experiences with connected LED displays, digital signage, video
+            walls, kiosks and centrally managed promotional screens.
+          </p>
+
+          <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a
+              href="/contact.html"
+              class="inline-flex h-[44px] items-center justify-center gap-3 rounded-[6px] bg-[#0050a8] px-6 text-[12px] font-semibold text-white shadow-[0_12px_28px_rgba(0,80,168,0.22)] transition hover:bg-[#003f87]"
+            >
+              Request Consultation
+              <span aria-hidden="true">→</span>
+            </a>
+
+            <a
+              href="#retail-solutions"
+              class="inline-flex h-[44px] items-center justify-center gap-3 rounded-[6px] border border-[#89b9ee] bg-white px-6 text-[12px] font-semibold text-[#0050a8] transition hover:border-[#0050a8] hover:bg-[#eef6ff]"
+            >
+              Explore Solutions
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="relative min-h-[330px] overflow-hidden sm:min-h-[390px] lg:min-h-[500px]"
+      >
+        <img
+          src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+          alt="Modern supermarket interior with LED promotional displays"
+          width="1200"
+          height="800"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#f7fbff] via-[#f7fbff]/20 to-transparent lg:w-[34%]"
+        ></div>
+        <div
+          class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#f7fbff]/35 to-transparent"
+        ></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE CAPABILITIES -->
+  <section class="border-b border-[#e2ebf5] bg-white py-4">
+    <div
+      class="mx-auto grid max-w-[1320px] grid-cols-2 gap-px overflow-hidden rounded-[10px] border border-[#dfe9f4] bg-[#dfe9f4] sm:grid-cols-3 lg:grid-cols-6"
+    >
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-tag"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Promotional Messaging
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Real-time offers and seasonal campaigns.
+          </p>
+        </div>
+      </article>
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-price"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Dynamic Pricing
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Update prices and offers instantly.
+          </p>
+        </div>
+      </article>
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-pin"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Wayfinding &amp; Navigation
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Guide shoppers to products and sections.
+          </p>
+        </div>
+      </article>
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-users"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Queue Management
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Improve checkout flow and experience.
+          </p>
+        </div>
+      </article>
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-badge"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Brand Engagement
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Tell your brand story with impact.
+          </p>
+        </div>
+      </article>
+      <article class="flex min-h-[94px] gap-3 bg-white p-4">
+        <svg
+          class="mt-0.5 h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+        >
+          <use href="#retail-icon-cloud"></use>
+        </svg>
+        <div>
+          <h2 class="text-[12px] font-semibold text-[#0050a8]">
+            Centralized Content
+          </h2>
+          <p class="mt-1 text-[10px] leading-4 text-slate-500">
+            Manage every screen from one platform.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY GCTL -->
+  <section class="py-10 sm:py-12 lg:py-14">
+    <div
+      class="mx-auto grid max-w-[1320px] gap-8 px-4 sm:px-6 lg:grid-cols-[47%_53%] lg:items-center lg:px-8"
+    >
+      <div
+        class="overflow-hidden rounded-[13px] border border-[#dce7f2] bg-[#eef5fb] shadow-[0_18px_45px_rgba(15,48,88,0.10)]"
+      >
+        <img
+          src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+          alt="Retail digital signage command center"
+          width="1000"
+          height="700"
+          loading="lazy"
+          decoding="async"
+          class="aspect-[16/10] h-full w-full object-cover"
+        />
+      </div>
+
+      <div>
+        <p
+          class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          Built for retail success
+        </p>
+        <h2
+          class="mt-2 text-[27px] font-semibold leading-tight tracking-[-0.025em] text-[#071f4d] sm:text-[32px]"
+        >
+          Why Retailers Choose GCTL LED
+        </h2>
+        <p
+          class="mt-3 max-w-[680px] text-[12px] leading-6 text-slate-600 sm:text-[13px]"
+        >
+          Our retail display solutions help stores and supermarkets communicate
+          faster, sell more effectively and maintain consistent visual
+          experiences across every location.
+        </p>
+
+        <ul class="mt-5 space-y-2.5">
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >Promote Offers in Real Time</strong
+              >
+              — highlight promotions, discounts and seasonal campaigns
+              instantly.
+            </p>
+          </li>
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >Increase Customer Attention</strong
+              >
+              — bright, vibrant displays capture attention and encourage
+              engagement.
+            </p>
+          </li>
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >Centralized Multi-Store Management</strong
+              >
+              — control content across all branches from one dashboard.
+            </p>
+          </li>
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >High Brightness &amp; Vivid Visuals</strong
+              >
+              — maintain strong visibility in bright store environments.
+            </p>
+          </li>
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >Easy Scheduling by Location &amp; Time</strong
+              >
+              — publish content based on store, audience or campaign timing.
+            </p>
+          </li>
+          <li class="flex gap-2.5">
+            <svg
+              class="mt-0.5 h-[17px] w-[17px] shrink-0 fill-none stroke-[#0057d8] stroke-2"
+            >
+              <use href="#retail-icon-check"></use>
+            </svg>
+            <p class="text-[11px] leading-5 text-slate-600">
+              <strong class="font-semibold text-[#15365f]"
+                >Integration Ready</strong
+              >
+              — connect with POS, queue, ERP and other retail workflows.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATIONS -->
+  <section class="bg-[#f8fbff] py-10 sm:py-12">
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          Where displays create value
+        </p>
+        <h2
+          class="mt-2 text-[25px] font-semibold tracking-[-0.02em] text-[#071f4d] sm:text-[29px]"
+        >
+          Key Applications in Retail &amp; Supermarkets
+        </h2>
+      </div>
+
+      <div
+        class="swiper relative mt-7 pb-9"
+        data-swiper="industries"
+        aria-label="Retail applications slider"
+      >
+        <button
+          type="button"
+          data-swiper-prev
+          aria-label="Previous retail application"
+          class="absolute left-2 top-[42%] z-20 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full border border-[#d5e3f2] bg-white text-[#0050a8] shadow-[0_10px_25px_rgba(15,48,88,0.16)] transition hover:bg-[#0050a8] hover:text-white"
+        >
+          <span aria-hidden="true">‹</span>
+        </button>
+
+        <button
+          type="button"
+          data-swiper-next
+          aria-label="Next retail application"
+          class="absolute right-2 top-[42%] z-20 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full border border-[#d5e3f2] bg-white text-[#0050a8] shadow-[0_10px_25px_rgba(15,48,88,0.16)] transition hover:bg-[#0050a8] hover:text-white"
+        >
+          <span aria-hidden="true">›</span>
+        </button>
+
+        <div class="swiper-wrapper">
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+              alt="Store entrance LED displays"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Store Entrance Displays
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Welcome shoppers with engaging visuals, offers and brand
+                messaging.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/luxurious_hotel_lobby_with_modern_elegance.avif"
+              alt="Promotional endcap digital screens"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Promotional Endcap Screens
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Highlight offers and new arrivals exactly where customers shop.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/modern_classroom_with_digital_display.avif"
+              alt="Shelf edge pricing display"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Shelf-Edge &amp; Price Communication
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Show dynamic pricing, product details and related offers.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/modern_airport_terminal_with_digital_displays.avif"
+              alt="Checkout queue digital displays"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Checkout Queue Displays
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Inform and entertain customers while reducing perceived wait
+                time.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/modern_healthcare_reception_with_tech_design.avif"
+              alt="Retail wayfinding display"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Wayfinding &amp; Department Directories
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Guide visitors through large stores and shopping centres.
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="swiper-slide !h-auto overflow-hidden rounded-[11px] border border-[#dce7f2] bg-white transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(15,48,88,0.10)]"
+          >
+            <img
+              src="/images/industries/electric_energy_of_live_music.avif"
+              alt="Shopping mall LED wall"
+              width="500"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              class="aspect-[4/2.7] w-full object-cover"
+            />
+            <div class="p-3.5">
+              <h3 class="text-[12px] font-semibold text-[#0050a8]">
+                Shopping Mall LED Walls
+              </h3>
+              <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+                Create immersive brand experiences in malls and retail spaces.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div data-swiper-pagination class="mt-5 flex justify-center"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDED SOLUTIONS -->
+  <section id="retail-solutions" class="py-10 sm:py-12 lg:py-14">
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          Recommended product categories
+        </p>
+        <h2
+          class="mt-2 text-[25px] font-semibold tracking-[-0.02em] text-[#071f4d] sm:text-[29px]"
+        >
+          Recommended LED &amp; Digital Signage Solutions
+        </h2>
+      </div>
+
+      <div
+        class="swiper relative mt-7 pb-9"
+        data-swiper="industries"
+        aria-label="Recommended retail display solutions slider"
+      >
+        <button
+          type="button"
+          data-swiper-prev
+          aria-label="Previous retail solution"
+          class="absolute left-2 top-[40%] z-20 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full border border-[#d5e3f2] bg-white text-[#0050a8] shadow-[0_10px_25px_rgba(15,48,88,0.16)] transition hover:bg-[#0050a8] hover:text-white"
+        >
+          <span aria-hidden="true">‹</span>
+        </button>
+
+        <button
+          type="button"
+          data-swiper-next
+          aria-label="Next retail solution"
+          class="absolute right-2 top-[40%] z-20 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-full border border-[#d5e3f2] bg-white text-[#0050a8] shadow-[0_10px_25px_rgba(15,48,88,0.16)] transition hover:bg-[#0050a8] hover:text-white"
+        >
+          <span aria-hidden="true">›</span>
+        </button>
+
+        <div class="swiper-wrapper">
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/electric_energy_of_live_music.avif"
+                alt="Indoor fine pixel LED wall"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Indoor Fine Pixel LED Wall
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              High-resolution visuals for premium campaigns and branding.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+                alt="Wall mounted digital signage"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Wall Mounted Digital Signage
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              Slim commercial screens for walls, entrances and high-traffic
+              zones.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/modern_airport_terminal_with_digital_displays.avif"
+                alt="Floor standing retail kiosk"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Floor Standing Kiosk
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              Ideal for promotions, directories and interactive information.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/modern_classroom_with_digital_display.avif"
+                alt="Stretched bar shelf display"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Stretched Bar / Shelf Display
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              Compact screens for shelves, counters and promotional edges.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+                alt="Retail video wall display"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Video Wall Display
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              Large-format synchronized visuals for flagship stores.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+
+          <article
+            class="swiper-slide !h-auto flex flex-col rounded-[12px] border border-[#dce7f2] bg-white p-3 shadow-[0_8px_24px_rgba(15,48,88,0.05)]"
+          >
+            <div class="overflow-hidden rounded-[9px] bg-[#eef4fa]">
+              <img
+                src="/images/industries/modern_healthcare_reception_with_tech_design.avif"
+                alt="Interactive retail information kiosk"
+                width="500"
+                height="340"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[4/2.65] w-full object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+            <h3 class="mt-3 text-[12px] font-semibold text-[#0050a8]">
+              Interactive Information Kiosk
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.65] text-slate-500">
+              Touch-enabled guidance, product lookup and self-service tools.
+            </p>
+            <a
+              href="/products.html"
+              class="mt-auto pt-4 text-[10px] font-semibold text-[#0057d8]"
+              >Learn More&nbsp; →</a
+            >
+          </article>
+        </div>
+
+        <div data-swiper-pagination class="mt-5 flex justify-center"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="pb-10 sm:pb-12">
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div
+        class="rounded-[13px] bg-gradient-to-r from-[#eef6ff] via-[#f5f9ff] to-[#e8f2ff] px-5 py-6 sm:px-7"
+      >
+        <h2 class="text-center text-[22px] font-semibold text-[#071f4d]">
+          Benefits for Retailers, Supermarkets &amp; Shopping Spaces
+        </h2>
+        <div
+          class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
+        >
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-users"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Increased Footfall &amp; Attention
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                Eye-catching displays attract more shoppers.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-eye"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Better Promotion Visibility
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                High-impact offers reach customers clearly.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-clock"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Faster Customer Decisions
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                Clear information helps shoppers decide faster.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-store"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Improved Store Experience
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                Engage, inform and delight shoppers.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-pin"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Better Navigation
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                Smart wayfinding improves customer flow.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-3">
+            <svg
+              class="h-8 w-8 shrink-0 fill-none stroke-[#0057d8] stroke-[1.7]"
+            >
+              <use href="#retail-icon-network"></use>
+            </svg>
+            <div>
+              <h3 class="text-[11px] font-semibold text-[#0050a8]">
+                Scalable for Stores or Chains
+              </h3>
+              <p class="mt-1 text-[9px] leading-4 text-slate-500">
+                Flexible solutions for one or many locations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERY PROCESS -->
+  <section class="bg-[#f8fbff] py-10 sm:py-12">
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          From concept to operation
+        </p>
+        <h2
+          class="mt-2 text-[25px] font-semibold text-[#071f4d] sm:text-[29px]"
+        >
+          How We Deliver Retail Display Projects
+        </h2>
+      </div>
+      <div class="mt-7 grid gap-4 lg:grid-cols-4">
+        <article
+          class="relative rounded-[12px] border border-[#dce7f2] bg-white p-5"
+        >
+          <span
+            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0050a8] text-[11px] font-semibold text-white"
+            >1</span
+          >
+          <div class="pl-10">
+            <h3 class="text-[12px] font-semibold text-[#0050a8]">
+              Consultation
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.7] text-slate-500">
+              We understand your retail goals, space, audience and communication
+              needs.
+            </p>
+          </div>
+        </article>
+        <article
+          class="relative rounded-[12px] border border-[#dce7f2] bg-white p-5"
+        >
+          <span
+            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0050a8] text-[11px] font-semibold text-white"
+            >2</span
+          >
+          <div class="pl-10">
+            <h3 class="text-[12px] font-semibold text-[#0050a8]">
+              Store Survey &amp; Design
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.7] text-slate-500">
+              We assess the environment and engineer the right display solution.
+            </p>
+          </div>
+        </article>
+        <article
+          class="relative rounded-[12px] border border-[#dce7f2] bg-white p-5"
+        >
+          <span
+            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0050a8] text-[11px] font-semibold text-white"
+            >3</span
+          >
+          <div class="pl-10">
+            <h3 class="text-[12px] font-semibold text-[#0050a8]">
+              Installation &amp; Integration
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.7] text-slate-500">
+              We install precisely and integrate screens with your retail
+              systems.
+            </p>
+          </div>
+        </article>
+        <article
+          class="relative rounded-[12px] border border-[#dce7f2] bg-white p-5"
+        >
+          <span
+            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0050a8] text-[11px] font-semibold text-white"
+            >4</span
+          >
+          <div class="pl-10">
+            <h3 class="text-[12px] font-semibold text-[#0050a8]">
+              Training &amp; Support
+            </h3>
+            <p class="mt-1.5 text-[10px] leading-[1.7] text-slate-500">
+              We train your team and provide ongoing technical assistance.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL + STATS -->
+  <section class="py-10 sm:py-12 lg:py-14">
+    <div
+      class="mx-auto grid max-w-[1320px] gap-5 px-4 sm:px-6 lg:grid-cols-[2fr_1.35fr] lg:px-8"
+    >
+      <article
+        class="grid overflow-hidden rounded-[13px] border border-[#dce7f2] bg-white sm:grid-cols-[46%_54%]"
+      >
+        <img
+          src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+          alt="Retail LED display installation client"
+          width="700"
+          height="520"
+          loading="lazy"
+          class="h-full min-h-[250px] w-full object-cover"
+        />
+        <div class="flex flex-col justify-center p-6">
+          <div class="text-[34px] font-semibold leading-none text-[#0057d8]">
+            “
+          </div>
+          <blockquote class="mt-2 text-[12px] leading-6 text-slate-600">
+            GCTL LED transformed how we communicate in-store. Promotions are
+            more visible, customer engagement has increased and content
+            management across our locations is easier.
+          </blockquote>
+          <div class="mt-5 flex items-end justify-between gap-3">
+            <div>
+              <p class="text-[11px] font-semibold text-[#0050a8]">
+                Rohit Malhotra
+              </p>
+              <p class="mt-1 text-[9px] text-slate-500">
+                Marketing Head, FreshMart Retail
+              </p>
+            </div>
+            <div class="text-[14px] tracking-[0.08em] text-amber-400">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="grid grid-cols-2 gap-4">
+        <article class="rounded-[12px] border border-[#dce7f2] bg-white p-5">
+          <svg class="h-9 w-9 fill-none stroke-[#0057d8] stroke-[1.6]">
+            <use href="#retail-icon-headset"></use>
+          </svg>
+          <p class="mt-3 text-[20px] font-semibold text-[#0050a8]">24/7</p>
+          <p class="text-[10px] font-medium text-slate-500">
+            Technical Support
+          </p>
+        </article>
+        <article class="rounded-[12px] border border-[#dce7f2] bg-white p-5">
+          <svg class="h-9 w-9 fill-none stroke-[#0057d8] stroke-[1.6]">
+            <use href="#retail-icon-shield"></use>
+          </svg>
+          <p class="mt-3 text-[20px] font-semibold text-[#0050a8]">99.5%</p>
+          <p class="text-[10px] font-medium text-slate-500">Reliable Uptime</p>
+        </article>
+        <article class="rounded-[12px] border border-[#dce7f2] bg-white p-5">
+          <svg class="h-9 w-9 fill-none stroke-[#0057d8] stroke-[1.6]">
+            <use href="#retail-icon-briefcase"></use>
+          </svg>
+          <p class="mt-3 text-[20px] font-semibold text-[#0050a8]">2,500+</p>
+          <p class="text-[10px] font-medium text-slate-500">
+            Projects Delivered
+          </p>
+        </article>
+        <article class="rounded-[12px] border border-[#dce7f2] bg-white p-5">
+          <svg class="h-9 w-9 fill-none stroke-[#0057d8] stroke-[1.6]">
+            <use href="#retail-icon-globe"></use>
+          </svg>
+          <p class="mt-3 text-[20px] font-semibold text-[#0050a8]">50+</p>
+          <p class="text-[10px] font-medium text-slate-500">Countries Served</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-[#f8fbff] py-10 sm:py-12" data-about-faq>
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          Helpful information
+        </p>
+        <h2
+          class="mt-2 text-[25px] font-semibold text-[#071f4d] sm:text-[29px]"
+        >
+          Frequently Asked Questions
+        </h2>
+      </div>
+
+      <div class="mt-7 grid gap-3 lg:grid-cols-2">
+        <div class="space-y-3">
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-1"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span
+                >What types of LED displays are best for retail
+                environments?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-1"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              Indoor fine-pixel LED walls, commercial digital signage,
+              floor-standing kiosks, stretched shelf displays and video walls
+              are commonly selected based on viewing distance, brightness and
+              available space.
+            </div>
+          </article>
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-2"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span>Can GCTL LED integrate with our POS or queue system?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-2"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              Integration can be planned with compatible POS, queue management,
+              scheduling and content platforms after reviewing your current
+              systems and required data flow.
+            </div>
+          </article>
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-3"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span>How do you manage content across multiple stores?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-3"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              A centralized CMS can organize screens by store, region or
+              campaign and schedule different content for each location from one
+              dashboard.
+            </div>
+          </article>
+        </div>
+
+        <div class="space-y-3">
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-4"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span>Are the displays suitable for bright store lighting?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-4"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              Yes. Screen brightness and surface treatment are selected
+              according to ambient light, viewing angle and installation
+              location.
+            </div>
+          </article>
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-5"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span
+                >Can you help with content creation and campaign planning?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-5"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              Content support can include screen-layout guidance, campaign
+              templates, media specifications and scheduling recommendations.
+            </div>
+          </article>
+          <article
+            class="overflow-hidden rounded-[9px] border border-[#dce7f2] bg-white"
+          >
+            <button
+              type="button"
+              data-about-faq-button
+              aria-expanded="false"
+              aria-controls="retail-faq-6"
+              class="flex w-full items-center justify-between gap-4 px-4 py-3 text-left text-[11px] font-medium text-[#15365f]"
+            >
+              <span>Do you provide installation and after-sales support?</span
+              ><span
+                data-about-faq-icon
+                class="text-[18px] font-light text-[#0057d8]"
+                >+</span
+              >
+            </button>
+            <div
+              id="retail-faq-6"
+              class="hidden border-t border-[#e7eef6] px-4 py-3 text-[10px] leading-5 text-slate-500"
+            >
+              GCTL LED can provide site survey, system design, installation,
+              commissioning, training, maintenance and technical support.
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-8 sm:py-10">
+    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+      <div
+        class="relative overflow-hidden rounded-[14px] bg-gradient-to-r from-[#0050a8] via-[#075cc1] to-[#003f87] px-6 py-7 text-white shadow-[0_22px_48px_rgba(0,63,135,0.22)] sm:px-8 lg:flex lg:items-center lg:justify-between lg:gap-8"
+      >
+        <div
+          class="pointer-events-none absolute -left-14 -top-16 h-44 w-44 rounded-full border border-white/15"
+        ></div>
+        <div
+          class="pointer-events-none absolute left-8 top-4 h-24 w-24 rounded-full border border-white/10"
+        ></div>
+        <div class="relative">
+          <h2
+            class="text-[22px] font-semibold tracking-[-0.02em] sm:text-[26px]"
+          >
+            Transform Retail Experiences with GCTL LED
+          </h2>
+          <p
+            class="mt-2 max-w-[720px] text-[11px] leading-5 text-white/80 sm:text-[12px]"
+          >
+            Engage more shoppers, promote smarter and drive better results with
+            connected LED display and digital signage solutions.
+          </p>
+        </div>
+        <a
+          href="/contact.html"
+          class="relative mt-5 inline-flex h-[44px] shrink-0 items-center justify-center gap-3 rounded-[6px] bg-white px-7 text-[12px] font-semibold text-[#0050a8] transition hover:bg-[#eaf3ff] lg:mt-0"
+          >Request a Demo <span aria-hidden="true">→</span></a
+        >
+      </div>
+    </div>
+  </section>
+</div>

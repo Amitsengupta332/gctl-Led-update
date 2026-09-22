@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@source "../index.html";
+@source "../*.html";
+@source "../public";
+@source "./**/*.{js,css}";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+[data-testimonial-track] {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+[data-testimonial-track]::-webkit-scrollbar {
+  display: none;
+}
+
+/* Professional services static cards */
+@media (hover: hover) {
+  section[aria-labelledby="professional-services-title"] article {
+    transition:
+      border-color 0.25s ease,
+      box-shadow 0.25s ease,
+      transform 0.25s ease;
+  }
+
+  section[aria-labelledby="professional-services-title"] article:hover {
+    border-color: #bfd7f5;
+    box-shadow: 0 10px 30px rgba(15, 70, 130, 0.08);
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  section[aria-labelledby="professional-services-title"] article {
+    transition: none;
+  }
+}

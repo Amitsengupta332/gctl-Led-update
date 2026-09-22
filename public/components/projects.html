@@ -1,0 +1,92 @@
+<section class="bg-[#f7fbff] py-12 text-[#0b1f33]">
+  <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+    <!-- Heading -->
+    <div class="mb-6 flex items-end justify-between gap-4">
+      <div>
+        <p
+          class="mb-2 text-[12px] font-semibold uppercase tracking-[0.16em] text-[#0057d8]"
+        >
+          Our Installations
+        </p>
+
+        <h2
+          class="text-[28px] font-semibold leading-tight text-[#0b1f33] sm:text-[34px]"
+        >
+          Real Projects. Real Results.
+        </h2>
+      </div>
+
+      <a
+        href="/projects.html"
+        class="hidden text-[13px] font-semibold uppercase tracking-[0.08em] text-[#0057d8] transition hover:text-[#0b1f33] sm:inline-flex"
+      >
+        View All Projects →
+      </a>
+    </div>
+
+    <!-- Slider Wrapper -->
+    <div class="relative">
+      <!-- Left Button -->
+      <button
+        id="projectsPrevBtn"
+        type="button"
+        aria-label="Previous projects"
+        class="absolute -left-5 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 place-items-center rounded-full border border-[#cfe1f5] bg-white text-[#0057d8] shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition hover:border-[#1677ff] hover:bg-[#1677ff] hover:text-white lg:grid"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-7 w-7"
+        >
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+
+      <!--
+        Project cards will automatically render here
+        from project-data.js
+      -->
+      <div
+        id="projectsSlider"
+        class="flex gap-4 overflow-x-auto scroll-smooth pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        aria-label="Featured GCTL LED projects"
+      ></div>
+
+      <!-- Right Button -->
+      <button
+        id="projectsNextBtn"
+        type="button"
+        aria-label="Next projects"
+        class="absolute -right-5 top-1/2 z-20 hidden h-14 w-14 -translate-y-1/2 place-items-center rounded-full border border-[#cfe1f5] bg-white text-[#0057d8] shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition hover:border-[#1677ff] hover:bg-[#1677ff] hover:text-white lg:grid"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-7 w-7"
+        >
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile View All Button -->
+    <div class="mt-5 text-center sm:hidden">
+      <a
+        href="/projects.html"
+        class="inline-flex items-center justify-center text-[13px] font-semibold uppercase tracking-[0.08em] text-[#0057d8] transition hover:text-[#0b1f33]"
+      >
+        View All Projects →
+      </a>
+    </div>
+  </div>
+</section>
