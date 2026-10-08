@@ -137,12 +137,14 @@ export const navItems = [
                   {
                     "name": "55 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
                     "image": "/images/product/55-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "55 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
                     "image": "/images/product/55-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
                 ]
               },
@@ -152,12 +154,14 @@ export const navItems = [
                   {
                     "name": "65 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
                     "image": "/images/product/65-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "65 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
                     "image": "/images/product/65-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
                 ]
               },
@@ -167,12 +171,14 @@ export const navItems = [
                   {
                     "name": "75 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
                     "image": "/images/product/75-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "75 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
                     "image": "/images/product/75-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
                 ]
               }
@@ -348,7 +354,8 @@ export const navItems = [
                   {
                     "name": "Dual Screen Interactive Wayfinding Kiosk",
                     "image": "/images/product/dual-screen-interactive-wayfinding-kiosk.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/interactive-wayfinding/dual-screen-interactive-wayfinding-kiosk.html"
                   }
                 ]
               },
@@ -363,7 +370,8 @@ export const navItems = [
                   {
                     "name": "Indoor Digital Directory Wayfinding Display",
                     "image": "/images/product/indoor-digital-directory-wayfinding-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/interactive-wayfinding/indoor-digital-directory-wayfinding-display.html"
                   },
                   {
                     "name": "Indoor Wall Mount Wayfinding Display",
@@ -373,7 +381,8 @@ export const navItems = [
                   {
                     "name": "Indoor Floor Standing Wayfinding Display",
                     "image": "/images/product/indoor-floor-standing-wayfinding-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html"
                   }
                 ]
               },
@@ -418,17 +427,20 @@ export const navItems = [
                   {
                     "name": "46-inch LCD Video Wall Display 3.5mm Narrow Bezel",
                     "image": "/images/product/46-inch-lcd-video-wall-display-3-5mm-narrow-bezel.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-3-5mm.html"
                   },
                   {
                     "name": "46-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
                     "image": "/images/product/46-inch-ultra-narrow-bezel-0-88mm-lcd-video-wall-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-0-88mm.html"
                   },
                   {
                     "name": "46-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
                     "image": "/images/product/46-inch-ultra-narrow-bezel-1-8mm-lcd-video-wall-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-1-8mm.html"
                   }
                 ]
               },
@@ -438,17 +450,20 @@ export const navItems = [
                   {
                     "name": "55-inch LCD Video Wall Display 3.5mm Narrow Bezel",
                     "image": "/images/product/55-inch-lcd-video-wall-display-3-5mm-narrow-bezel.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-3-5mm.html"
                   },
                   {
                     "name": "55-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
                     "image": "/images/product/55-inch-ultra-narrow-bezel-0-88mm-lcd-video-wall-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-0-88mm.html"
                   },
                   {
                     "name": "55-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
                     "image": "/images/product/55-inch-ultra-narrow-bezel-1-8mm-lcd-video-wall-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-1-8mm.html"
                   }
                 ]
               },
@@ -483,7 +498,8 @@ export const navItems = [
                   {
                     "name": "24 Inch Touch Self Service Kiosk",
                     "image": "/images/product/24-inch-touch-self-service-kiosk.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/self-service-touch-kiosk/24-inch-touch-self-service-kiosk.html"
                   }
                 ]
               },
@@ -493,7 +509,8 @@ export const navItems = [
                   {
                     "name": "32 Inch Self Service Touch Kiosk for Restaurant",
                     "image": "/images/product/32-inch-self-service-touch-kiosk-for-restaurant.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/self-service-touch-kiosk/32-inch-self-service-touch-kiosk-for-restaurant.html"
                   }
                 ]
               }
@@ -513,7 +530,8 @@ export const navItems = [
                   {
                     "name": "21.5 Inch Wall Mount Android Display",
                     "image": "/images/product/21-5-inch-wall-mount-android-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/wall-mount-android-display/21-5-inch-wall-mount-android-display.html"
                   }
                 ]
               },
@@ -523,7 +541,8 @@ export const navItems = [
                   {
                     "name": "32 Inch Wall Mount Android Display",
                     "image": "/images/product/32-inch-wall-mount-android-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/wall-mount-android-display/32-inch-wall-mount-android-display.html"
                   }
                 ]
               },
@@ -533,7 +552,8 @@ export const navItems = [
                   {
                     "name": "43 Inch Wall Mount Android Display",
                     "image": "/images/product/43-inch-wall-mount-android-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/wall-mount-android-display/43-inch-wall-mount-android-display.html"
                   }
                 ]
               }
@@ -553,12 +573,14 @@ export const navItems = [
                   {
                     "name": "43 Inch Portable Digital Signage Poster for Advertising",
                     "image": "/images/product/43-inch-portable-digital-signage-poster-for-advertising.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/portable-signage-poster/43-inch-portable-digital-signage-poster-for-advertising.html"
                   },
                   {
                     "name": "43 Inch Advertising Recharge Portable Digital Signage Outdoor Waterproof",
                     "image": "/images/product/43-inch-advertising-recharge-portable-digital-signage-outdoor-waterproof.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/portable-signage-poster/43-inch-advertising-recharge-outdoor-waterproof-poster.html"
                   }
                 ]
               }
@@ -575,17 +597,20 @@ export const navItems = [
                   {
                     "name": "Digital Signage Media Player Box 2K 2G/32G",
                     "image": "/images/product/digital-signage-media-player-box-2k-2g-32g.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-2g-32g.html"
                   },
                   {
                     "name": "Digital Signage Media Player Box 2K 4G/32G",
                     "image": "/images/product/digital-signage-media-player-box-2k-4g-32g.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-32g.html"
                   },
                   {
                     "name": "Digital Signage Media Player Box 2K 4G/64G",
                     "image": "/images/product/digital-signage-media-player-box-2k-4g-64g.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-64g.html"
                   }
                 ]
               }
@@ -814,17 +839,20 @@ export const navItems = [
                   {
                     "name": "Rental Outdoor P2.60 Event Waterproof LED Display",
                     "image": "/images/product/rental-outdoor-p2-60-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-outdoor-p2-60-led-display.html"
                   },
                   {
                     "name": "Rental Outdoor P2.97 Event Waterproof LED Display",
                     "image": "/images/product/rental-outdoor-p2-97-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-outdoor-p2-97-led-display.html"
                   },
                   {
                     "name": "Rental Outdoor P3.91 Event Waterproof LED Display",
                     "image": "/images/product/rental-outdoor-p3-91-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-outdoor-p3-91-led-display.html"
                   }
                 ]
               },
@@ -834,17 +862,20 @@ export const navItems = [
                   {
                     "name": "Rental Indoor P2.60 Stage Concert Event Waterproof LED Display",
                     "image": "/images/product/rental-indoor-p2-60-stage-concert-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-indoor-p2-60-led-display.html"
                   },
                   {
                     "name": "Rental Indoor P2.97 Stage Concert Event Waterproof LED Display",
                     "image": "/images/product/rental-indoor-p2-97-stage-concert-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-indoor-p2-97-led-display.html"
                   },
                   {
                     "name": "Rental Indoor P3.91 Stage Concert Event Waterproof LED Display",
                     "image": "/images/product/rental-indoor-p3-91-stage-concert-event-waterproof-led-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/rental-led-display/rental-indoor-p3-91-led-display.html"
                   }
                 ]
               }
@@ -864,17 +895,20 @@ export const navItems = [
                   {
                     "name": "Indoor P1.8 LED Poster Screen Display",
                     "image": "/images/product/indoor-p1-8-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/indoor-p1-8-led-poster-screen-display.html"
                   },
                   {
                     "name": "Indoor P2 LED Poster Screen Display",
                     "image": "/images/product/indoor-p2-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/indoor-p2-led-poster-screen-display.html"
                   },
                   {
                     "name": "Indoor P2.5 LED Poster Screen Display",
                     "image": "/images/product/indoor-p2-5-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/indoor-p2-5-led-poster-screen-display.html"
                   }
                 ]
               },
@@ -884,17 +918,20 @@ export const navItems = [
                   {
                     "name": "Outdoor P1.8 LED Poster Screen Display",
                     "image": "/images/product/outdoor-p1-8-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/outdoor-p1-8-led-poster-screen-display.html"
                   },
                   {
                     "name": "Outdoor P2 LED Poster Screen Display",
                     "image": "/images/product/outdoor-p2-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/outdoor-p2-led-poster-screen-display.html"
                   },
                   {
                     "name": "Outdoor P2.5 LED Poster Screen Display",
                     "image": "/images/product/outdoor-p2-5-led-poster-screen-display.jpg",
-                    "price": "Call for Price"
+                    "price": "Call for Price",
+                    "link": "/products/led-poster-display/outdoor-p2-5-led-poster-screen-display.html"
                   }
                 ]
               }
