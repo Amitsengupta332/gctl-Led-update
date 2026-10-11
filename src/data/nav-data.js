@@ -24,13 +24,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "43 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/3-9.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-43-indoor.html"
                   },
                   {
                     "name": "43 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/43-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-43-outdoor.html"
                   }
@@ -41,13 +41,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "50 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/50-inch-4k-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-50-indoor.html"
                   },
                   {
                     "name": "50 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/50-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-50-outdoor.html"
                   }
@@ -58,13 +58,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "55 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/55-inch-4k-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-55-indoor.html"
                   },
                   {
                     "name": "55 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/55-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-55-outdoor.html"
                   }
@@ -75,13 +75,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "65 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/65-inch-4k-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-65-indoor.html"
                   },
                   {
                     "name": "65 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/65-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-65-outdoor.html"
                   }
@@ -92,13 +92,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "75 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/75-inch-4k-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-75-indoor.html"
                   },
                   {
                     "name": "75 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/75-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-75-outdoor.html"
                   }
@@ -109,13 +109,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "86 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/86-inch-4k-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-86-indoor.html"
                   },
                   {
                     "name": "86 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/86-inch-2k-4k-outdoor-floor-standing-displays.jpg",
+                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/floor-standing-signage/kiosk-86-outdoor.html"
                   }
@@ -153,13 +153,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "65 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/65-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "65 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/65-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
@@ -197,7 +197,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "55 Inch All in One Interactive Touch Panel Display",
-                    "image": "",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-55.html"
                   }
@@ -208,7 +208,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "65 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/65-inch-touch-4k-all-in-one-touch-panel-display-for-classroom.jpg",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-65.html"
                   }
@@ -219,7 +219,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "75 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/75-inch-touch-4k-all-in-one-touch-interactive-flat-panel-for-conference.jpg",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-75.html"
                   }
@@ -230,7 +230,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "86 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/86-inch-touch-4k-all-in-one-interactive-panel.jpg",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-86.html"
                   }
@@ -241,7 +241,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "98 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/98-inch-touch-4k-all-in-one-interactive-panel.jpg",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-98.html"
                   }
@@ -252,7 +252,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "110 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/110-inch-touch-4k-all-in-one-interactive-panel.jpg",
+                    "image": "/images/product/master-interactive-touch-panel.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-touch-panel/itp-110.html"
                   }
@@ -273,7 +273,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "32 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/32-inch-touch-k-type-information-kiosk.jpg",
+                    "image": "/images/product/master-k-type-information-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/k-type-information-kiosk/k-type-32.html"
                   }
@@ -284,7 +284,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "43 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/43-inch-touch-k-type-information-kiosk.jpg",
+                    "image": "/images/product/master-k-type-information-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/k-type-information-kiosk/k-type-43.html"
                   }
@@ -295,7 +295,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "49 Inch Touch K-Type Information Kiosk",
-                    "image": "",
+                    "image": "/images/product/master-k-type-information-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/k-type-information-kiosk/k-type-49.html"
                   }
@@ -306,7 +306,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "55 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/55-inch-touch-4k-k-type-information-kiosk.jpg",
+                    "image": "/images/product/master-k-type-information-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/k-type-information-kiosk/k-type-55.html"
                   }
@@ -317,7 +317,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "65 Inch Touch K-Type Information Kiosk",
-                    "image": "",
+                    "image": "/images/product/master-k-type-information-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/k-type-information-kiosk/k-type-65.html"
                   }
@@ -338,17 +338,17 @@ export const navItems = [
                 "products": [
                   {
                     "name": "32 Inch Touch Interactive Wayfinding Kiosk",
-                    "image": "/images/product/32-inch-touch-interactive-wayfinding-kiosk.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "43 Inch Touch Interactive Wayfinding Kiosk",
-                    "image": "/images/product/43-inch-touch-interactive-wayfinding-kiosk.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "55 Inch 4K Interactive Wayfinding Kiosk",
-                    "image": "/images/product/55-inch-4k-interactive-wayfinding-kiosk.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
@@ -364,12 +364,12 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Indoor Touchscreen Wayfinding Display",
-                    "image": "/images/product/indoor-touchscreen-wayfinding-display.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "Indoor Digital Directory Wayfinding Display",
-                    "image": "/images/product/indoor-digital-directory-wayfinding-display.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-wayfinding/indoor-digital-directory-wayfinding-display.html"
                   },
@@ -380,7 +380,7 @@ export const navItems = [
                   },
                   {
                     "name": "Indoor Floor Standing Wayfinding Display",
-                    "image": "/images/product/indoor-floor-standing-wayfinding-display.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html"
                   }
@@ -426,19 +426,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "46-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    "image": "/images/product/46-inch-lcd-video-wall-display-3-5mm-narrow-bezel.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-3-5mm.html"
                   },
                   {
                     "name": "46-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    "image": "/images/product/46-inch-ultra-narrow-bezel-0-88mm-lcd-video-wall-display.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-0-88mm.html"
                   },
                   {
                     "name": "46-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    "image": "/images/product/46-inch-ultra-narrow-bezel-1-8mm-lcd-video-wall-display.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-1-8mm.html"
                   }
@@ -449,19 +449,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "55-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    "image": "/images/product/55-inch-lcd-video-wall-display-3-5mm-narrow-bezel.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-3-5mm.html"
                   },
                   {
                     "name": "55-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    "image": "/images/product/55-inch-ultra-narrow-bezel-0-88mm-lcd-video-wall-display.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-0-88mm.html"
                   },
                   {
                     "name": "55-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    "image": "/images/product/55-inch-ultra-narrow-bezel-1-8mm-lcd-video-wall-display.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price",
                     "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-1-8mm.html"
                   }
@@ -497,7 +497,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "24 Inch Touch Self Service Kiosk",
-                    "image": "/images/product/24-inch-touch-self-service-kiosk.jpg",
+                    "image": "/images/product/master-self-service-touch-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/self-service-touch-kiosk/24-inch-touch-self-service-kiosk.html"
                   }
@@ -508,7 +508,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "32 Inch Self Service Touch Kiosk for Restaurant",
-                    "image": "/images/product/32-inch-self-service-touch-kiosk-for-restaurant.jpg",
+                    "image": "/images/product/master-self-service-touch-kiosk.avif",
                     "price": "Call for Price",
                     "link": "/products/self-service-touch-kiosk/32-inch-self-service-touch-kiosk-for-restaurant.html"
                   }
@@ -529,7 +529,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "21.5 Inch Wall Mount Android Display",
-                    "image": "/images/product/21-5-inch-wall-mount-android-display.jpg",
+                    "image": "/images/product/master-wall-mount-android-display.avif",
                     "price": "Call for Price",
                     "link": "/products/wall-mount-android-display/21-5-inch-wall-mount-android-display.html"
                   }
@@ -540,7 +540,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "32 Inch Wall Mount Android Display",
-                    "image": "/images/product/32-inch-wall-mount-android-display.jpg",
+                    "image": "/images/product/master-wall-mount-android-display.avif",
                     "price": "Call for Price",
                     "link": "/products/wall-mount-android-display/32-inch-wall-mount-android-display.html"
                   }
@@ -551,7 +551,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "43 Inch Wall Mount Android Display",
-                    "image": "/images/product/43-inch-wall-mount-android-display.jpg",
+                    "image": "/images/product/master-wall-mount-android-display.avif",
                     "price": "Call for Price",
                     "link": "/products/wall-mount-android-display/43-inch-wall-mount-android-display.html"
                   }
@@ -572,7 +572,7 @@ export const navItems = [
                 "products": [
                   {
                     "name": "43 Inch Portable Digital Signage Poster for Advertising",
-                    "image": "/images/product/43-inch-portable-digital-signage-poster-for-advertising.jpg",
+                    "image": "/images/product/master-portable-digital-signage-poster-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/portable-signage-poster/43-inch-portable-digital-signage-poster-for-advertising.html"
                   },
@@ -596,19 +596,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Digital Signage Media Player Box 2K 2G/32G",
-                    "image": "/images/product/digital-signage-media-player-box-2k-2g-32g.jpg",
+                    "image": "/images/product/master-digital-signage-media-player.avif",
                     "price": "Call for Price",
                     "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-2g-32g.html"
                   },
                   {
                     "name": "Digital Signage Media Player Box 2K 4G/32G",
-                    "image": "/images/product/digital-signage-media-player-box-2k-4g-32g.jpg",
+                    "image": "/images/product/master-digital-signage-media-player.avif",
                     "price": "Call for Price",
                     "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-32g.html"
                   },
                   {
                     "name": "Digital Signage Media Player Box 2K 4G/64G",
-                    "image": "/images/product/digital-signage-media-player-box-2k-4g-64g.jpg",
+                    "image": "/images/product/master-digital-signage-media-player.avif",
                     "price": "Call for Price",
                     "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-64g.html"
                   }
@@ -642,37 +642,37 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Indoor P2.5 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p2-5-led-display-screen.html"
                   },
                   {
                     "name": "Indoor P4 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p4-led-display-screen.html"
                   },
                   {
                     "name": "Indoor P5 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p5-led-display-screen.html"
                   },
                   {
                     "name": "Indoor P6 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p6-led-display-screen.html"
                   },
                   {
                     "name": "Indoor P8 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p8-led-display-screen.html"
                   },
                   {
                     "name": "Indoor P10 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/indoor-p10-led-display-screen.html"
                   }
