@@ -1,5 +1,5 @@
-// Restored original navigation categories.
-// Only product sets with supplied custom detail pages were updated.
+// Updated with 32 generated AVIF master product images.
+// Image mapping applied across product families without changing layout or links.
 
 export const navItems = [
   {
@@ -136,13 +136,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "55 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/55-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "55 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/55-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
@@ -153,13 +153,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "65 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "65 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
@@ -170,13 +170,13 @@ export const navItems = [
                 "products": [
                   {
                     "name": "75 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/75-inch-full-screen-4k-8-128-gb-floor-standing-kiosk-for-advertisement.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-4k-8-128gb-kiosk.html"
                   },
                   {
                     "name": "75 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/75-inch-full-screen-2k-4-32-gb-floor-standing-kiosk-displays.jpg",
+                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
                     "price": "Call for Price",
                     "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-2k-4-32gb-kiosk.html"
                   }
@@ -353,7 +353,7 @@ export const navItems = [
                   },
                   {
                     "name": "Dual Screen Interactive Wayfinding Kiosk",
-                    "image": "/images/product/dual-screen-interactive-wayfinding-kiosk.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price",
                     "link": "/products/interactive-wayfinding/dual-screen-interactive-wayfinding-kiosk.html"
                   }
@@ -375,7 +375,7 @@ export const navItems = [
                   },
                   {
                     "name": "Indoor Wall Mount Wayfinding Display",
-                    "image": "/images/product/indoor-wall-mount-wayfinding-display.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
@@ -391,22 +391,22 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Mobile Wayfinding Application",
-                    "image": "/images/product/mobile-wayfinding-application.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "QR Code Mobile Wayfinding Solution",
-                    "image": "/images/product/qr-code-mobile-wayfinding-solution.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "Web Based Mobile Wayfinding Platform",
-                    "image": "/images/product/web-based-mobile-wayfinding-platform.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "Indoor Navigation Mobile Wayfinding System",
-                    "image": "/images/product/indoor-navigation-mobile-wayfinding-system.jpg",
+                    "image": "/images/product/master-interactive-wayfinding.avif",
                     "price": "Call for Price"
                   }
                 ]
@@ -472,12 +472,12 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Video Wall Controller Processor Matrix Switching 4K",
-                    "image": "/images/product/video-wall-controller-processor-matrix-switching-4k.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price"
                   },
                   {
                     "name": "4K60 UHD Video Wall Controller 4 HDMI Supports 4 Inputs 9 Outputs",
-                    "image": "/images/product/4k60-uhd-video-wall-controller-4-hdmi-supports-4-inputs-9-outputs.jpg",
+                    "image": "/images/product/master-lcd-video-wall.avif",
                     "price": "Call for Price"
                   }
                 ]
@@ -578,7 +578,7 @@ export const navItems = [
                   },
                   {
                     "name": "43 Inch Advertising Recharge Portable Digital Signage Outdoor Waterproof",
-                    "image": "/images/product/43-inch-advertising-recharge-portable-digital-signage-outdoor-waterproof.jpg",
+                    "image": "/images/product/master-portable-digital-signage-poster-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/portable-signage-poster/43-inch-advertising-recharge-outdoor-waterproof-poster.html"
                   }
@@ -683,37 +683,37 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Outdoor P2.5 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p2-5-led-display-screen.html"
                   },
                   {
                     "name": "Outdoor P4 LED Display Screen",
-                    "image": "/images/product/outdoor-p4-led-display-screen.jpg",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p4-led-display-screen.html"
                   },
                   {
                     "name": "Outdoor P5 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p5-led-display-screen.html"
                   },
                   {
                     "name": "Outdoor P6 LED Display Screen",
-                    "image": "",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p6-led-display-screen.html"
                   },
                   {
                     "name": "Outdoor P8 LED Display Screen",
-                    "image": "/images/product/outdoor-p8-led-display-screen.jpg",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p8-led-display-screen.html"
                   },
                   {
                     "name": "Outdoor P10 LED Display Screen",
-                    "image": "/images/product/outdoor-p10-led-display-screen.jpg",
+                    "image": "/images/product/master-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display/outdoor-p10-led-display-screen.html"
                   }
@@ -734,43 +734,43 @@ export const navItems = [
                 "products": [
                   {
                     "name": "COB P0.9 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p0-9-indoor.html"
                   },
                   {
                     "name": "COB P1.2 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-2-indoor.html"
                   },
                   {
                     "name": "COB P1.5 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-5-indoor.html"
                   },
                   {
                     "name": "COB P1.8 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-8-indoor.html"
                   },
                   {
                     "name": "COB P2 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p2-indoor.html"
                   },
                   {
                     "name": "COB P2.5 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p2-5-indoor.html"
                   },
                   {
                     "name": "COB P3 4K LED Digital Advertising Billboard Indoor",
-                    "image": "",
+                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p3-indoor.html"
                   }
@@ -781,43 +781,43 @@ export const navItems = [
                 "products": [
                   {
                     "name": "COB P0.9 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p0-9-4k-led-digital-advertising-billboard.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p0-9-outdoor.html"
                   },
                   {
                     "name": "COB P1.2 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p1-2-4k-led-digital-advertising-billboard.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-2-outdoor.html"
                   },
                   {
                     "name": "COB P1.5 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p1-5-4k-led-digital-advertising-billboard.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-5-outdoor.html"
                   },
                   {
                     "name": "COB P1.8 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p1-8-4k-led-digital-advertising-billboard.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p1-8-outdoor.html"
                   },
                   {
                     "name": "COB P2 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p2-4k-led-digital-advertising-billboard.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p2-outdoor.html"
                   },
                   {
                     "name": "COB P2.5 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p2-5-4k-led-video-wall-display-screen.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p2-5-outdoor.html"
                   },
                   {
                     "name": "COB P3 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/outdoor-cob-p3-4k-led-video-wall-display-screen.jpg",
+                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/advertising-billboard/cob-p3-outdoor.html"
                   }
@@ -838,19 +838,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Rental Outdoor P2.60 Event Waterproof LED Display",
-                    "image": "/images/product/rental-outdoor-p2-60-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-outdoor-p2-60-led-display.html"
                   },
                   {
                     "name": "Rental Outdoor P2.97 Event Waterproof LED Display",
-                    "image": "/images/product/rental-outdoor-p2-97-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-outdoor-p2-97-led-display.html"
                   },
                   {
                     "name": "Rental Outdoor P3.91 Event Waterproof LED Display",
-                    "image": "/images/product/rental-outdoor-p3-91-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-outdoor-p3-91-led-display.html"
                   }
@@ -861,19 +861,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Rental Indoor P2.60 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/rental-indoor-p2-60-stage-concert-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-indoor-p2-60-led-display.html"
                   },
                   {
                     "name": "Rental Indoor P2.97 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/rental-indoor-p2-97-stage-concert-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-indoor-p2-97-led-display.html"
                   },
                   {
                     "name": "Rental Indoor P3.91 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/rental-indoor-p3-91-stage-concert-event-waterproof-led-display.jpg",
+                    "image": "/images/product/master-rental-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/rental-led-display/rental-indoor-p3-91-led-display.html"
                   }
@@ -894,19 +894,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Indoor P1.8 LED Poster Screen Display",
-                    "image": "/images/product/indoor-p1-8-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/indoor-p1-8-led-poster-screen-display.html"
                   },
                   {
                     "name": "Indoor P2 LED Poster Screen Display",
-                    "image": "/images/product/indoor-p2-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/indoor-p2-led-poster-screen-display.html"
                   },
                   {
                     "name": "Indoor P2.5 LED Poster Screen Display",
-                    "image": "/images/product/indoor-p2-5-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/indoor-p2-5-led-poster-screen-display.html"
                   }
@@ -917,19 +917,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Outdoor P1.8 LED Poster Screen Display",
-                    "image": "/images/product/outdoor-p1-8-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/outdoor-p1-8-led-poster-screen-display.html"
                   },
                   {
                     "name": "Outdoor P2 LED Poster Screen Display",
-                    "image": "/images/product/outdoor-p2-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/outdoor-p2-led-poster-screen-display.html"
                   },
                   {
                     "name": "Outdoor P2.5 LED Poster Screen Display",
-                    "image": "/images/product/outdoor-p2-5-led-poster-screen-display.jpg",
+                    "image": "/images/product/master-led-poster-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-poster-display/outdoor-p2-5-led-poster-screen-display.html"
                   }
@@ -950,37 +950,37 @@ export const navItems = [
                 "products": [
                   {
                     "name": "3D HD P3 Outdoor LED Screen",
-                    "image": "",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p3.html"
                   },
                   {
                     "name": "3D HD P4 Outdoor LED Screen",
-                    "image": "/images/product/3d-hd-p4-outdoor-led-screen.jpg",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p4.html"
                   },
                   {
                     "name": "3D HD P5 Outdoor LED Screen",
-                    "image": "",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p5.html"
                   },
                   {
                     "name": "3D HD P6 Outdoor LED Screen",
-                    "image": "/images/product/3d-hd-p6-67-outdoor-led-screen.jpg",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p6.html"
                   },
                   {
                     "name": "3D HD P8 Outdoor LED Screen",
-                    "image": "/images/product/3d-hd-p8-outdoor-led-screen.jpg",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p8.html"
                   },
                   {
                     "name": "3D HD P10 Outdoor LED Screen",
-                    "image": "/images/product/3d-hd-p10-outdoor-led-screen.jpg",
+                    "image": "/images/product/master-3d-led-display.avif",
                     "price": "Call for Price",
                     "link": "/products/3d-led-display/3d-led-p10.html"
                   }
@@ -1001,25 +1001,25 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Cube LED Display Screen P1.53 Indoor",
-                    "image": "",
+                    "image": "/images/product/master-cube-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p1-53-indoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P1.86 Indoor",
-                    "image": "",
+                    "image": "/images/product/master-cube-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p1-86-indoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P2 Indoor",
-                    "image": "/images/product/cube-led-display-screen-p2-indoor.jpg",
+                    "image": "/images/product/master-cube-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p2-indoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P2.5 Indoor",
-                    "image": "/images/product/cube-led-display-screen-p2-5-indoor.jpg",
+                    "image": "/images/product/master-cube-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p2-5-indoor.html"
                   }
@@ -1030,25 +1030,25 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Cube LED Display Screen P1.53 Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-cube-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p1-53-outdoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P1.86 Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-cube-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p1-86-outdoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P2 Outdoor",
-                    "image": "/images/product/cube-led-display-screen-p2-outdoor.jpg",
+                    "image": "/images/product/master-cube-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p2-outdoor.html"
                   },
                   {
                     "name": "Cube LED Display Screen P2.5 Outdoor",
-                    "image": "/images/product/cube-led-display-screen-p2-5-outdoor.jpg",
+                    "image": "/images/product/master-cube-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/cube-led-display/cube-p2-5-outdoor.html"
                   }
@@ -1069,19 +1069,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Transparent P3.91-7.81 LED Display Indoor",
-                    "image": "/images/product/transparent-p3-91-7-81-full-color-grille-mesh-led-screen-indoor.jpg",
+                    "image": "/images/product/master-transparent-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p3-91-7-81-indoor.html"
                   },
                   {
                     "name": "Transparent P5.2-P10.4 LED Display Indoor",
-                    "image": "",
+                    "image": "/images/product/master-transparent-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p5-2-p10-4-indoor.html"
                   },
                   {
                     "name": "Transparent P10.4 LED Display Indoor",
-                    "image": "/images/product/transparent-p10-4-10-4-full-color-grille-mesh-led-screen-indoor.jpg",
+                    "image": "/images/product/master-transparent-led-display-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p10-4-indoor.html"
                   }
@@ -1092,19 +1092,19 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Transparent P3.91-7.81 LED Display Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p3-91-7-81-outdoor.html"
                   },
                   {
                     "name": "Transparent P5.2-P10.4 LED Display Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p5-2-p10-4-outdoor.html"
                   },
                   {
                     "name": "Transparent P10.4 LED Display Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/transparent-led-display/transparent-p10-4-outdoor.html"
                   }
@@ -1125,25 +1125,25 @@ export const navItems = [
                 "products": [
                   {
                     "name": "P2 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p2-indoor.html"
                   },
                   {
                     "name": "P3 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "/images/product/p3-tunnel-screen-led-video-wall-led-module-indoor.jpg",
+                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p3-indoor.html"
                   },
                   {
                     "name": "P15 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p15-indoor.html"
                   },
                   {
                     "name": "P25 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p25-indoor.html"
                   }
@@ -1154,25 +1154,25 @@ export const navItems = [
                 "products": [
                   {
                     "name": "P2 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p2-outdoor.html"
                   },
                   {
                     "name": "P3 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "/images/product/p3-tunnel-screen-led-video-wall-led-module-outdoor.jpg",
+                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p3-outdoor.html"
                   },
                   {
                     "name": "P15 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p15-outdoor.html"
                   },
                   {
                     "name": "P25 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "",
+                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/tunnel-led-screen/tunnel-p25-outdoor.html"
                   }
@@ -1193,37 +1193,37 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Indoor Flexible LED Module P1.25 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-25-indoor.html"
                   },
                   {
                     "name": "Indoor Flexible LED Module P1.5 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-5-indoor.html"
                   },
                   {
                     "name": "Indoor Flexible LED Module P1.8 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-8-indoor.html"
                   },
                   {
                     "name": "Indoor Flexible LED Module P2 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p2-indoor.html"
                   },
                   {
                     "name": "Indoor Flexible LED Module P2.5 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p2-5-indoor.html"
                   },
                   {
                     "name": "Indoor Flexible LED Module P3 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p3-indoor.html"
                   }
@@ -1234,37 +1234,37 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Outdoor Flexible LED Module P1.25 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-25-outdoor.html"
                   },
                   {
                     "name": "Outdoor Flexible LED Module P1.5 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-5-outdoor.html"
                   },
                   {
                     "name": "Outdoor Flexible LED Module P1.8 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p1-8-outdoor.html"
                   },
                   {
                     "name": "Outdoor Flexible LED Module P2 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p2-outdoor.html"
                   },
                   {
                     "name": "Outdoor Flexible LED Module P2.5 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p2-5-outdoor.html"
                   },
                   {
                     "name": "Outdoor Flexible LED Module P3 Curved Ultra-thin",
-                    "image": "",
+                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-led-module/flexible-p3-outdoor.html"
                   }
@@ -1285,43 +1285,43 @@ export const navItems = [
                 "products": [
                   {
                     "name": "P3 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p3-indoor.html"
                   },
                   {
                     "name": "P4 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p4-indoor.html"
                   },
                   {
                     "name": "P5 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p5-indoor.html"
                   },
                   {
                     "name": "P6 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p6-indoor.html"
                   },
                   {
                     "name": "P6.67 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p6-67-indoor.html"
                   },
                   {
                     "name": "P8 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p8-indoor.html"
                   },
                   {
                     "name": "P10 Indoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p10-indoor.html"
                   }
@@ -1332,43 +1332,43 @@ export const navItems = [
                 "products": [
                   {
                     "name": "P3 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p3-outdoor.html"
                   },
                   {
                     "name": "P4 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p4-outdoor.html"
                   },
                   {
                     "name": "P5 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p5-outdoor.html"
                   },
                   {
                     "name": "P6 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p6-outdoor.html"
                   },
                   {
                     "name": "P6.67 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p6-67-outdoor.html"
                   },
                   {
                     "name": "P8 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p8-outdoor.html"
                   },
                   {
                     "name": "P10 Outdoor LED Display Module",
-                    "image": "",
+                    "image": "/images/product/master-led-display-module-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/led-display-module/p10-outdoor.html"
                   }
@@ -1389,31 +1389,31 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Flexible Transparent P6.25 Indoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p6-25-indoor.html"
                   },
                   {
                     "name": "Flexible Transparent P8 Indoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p8-indoor.html"
                   },
                   {
                     "name": "Flexible Transparent P10 Indoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p10-indoor.html"
                   },
                   {
                     "name": "Flexible Transparent P15 Indoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p15-indoor.html"
                   },
                   {
                     "name": "Flexible Transparent P20 Indoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p20-indoor.html"
                   }
@@ -1424,31 +1424,31 @@ export const navItems = [
                 "products": [
                   {
                     "name": "Flexible Transparent P6.25 Outdoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p6-25-outdoor.html"
                   },
                   {
                     "name": "Flexible Transparent P8 Outdoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p8-outdoor.html"
                   },
                   {
                     "name": "Flexible Transparent P10 Outdoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p10-outdoor.html"
                   },
                   {
                     "name": "Flexible Transparent P15 Outdoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p15-outdoor.html"
                   },
                   {
                     "name": "Flexible Transparent P20 Outdoor LED Film Display",
-                    "image": "",
+                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
                     "price": "Call for Price",
                     "link": "/products/flexible-transparent-led-film/p20-outdoor.html"
                   }
