@@ -1,1524 +1,1687 @@
-// Updated with 32 generated AVIF master product images.
-// Image mapping applied across product families without changing layout or links.
+// Restored original navigation categories.
+// Only product sets with supplied custom detail pages were updated.
 
 export const navItems = [
   {
-    "label": "Digital Signage",
-    "type": "productMegaTree",
-    "categories": [
+    label: "Digital Signage",
+    type: "productMegaTree",
+    categories: [
       {
-        "id": "digital-signage",
-        "label": "Digital Signage",
-        "icon": "▣",
-        "children": [
+        id: "digital-signage",
+        label: "Digital Signage",
+        icon: "▣",
+        children: [
           {
-            "id": "floor-standing-digital-signage",
-            "label": "Floor Standing Digital Signage",
-            "href": "/products/floor-standing-signage.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "floor-standing-digital-signage",
+            label: "Floor Standing Digital Signage",
+            href: "/products/floor-standing-signage.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "43 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "43 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "43 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-43-indoor.html"
+                    name: "43 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-43-indoor.html",
                   },
                   {
-                    "name": "43 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-43-outdoor.html"
-                  }
-                ]
+                    name: "43 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-43-outdoor.html",
+                  },
+                ],
               },
               {
-                "title": "50 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "50 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "50 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-50-indoor.html"
+                    name: "50 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-50-indoor.html",
                   },
                   {
-                    "name": "50 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-50-outdoor.html"
-                  }
-                ]
+                    name: "50 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-50-outdoor.html",
+                  },
+                ],
               },
               {
-                "title": "55 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "55 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "55 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-55-indoor.html"
+                    name: "55 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-55-indoor.html",
                   },
                   {
-                    "name": "55 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-55-outdoor.html"
-                  }
-                ]
+                    name: "55 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-55-outdoor.html",
+                  },
+                ],
               },
               {
-                "title": "65 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "65 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "65 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-65-indoor.html"
+                    name: "65 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-65-indoor.html",
                   },
                   {
-                    "name": "65 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-65-outdoor.html"
-                  }
-                ]
+                    name: "65 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-65-outdoor.html",
+                  },
+                ],
               },
               {
-                "title": "75 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "75 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "75 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-75-indoor.html"
+                    name: "75 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-75-indoor.html",
                   },
                   {
-                    "name": "75 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-75-outdoor.html"
-                  }
-                ]
+                    name: "75 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-75-outdoor.html",
+                  },
+                ],
               },
               {
-                "title": "86 Inch Floor Digital Standing Digital Signage Kiosk",
-                "products": [
+                title: "86 Inch Floor Digital Standing Digital Signage Kiosk",
+                products: [
                   {
-                    "name": "86 Inch Floor Standing Digital Signage Kiosk Indoor",
-                    "image": "/images/product/master-floor-standing-signage-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-86-indoor.html"
+                    name: "86 Inch Floor Standing Digital Signage Kiosk Indoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-86-indoor.html",
                   },
                   {
-                    "name": "86 Inch Floor Standing Digital Signage Kiosk Outdoor",
-                    "image": "/images/product/master-floor-standing-signage-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/floor-standing-signage/kiosk-86-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "86 Inch Floor Standing Digital Signage Kiosk Outdoor",
+                    image:
+                      "/images/product/master-floor-standing-signage-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/floor-standing-signage/kiosk-86-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "full-screen-floor-standing-kiosk",
-            "label": "Full Screen Floor Standing Kiosk",
-            "href": "/products/full-screen-floor-standing-kiosk.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "full-screen-floor-standing-kiosk",
+            label: "Full Screen Floor Standing Kiosk",
+            href: "/products/full-screen-floor-standing-kiosk.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "55 Inch Full Screen Floor Standing Kiosk",
-                "products": [
+                title: "55 Inch Full Screen Floor Standing Kiosk",
+                products: [
                   {
-                    "name": "55 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-4k-8-128gb-kiosk.html"
+                    name: "55 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-4k-8-128gb-kiosk.html",
                   },
                   {
-                    "name": "55 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-2k-4-32gb-kiosk.html"
-                  }
-                ]
+                    name: "55 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/55-inch-full-screen-2k-4-32gb-kiosk.html",
+                  },
+                ],
               },
               {
-                "title": "65 Inch Full Screen Floor Standing Kiosk",
-                "products": [
+                title: "65 Inch Full Screen Floor Standing Kiosk",
+                products: [
                   {
-                    "name": "65 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-4k-8-128gb-kiosk.html"
+                    name: "65 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-4k-8-128gb-kiosk.html",
                   },
                   {
-                    "name": "65 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-2k-4-32gb-kiosk.html"
-                  }
-                ]
+                    name: "65 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-65.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/65-inch-full-screen-2k-4-32gb-kiosk.html",
+                  },
+                ],
               },
               {
-                "title": "75 Inch Full Screen Floor Standing Kiosk",
-                "products": [
+                title: "75 Inch Full Screen Floor Standing Kiosk",
+                products: [
                   {
-                    "name": "75 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-4k-8-128gb-kiosk.html"
+                    name: "75 Inch Full Screen 4K 8+128 GB Floor Standing Kiosk for Advertisement",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-75.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-4k-8-128gb-kiosk.html",
                   },
                   {
-                    "name": "75 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
-                    "image": "/images/product/master-full-screen-floor-standing-kiosk-55.avif",
-                    "price": "Call for Price",
-                    "link": "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-2k-4-32gb-kiosk.html"
-                  }
-                ]
-              }
-            ]
+                    name: "75 Inch Full Screen 2K 4+32 GB Floor Standing Kiosk Displays",
+                    image:
+                      "/images/product/master-full-screen-floor-standing-kiosk-75.avif",
+                    price: "Call for Price",
+                    link: "/products/full-screen-floor-standing-kiosk/75-inch-full-screen-2k-4-32gb-kiosk.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "interactive-touch-panel",
-            "label": "Interactive Touch Panel",
-            "href": "/products/interactive-touch-panel.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "interactive-touch-panel",
+            label: "Interactive Touch Panel",
+            href: "/products/interactive-touch-panel.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "55 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "55 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "55 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-55.html"
-                  }
-                ]
+                    name: "55 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-55.html",
+                  },
+                ],
               },
               {
-                "title": "65 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "65 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "65 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-65.html"
-                  }
-                ]
+                    name: "65 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-65.html",
+                  },
+                ],
               },
               {
-                "title": "75 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "75 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "75 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-75.html"
-                  }
-                ]
+                    name: "75 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-75.html",
+                  },
+                ],
               },
               {
-                "title": "86 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "86 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "86 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-86.html"
-                  }
-                ]
+                    name: "86 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-86.html",
+                  },
+                ],
               },
               {
-                "title": "98 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "98 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "98 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-98.html"
-                  }
-                ]
+                    name: "98 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-98.html",
+                  },
+                ],
               },
               {
-                "title": "110 Inch All in One Interactive Touch Panel Display",
-                "products": [
+                title: "110 Inch All in One Interactive Touch Panel Display",
+                products: [
                   {
-                    "name": "110 Inch All in One Interactive Touch Panel Display",
-                    "image": "/images/product/master-interactive-touch-panel.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-touch-panel/itp-110.html"
-                  }
-                ]
-              }
-            ]
+                    name: "110 Inch All in One Interactive Touch Panel Display",
+                    image:
+                      "/images/product/master-interactive-touch-panel.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-touch-panel/itp-110.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "k-type-information-kiosk",
-            "label": "K-Type Information Kiosk",
-            "href": "/products/k-type-information-kiosk.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "k-type-information-kiosk",
+            label: "K-Type Information Kiosk",
+            href: "/products/k-type-information-kiosk.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "32 Inch K-Type Information Kiosk",
-                "products": [
+                title: "32 Inch K-Type Information Kiosk",
+                products: [
                   {
-                    "name": "32 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/master-k-type-information-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/k-type-information-kiosk/k-type-32.html"
-                  }
-                ]
+                    name: "32 Inch Touch K-Type Information Kiosk",
+                    image:
+                      "/images/product/master-k-type-information-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/k-type-information-kiosk/k-type-32.html",
+                  },
+                ],
               },
               {
-                "title": "43 Inch K-Type Information Kiosk",
-                "products": [
+                title: "43 Inch K-Type Information Kiosk",
+                products: [
                   {
-                    "name": "43 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/master-k-type-information-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/k-type-information-kiosk/k-type-43.html"
-                  }
-                ]
+                    name: "43 Inch Touch K-Type Information Kiosk",
+                    image:
+                      "/images/product/master-k-type-information-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/k-type-information-kiosk/k-type-43.html",
+                  },
+                ],
               },
               {
-                "title": "49 Inch K-Type Information Kiosk",
-                "products": [
+                title: "49 Inch K-Type Information Kiosk",
+                products: [
                   {
-                    "name": "49 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/master-k-type-information-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/k-type-information-kiosk/k-type-49.html"
-                  }
-                ]
+                    name: "49 Inch Touch K-Type Information Kiosk",
+                    image:
+                      "/images/product/master-k-type-information-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/k-type-information-kiosk/k-type-49.html",
+                  },
+                ],
               },
               {
-                "title": "55 Inch K-Type Information Kiosk",
-                "products": [
+                title: "55 Inch K-Type Information Kiosk",
+                products: [
                   {
-                    "name": "55 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/master-k-type-information-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/k-type-information-kiosk/k-type-55.html"
-                  }
-                ]
+                    name: "55 Inch Touch K-Type Information Kiosk",
+                    image:
+                      "/images/product/master-k-type-information-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/k-type-information-kiosk/k-type-55.html",
+                  },
+                ],
               },
               {
-                "title": "65 Inch K-Type Information Kiosk",
-                "products": [
+                title: "65 Inch K-Type Information Kiosk",
+                products: [
                   {
-                    "name": "65 Inch Touch K-Type Information Kiosk",
-                    "image": "/images/product/master-k-type-information-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/k-type-information-kiosk/k-type-65.html"
-                  }
-                ]
-              }
-            ]
+                    name: "65 Inch Touch K-Type Information Kiosk",
+                    image:
+                      "/images/product/master-k-type-information-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/k-type-information-kiosk/k-type-65.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "interactive-wayfinding",
-            "label": "Interactive Wayfinding",
-            "href": "/products/interactive-wayfinding.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "interactive-wayfinding",
+            label: "Interactive Wayfinding",
+            href: "/products/interactive-wayfinding.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Interactive Wayfinding Kiosk",
-                "products": [
+                title: "Interactive Wayfinding Kiosk",
+                products: [
                   {
-                    "name": "32 Inch Touch Interactive Wayfinding Kiosk",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "32 Inch Touch Interactive Wayfinding Kiosk",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "43 Inch Touch Interactive Wayfinding Kiosk",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "43 Inch Touch Interactive Wayfinding Kiosk",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "55 Inch 4K Interactive Wayfinding Kiosk",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "55 Inch 4K Interactive Wayfinding Kiosk",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "Dual Screen Interactive Wayfinding Kiosk",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-wayfinding/dual-screen-interactive-wayfinding-kiosk.html"
-                  }
-                ]
+                    name: "Dual Screen Interactive Wayfinding Kiosk",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-wayfinding/dual-screen-interactive-wayfinding-kiosk.html",
+                  },
+                ],
               },
               {
-                "title": "Indoor Wayfinding",
-                "products": [
+                title: "Indoor Wayfinding",
+                products: [
                   {
-                    "name": "Indoor Touchscreen Wayfinding Display",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "Indoor Touchscreen Wayfinding Display",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "Indoor Digital Directory Wayfinding Display",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-wayfinding/indoor-digital-directory-wayfinding-display.html"
+                    name: "Indoor Digital Directory Wayfinding Display",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-wayfinding/indoor-digital-directory-wayfinding-display.html",
                   },
                   {
-                    "name": "Indoor Wall Mount Wayfinding Display",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "Indoor Wall Mount Wayfinding Display",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "Indoor Floor Standing Wayfinding Display",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price",
-                    "link": "/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html"
-                  }
-                ]
+                    name: "Indoor Floor Standing Wayfinding Display",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
+                    link: "/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html",
+                  },
+                ],
               },
               {
-                "title": "Mobile Wayfinding",
-                "products": [
+                title: "Mobile Wayfinding",
+                products: [
                   {
-                    "name": "Mobile Wayfinding Application",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "Mobile Wayfinding Application",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "QR Code Mobile Wayfinding Solution",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "QR Code Mobile Wayfinding Solution",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "Web Based Mobile Wayfinding Platform",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
+                    name: "Web Based Mobile Wayfinding Platform",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "Indoor Navigation Mobile Wayfinding System",
-                    "image": "/images/product/master-interactive-wayfinding.avif",
-                    "price": "Call for Price"
-                  }
-                ]
-              }
-            ]
+                    name: "Indoor Navigation Mobile Wayfinding System",
+                    image: "/images/product/master-interactive-wayfinding.avif",
+                    price: "Call for Price",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "lcd-video-wall",
-            "label": "LCD Video Wall",
-            "href": "/products/lcd-video-wall.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "lcd-video-wall",
+            label: "LCD Video Wall",
+            href: "/products/lcd-video-wall.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "46-inch LCD Video Wall Display",
-                "products": [
+                title: "46-inch LCD Video Wall Display",
+                products: [
                   {
-                    "name": "46-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-3-5mm.html"
+                    name: "46-inch LCD Video Wall Display 3.5mm Narrow Bezel",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/46-inch-lcd-video-wall-3-5mm.html",
                   },
                   {
-                    "name": "46-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-0-88mm.html"
+                    name: "46-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/46-inch-lcd-video-wall-0-88mm.html",
                   },
                   {
-                    "name": "46-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/46-inch-lcd-video-wall-1-8mm.html"
-                  }
-                ]
+                    name: "46-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/46-inch-lcd-video-wall-1-8mm.html",
+                  },
+                ],
               },
               {
-                "title": "55-inch LCD Video Wall Display",
-                "products": [
+                title: "55-inch LCD Video Wall Display",
+                products: [
                   {
-                    "name": "55-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-3-5mm.html"
+                    name: "55-inch LCD Video Wall Display 3.5mm Narrow Bezel",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/55-inch-lcd-video-wall-3-5mm.html",
                   },
                   {
-                    "name": "55-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-0-88mm.html"
+                    name: "55-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/55-inch-lcd-video-wall-0-88mm.html",
                   },
                   {
-                    "name": "55-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price",
-                    "link": "/products/lcd-video-wall/55-inch-lcd-video-wall-1-8mm.html"
-                  }
-                ]
+                    name: "55-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                    link: "/products/lcd-video-wall/55-inch-lcd-video-wall-1-8mm.html",
+                  },
+                ],
               },
               {
-                "title": "Video Wall Controller Processor",
-                "products": [
+                title: "Video Wall Controller Processor",
+                products: [
                   {
-                    "name": "Video Wall Controller Processor Matrix Switching 4K",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price"
+                    name: "Video Wall Controller Processor Matrix Switching 4K",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
                   },
                   {
-                    "name": "4K60 UHD Video Wall Controller 4 HDMI Supports 4 Inputs 9 Outputs",
-                    "image": "/images/product/master-lcd-video-wall.avif",
-                    "price": "Call for Price"
-                  }
-                ]
-              }
-            ]
+                    name: "4K60 UHD Video Wall Controller 4 HDMI Supports 4 Inputs 9 Outputs",
+                    image: "/images/product/master-lcd-video-wall.png",
+                    price: "Call for Price",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "self-service-touch-kiosk",
-            "label": "Self Service Touch Kiosk",
-            "href": "/products/self-service-touch-kiosk.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "self-service-touch-kiosk",
+            label: "Self Service Touch Kiosk",
+            href: "/products/self-service-touch-kiosk.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "24 Inch Self Service Touch Kiosk Terminal",
-                "products": [
+                title: "24 Inch Self Service Touch Kiosk Terminal",
+                products: [
                   {
-                    "name": "24 Inch Touch Self Service Kiosk",
-                    "image": "/images/product/master-self-service-touch-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/self-service-touch-kiosk/24-inch-touch-self-service-kiosk.html"
-                  }
-                ]
+                    name: "24 Inch Touch Self Service Kiosk",
+                    image:
+                      "/images/product/master-self-service-touch-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/self-service-touch-kiosk/24-inch-touch-self-service-kiosk.html",
+                  },
+                ],
               },
               {
-                "title": "32 Inch Self Service Touch Food Ordering Kiosk",
-                "products": [
+                title: "32 Inch Self Service Touch Food Ordering Kiosk",
+                products: [
                   {
-                    "name": "32 Inch Self Service Touch Kiosk for Restaurant",
-                    "image": "/images/product/master-self-service-touch-kiosk.avif",
-                    "price": "Call for Price",
-                    "link": "/products/self-service-touch-kiosk/32-inch-self-service-touch-kiosk-for-restaurant.html"
-                  }
-                ]
-              }
-            ]
+                    name: "32 Inch Self Service Touch Kiosk for Restaurant",
+                    image:
+                      "/images/product/master-self-service-touch-kiosk.avif",
+                    price: "Call for Price",
+                    link: "/products/self-service-touch-kiosk/32-inch-self-service-touch-kiosk-for-restaurant.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "wall-mount-android-display",
-            "label": "Wall Mount Android Display",
-            "href": "/products/wall-mount-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "wall-mount-android-display",
+            label: "Wall Mount Android Display",
+            href: "/products/wall-mount-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "21.5 Inch Wall Mount Android Display",
-                "products": [
+                title: "21.5 Inch Wall Mount Android Display",
+                products: [
                   {
-                    "name": "21.5 Inch Wall Mount Android Display",
-                    "image": "/images/product/master-wall-mount-android-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/wall-mount-android-display/21-5-inch-wall-mount-android-display.html"
-                  }
-                ]
+                    name: "21.5 Inch Wall Mount Android Display",
+                    image:
+                      "/images/product/master-wall-mount-android-display.avif",
+                    price: "Call for Price",
+                    link: "/products/wall-mount-android-display/21-5-inch-wall-mount-android-display.html",
+                  },
+                ],
               },
               {
-                "title": "32 Inch Wall Mount Android Display",
-                "products": [
+                title: "32 Inch Wall Mount Android Display",
+                products: [
                   {
-                    "name": "32 Inch Wall Mount Android Display",
-                    "image": "/images/product/master-wall-mount-android-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/wall-mount-android-display/32-inch-wall-mount-android-display.html"
-                  }
-                ]
+                    name: "32 Inch Wall Mount Android Display",
+                    image:
+                      "/images/product/master-wall-mount-android-display.avif",
+                    price: "Call for Price",
+                    link: "/products/wall-mount-android-display/32-inch-wall-mount-android-display.html",
+                  },
+                ],
               },
               {
-                "title": "43 Inch Wall Mount Android Display",
-                "products": [
+                title: "43 Inch Wall Mount Android Display",
+                products: [
                   {
-                    "name": "43 Inch Wall Mount Android Display",
-                    "image": "/images/product/master-wall-mount-android-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/wall-mount-android-display/43-inch-wall-mount-android-display.html"
-                  }
-                ]
-              }
-            ]
+                    name: "43 Inch Wall Mount Android Display",
+                    image:
+                      "/images/product/master-wall-mount-android-display.avif",
+                    price: "Call for Price",
+                    link: "/products/wall-mount-android-display/43-inch-wall-mount-android-display.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "portable-digital-signage-poster",
-            "label": "Portable Digital Signage Poster",
-            "href": "/products/portable-signage-poster.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "portable-digital-signage-poster",
+            label: "Portable Digital Signage Poster",
+            href: "/products/portable-signage-poster.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "43 Inch Portable Digital Signage Poster",
-                "products": [
+                title: "43 Inch Portable Digital Signage Poster",
+                products: [
                   {
-                    "name": "43 Inch Portable Digital Signage Poster for Advertising",
-                    "image": "/images/product/master-portable-digital-signage-poster-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/portable-signage-poster/43-inch-portable-digital-signage-poster-for-advertising.html"
+                    name: "43 Inch Portable Digital Signage Poster for Advertising",
+                    image:
+                      "/images/product/master-portable-digital-signage-poster-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/portable-signage-poster/43-inch-portable-digital-signage-poster-for-advertising.html",
                   },
                   {
-                    "name": "43 Inch Advertising Recharge Portable Digital Signage Outdoor Waterproof",
-                    "image": "/images/product/master-portable-digital-signage-poster-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/portable-signage-poster/43-inch-advertising-recharge-outdoor-waterproof-poster.html"
-                  }
-                ]
-              }
-            ]
+                    name: "43 Inch Advertising Recharge Portable Digital Signage Outdoor Waterproof",
+                    image:
+                      "/images/product/master-portable-digital-signage-poster-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/portable-signage-poster/43-inch-advertising-recharge-outdoor-waterproof-poster.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "digital-signage-media-player",
-            "label": "Digital Signage Media Player",
-            "href": "/products/digital-signage-media-player.html",
-            "groups": [
+            id: "digital-signage-media-player",
+            label: "Digital Signage Media Player",
+            href: "/products/digital-signage-media-player.html",
+            groups: [
               {
-                "title": "Industrial Digital Signage Media Player",
-                "products": [
+                title: "Industrial Digital Signage Media Player",
+                products: [
                   {
-                    "name": "Digital Signage Media Player Box 2K 2G/32G",
-                    "image": "/images/product/master-digital-signage-media-player.avif",
-                    "price": "Call for Price",
-                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-2g-32g.html"
+                    name: "Digital Signage Media Player Box 2K 2G/32G",
+                    image:
+                      "/images/product/master-digital-signage-media-player.avif",
+                    price: "Call for Price",
+                    link: "/products/digital-signage-media-player/digital-signage-media-player-box-2k-2g-32g.html",
                   },
                   {
-                    "name": "Digital Signage Media Player Box 2K 4G/32G",
-                    "image": "/images/product/master-digital-signage-media-player.avif",
-                    "price": "Call for Price",
-                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-32g.html"
+                    name: "Digital Signage Media Player Box 2K 4G/32G",
+                    image:
+                      "/images/product/master-digital-signage-media-player.avif",
+                    price: "Call for Price",
+                    link: "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-32g.html",
                   },
                   {
-                    "name": "Digital Signage Media Player Box 2K 4G/64G",
-                    "image": "/images/product/master-digital-signage-media-player.avif",
-                    "price": "Call for Price",
-                    "link": "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-64g.html"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
+                    name: "Digital Signage Media Player Box 2K 4G/64G",
+                    image:
+                      "/images/product/master-digital-signage-media-player.avif",
+                    price: "Call for Price",
+                    link: "/products/digital-signage-media-player/digital-signage-media-player-box-2k-4g-64g.html",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    "label": "LED Products",
-    "type": "productMegaTree",
-    "categories": [
+    label: "LED Products",
+    type: "productMegaTree",
+    categories: [
       {
-        "id": "led-products",
-        "label": "LED Products",
-        "icon": "▤",
-        "children": [
+        id: "led-products",
+        label: "LED Products",
+        icon: "▤",
+        children: [
           {
-            "id": "led-display",
-            "label": "LED Display",
-            "href": "/products/led-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "led-display",
+            label: "LED Display",
+            href: "/products/led-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor LED Display",
-                "products": [
+                title: "Indoor LED Display",
+                products: [
                   {
-                    "name": "Indoor P2.5 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p2-5-led-display-screen.html"
+                    name: "Indoor P2.5 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p2-5-led-display-screen.html",
                   },
                   {
-                    "name": "Indoor P4 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p4-led-display-screen.html"
+                    name: "Indoor P4 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p4-led-display-screen.html",
                   },
                   {
-                    "name": "Indoor P5 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p5-led-display-screen.html"
+                    name: "Indoor P5 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p5-led-display-screen.html",
                   },
                   {
-                    "name": "Indoor P6 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p6-led-display-screen.html"
+                    name: "Indoor P6 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p6-led-display-screen.html",
                   },
                   {
-                    "name": "Indoor P8 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p8-led-display-screen.html"
+                    name: "Indoor P8 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p8-led-display-screen.html",
                   },
                   {
-                    "name": "Indoor P10 LED Display Screen",
-                    "image": "/images/product/master-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/indoor-p10-led-display-screen.html"
-                  }
-                ]
+                    name: "Indoor P10 LED Display Screen",
+                    image: "/images/product/master-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/indoor-p10-led-display-screen.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor LED Display",
-                "products": [
+                title: "Outdoor LED Display",
+                products: [
                   {
-                    "name": "Outdoor P2.5 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p2-5-led-display-screen.html"
+                    name: "Outdoor P2.5 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p2-5-led-display-screen.html",
                   },
                   {
-                    "name": "Outdoor P4 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p4-led-display-screen.html"
+                    name: "Outdoor P4 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p4-led-display-screen.html",
                   },
                   {
-                    "name": "Outdoor P5 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p5-led-display-screen.html"
+                    name: "Outdoor P5 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p5-led-display-screen.html",
                   },
                   {
-                    "name": "Outdoor P6 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p6-led-display-screen.html"
+                    name: "Outdoor P6 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p6-led-display-screen.html",
                   },
                   {
-                    "name": "Outdoor P8 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p8-led-display-screen.html"
+                    name: "Outdoor P8 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p8-led-display-screen.html",
                   },
                   {
-                    "name": "Outdoor P10 LED Display Screen",
-                    "image": "/images/product/master-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display/outdoor-p10-led-display-screen.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Outdoor P10 LED Display Screen",
+                    image: "/images/product/master-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display/outdoor-p10-led-display-screen.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "digital-advertising-billboard",
-            "label": "Digital Advertising Billboard",
-            "href": "/products/advertising-billboard.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "digital-advertising-billboard",
+            label: "Digital Advertising Billboard",
+            href: "/products/advertising-billboard.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor COB Digital Advertising Billboard",
-                "products": [
+                title: "Indoor COB Digital Advertising Billboard",
+                products: [
                   {
-                    "name": "COB P0.9 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p0-9-indoor.html"
+                    name: "COB P0.9 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p0-9-indoor.html",
                   },
                   {
-                    "name": "COB P1.2 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-2-indoor.html"
+                    name: "COB P1.2 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-2-indoor.html",
                   },
                   {
-                    "name": "COB P1.5 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-5-indoor.html"
+                    name: "COB P1.5 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-5-indoor.html",
                   },
                   {
-                    "name": "COB P1.8 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-8-indoor.html"
+                    name: "COB P1.8 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-8-indoor.html",
                   },
                   {
-                    "name": "COB P2 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p2-indoor.html"
+                    name: "COB P2 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p2-indoor.html",
                   },
                   {
-                    "name": "COB P2.5 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p2-5-indoor.html"
+                    name: "COB P2.5 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p2-5-indoor.html",
                   },
                   {
-                    "name": "COB P3 4K LED Digital Advertising Billboard Indoor",
-                    "image": "/images/product/master-digital-advertising-billboard-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p3-indoor.html"
-                  }
-                ]
+                    name: "COB P3 4K LED Digital Advertising Billboard Indoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p3-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor COB Digital Advertising Billboard",
-                "products": [
+                title: "Outdoor COB Digital Advertising Billboard",
+                products: [
                   {
-                    "name": "COB P0.9 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p0-9-outdoor.html"
+                    name: "COB P0.9 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p0-9-outdoor.html",
                   },
                   {
-                    "name": "COB P1.2 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-2-outdoor.html"
+                    name: "COB P1.2 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-2-outdoor.html",
                   },
                   {
-                    "name": "COB P1.5 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-5-outdoor.html"
+                    name: "COB P1.5 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-5-outdoor.html",
                   },
                   {
-                    "name": "COB P1.8 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p1-8-outdoor.html"
+                    name: "COB P1.8 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p1-8-outdoor.html",
                   },
                   {
-                    "name": "COB P2 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p2-outdoor.html"
+                    name: "COB P2 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p2-outdoor.html",
                   },
                   {
-                    "name": "COB P2.5 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p2-5-outdoor.html"
+                    name: "COB P2.5 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p2-5-outdoor.html",
                   },
                   {
-                    "name": "COB P3 4K LED Digital Advertising Billboard Outdoor",
-                    "image": "/images/product/master-digital-advertising-billboard-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/advertising-billboard/cob-p3-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "COB P3 4K LED Digital Advertising Billboard Outdoor",
+                    image:
+                      "/images/product/master-digital-advertising-billboard-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/advertising-billboard/cob-p3-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "rental-led-display",
-            "label": "Rental LED Display",
-            "href": "/products/rental-led-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "rental-led-display",
+            label: "Rental LED Display",
+            href: "/products/rental-led-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Outdoor Rental LED Display",
-                "products": [
+                title: "Outdoor Rental LED Display",
+                products: [
                   {
-                    "name": "Rental Outdoor P2.60 Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-outdoor-p2-60-led-display.html"
+                    name: "Rental Outdoor P2.60 Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-outdoor-p2-60-led-display.html",
                   },
                   {
-                    "name": "Rental Outdoor P2.97 Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-outdoor-p2-97-led-display.html"
+                    name: "Rental Outdoor P2.97 Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-outdoor-p2-97-led-display.html",
                   },
                   {
-                    "name": "Rental Outdoor P3.91 Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-outdoor-p3-91-led-display.html"
-                  }
-                ]
+                    name: "Rental Outdoor P3.91 Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-outdoor-p3-91-led-display.html",
+                  },
+                ],
               },
               {
-                "title": "Indoor Rental LED Display",
-                "products": [
+                title: "Indoor Rental LED Display",
+                products: [
                   {
-                    "name": "Rental Indoor P2.60 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-indoor-p2-60-led-display.html"
+                    name: "Rental Indoor P2.60 Stage Concert Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-indoor-p2-60-led-display.html",
                   },
                   {
-                    "name": "Rental Indoor P2.97 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-indoor-p2-97-led-display.html"
+                    name: "Rental Indoor P2.97 Stage Concert Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-indoor-p2-97-led-display.html",
                   },
                   {
-                    "name": "Rental Indoor P3.91 Stage Concert Event Waterproof LED Display",
-                    "image": "/images/product/master-rental-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/rental-led-display/rental-indoor-p3-91-led-display.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Rental Indoor P3.91 Stage Concert Event Waterproof LED Display",
+                    image:
+                      "/images/product/master-rental-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/rental-led-display/rental-indoor-p3-91-led-display.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "led-poster-display",
-            "label": "LED Poster Display",
-            "href": "/products/led-poster-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "led-poster-display",
+            label: "LED Poster Display",
+            href: "/products/led-poster-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor LED Poster Display",
-                "products": [
+                title: "Indoor LED Poster Display",
+                products: [
                   {
-                    "name": "Indoor P1.8 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/indoor-p1-8-led-poster-screen-display.html"
+                    name: "Indoor P1.8 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/indoor-p1-8-led-poster-screen-display.html",
                   },
                   {
-                    "name": "Indoor P2 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/indoor-p2-led-poster-screen-display.html"
+                    name: "Indoor P2 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/indoor-p2-led-poster-screen-display.html",
                   },
                   {
-                    "name": "Indoor P2.5 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/indoor-p2-5-led-poster-screen-display.html"
-                  }
-                ]
+                    name: "Indoor P2.5 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/indoor-p2-5-led-poster-screen-display.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor LED Poster Display",
-                "products": [
+                title: "Outdoor LED Poster Display",
+                products: [
                   {
-                    "name": "Outdoor P1.8 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/outdoor-p1-8-led-poster-screen-display.html"
+                    name: "Outdoor P1.8 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/outdoor-p1-8-led-poster-screen-display.html",
                   },
                   {
-                    "name": "Outdoor P2 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/outdoor-p2-led-poster-screen-display.html"
+                    name: "Outdoor P2 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/outdoor-p2-led-poster-screen-display.html",
                   },
                   {
-                    "name": "Outdoor P2.5 LED Poster Screen Display",
-                    "image": "/images/product/master-led-poster-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-poster-display/outdoor-p2-5-led-poster-screen-display.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Outdoor P2.5 LED Poster Screen Display",
+                    image:
+                      "/images/product/master-led-poster-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-poster-display/outdoor-p2-5-led-poster-screen-display.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "3d-led-display",
-            "label": "3D LED Display",
-            "href": "/products/3d-led-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "3d-led-display",
+            label: "3D LED Display",
+            href: "/products/3d-led-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Outdoor 3D LED Display",
-                "products": [
+                title: "Outdoor 3D LED Display",
+                products: [
                   {
-                    "name": "3D HD P3 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p3.html"
+                    name: "3D HD P3 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p3.html",
                   },
                   {
-                    "name": "3D HD P4 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p4.html"
+                    name: "3D HD P4 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p4.html",
                   },
                   {
-                    "name": "3D HD P5 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p5.html"
+                    name: "3D HD P5 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p5.html",
                   },
                   {
-                    "name": "3D HD P6 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p6.html"
+                    name: "3D HD P6 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p6.html",
                   },
                   {
-                    "name": "3D HD P8 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p8.html"
+                    name: "3D HD P8 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p8.html",
                   },
                   {
-                    "name": "3D HD P10 Outdoor LED Screen",
-                    "image": "/images/product/master-3d-led-display.avif",
-                    "price": "Call for Price",
-                    "link": "/products/3d-led-display/3d-led-p10.html"
-                  }
-                ]
-              }
-            ]
+                    name: "3D HD P10 Outdoor LED Screen",
+                    image: "/images/product/master-3d-led-display.avif",
+                    price: "Call for Price",
+                    link: "/products/3d-led-display/3d-led-p10.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "cube-led-display",
-            "label": "Cube LED Display",
-            "href": "/products/cube-led-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "cube-led-display",
+            label: "Cube LED Display",
+            href: "/products/cube-led-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor Cube LED Display",
-                "products": [
+                title: "Indoor Cube LED Display",
+                products: [
                   {
-                    "name": "Cube LED Display Screen P1.53 Indoor",
-                    "image": "/images/product/master-cube-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p1-53-indoor.html"
+                    name: "Cube LED Display Screen P1.53 Indoor",
+                    image:
+                      "/images/product/master-cube-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p1-53-indoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P1.86 Indoor",
-                    "image": "/images/product/master-cube-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p1-86-indoor.html"
+                    name: "Cube LED Display Screen P1.86 Indoor",
+                    image:
+                      "/images/product/master-cube-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p1-86-indoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P2 Indoor",
-                    "image": "/images/product/master-cube-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p2-indoor.html"
+                    name: "Cube LED Display Screen P2 Indoor",
+                    image:
+                      "/images/product/master-cube-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p2-indoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P2.5 Indoor",
-                    "image": "/images/product/master-cube-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p2-5-indoor.html"
-                  }
-                ]
+                    name: "Cube LED Display Screen P2.5 Indoor",
+                    image:
+                      "/images/product/master-cube-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p2-5-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor Cube LED Display",
-                "products": [
+                title: "Outdoor Cube LED Display",
+                products: [
                   {
-                    "name": "Cube LED Display Screen P1.53 Outdoor",
-                    "image": "/images/product/master-cube-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p1-53-outdoor.html"
+                    name: "Cube LED Display Screen P1.53 Outdoor",
+                    image:
+                      "/images/product/master-cube-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p1-53-outdoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P1.86 Outdoor",
-                    "image": "/images/product/master-cube-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p1-86-outdoor.html"
+                    name: "Cube LED Display Screen P1.86 Outdoor",
+                    image:
+                      "/images/product/master-cube-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p1-86-outdoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P2 Outdoor",
-                    "image": "/images/product/master-cube-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p2-outdoor.html"
+                    name: "Cube LED Display Screen P2 Outdoor",
+                    image:
+                      "/images/product/master-cube-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p2-outdoor.html",
                   },
                   {
-                    "name": "Cube LED Display Screen P2.5 Outdoor",
-                    "image": "/images/product/master-cube-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/cube-led-display/cube-p2-5-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Cube LED Display Screen P2.5 Outdoor",
+                    image:
+                      "/images/product/master-cube-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/cube-led-display/cube-p2-5-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "transparent-led-display",
-            "label": "Transparent LED Display",
-            "href": "/products/transparent-led-display.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "transparent-led-display",
+            label: "Transparent LED Display",
+            href: "/products/transparent-led-display.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor Transparent LED Display",
-                "products": [
+                title: "Indoor Transparent LED Display",
+                products: [
                   {
-                    "name": "Transparent P3.91-7.81 LED Display Indoor",
-                    "image": "/images/product/master-transparent-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p3-91-7-81-indoor.html"
+                    name: "Transparent P3.91-7.81 LED Display Indoor",
+                    image:
+                      "/images/product/master-transparent-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p3-91-7-81-indoor.html",
                   },
                   {
-                    "name": "Transparent P5.2-P10.4 LED Display Indoor",
-                    "image": "/images/product/master-transparent-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p5-2-p10-4-indoor.html"
+                    name: "Transparent P5.2-P10.4 LED Display Indoor",
+                    image:
+                      "/images/product/master-transparent-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p5-2-p10-4-indoor.html",
                   },
                   {
-                    "name": "Transparent P10.4 LED Display Indoor",
-                    "image": "/images/product/master-transparent-led-display-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p10-4-indoor.html"
-                  }
-                ]
+                    name: "Transparent P10.4 LED Display Indoor",
+                    image:
+                      "/images/product/master-transparent-led-display-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p10-4-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor Transparent LED Display",
-                "products": [
+                title: "Outdoor Transparent LED Display",
+                products: [
                   {
-                    "name": "Transparent P3.91-7.81 LED Display Outdoor",
-                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p3-91-7-81-outdoor.html"
+                    name: "Transparent P3.91-7.81 LED Display Outdoor",
+                    image:
+                      "/images/product/master-transparent-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p3-91-7-81-outdoor.html",
                   },
                   {
-                    "name": "Transparent P5.2-P10.4 LED Display Outdoor",
-                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p5-2-p10-4-outdoor.html"
+                    name: "Transparent P5.2-P10.4 LED Display Outdoor",
+                    image:
+                      "/images/product/master-transparent-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p5-2-p10-4-outdoor.html",
                   },
                   {
-                    "name": "Transparent P10.4 LED Display Outdoor",
-                    "image": "/images/product/master-transparent-led-display-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/transparent-led-display/transparent-p10-4-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Transparent P10.4 LED Display Outdoor",
+                    image:
+                      "/images/product/master-transparent-led-display-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/transparent-led-display/transparent-p10-4-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "tunnel-led-screen",
-            "label": "Tunnel LED Screen",
-            "href": "/products/tunnel-led-screen.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "tunnel-led-screen",
+            label: "Tunnel LED Screen",
+            href: "/products/tunnel-led-screen.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor Tunnel LED Screen",
-                "products": [
+                title: "Indoor Tunnel LED Screen",
+                products: [
                   {
-                    "name": "P2 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p2-indoor.html"
+                    name: "P2 Tunnel Screen LED Video Wall LED Module Indoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p2-indoor.html",
                   },
                   {
-                    "name": "P3 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p3-indoor.html"
+                    name: "P3 Tunnel Screen LED Video Wall LED Module Indoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p3-indoor.html",
                   },
                   {
-                    "name": "P15 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p15-indoor.html"
+                    name: "P15 Tunnel Screen LED Video Wall LED Module Indoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p15-indoor.html",
                   },
                   {
-                    "name": "P25 Tunnel Screen LED Video Wall LED Module Indoor",
-                    "image": "/images/product/master-tunnel-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p25-indoor.html"
-                  }
-                ]
+                    name: "P25 Tunnel Screen LED Video Wall LED Module Indoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p25-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor Tunnel LED Screen",
-                "products": [
+                title: "Outdoor Tunnel LED Screen",
+                products: [
                   {
-                    "name": "P2 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p2-outdoor.html"
+                    name: "P2 Tunnel Screen LED Video Wall LED Module Outdoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p2-outdoor.html",
                   },
                   {
-                    "name": "P3 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p3-outdoor.html"
+                    name: "P3 Tunnel Screen LED Video Wall LED Module Outdoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p3-outdoor.html",
                   },
                   {
-                    "name": "P15 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p15-outdoor.html"
+                    name: "P15 Tunnel Screen LED Video Wall LED Module Outdoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p15-outdoor.html",
                   },
                   {
-                    "name": "P25 Tunnel Screen LED Video Wall LED Module Outdoor",
-                    "image": "/images/product/master-tunnel-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/tunnel-led-screen/tunnel-p25-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "P25 Tunnel Screen LED Video Wall LED Module Outdoor",
+                    image:
+                      "/images/product/master-tunnel-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/tunnel-led-screen/tunnel-p25-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "flexible-led-screen",
-            "label": "Flexible LED Screen",
-            "href": "/products/flexible-led-module.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "flexible-led-screen",
+            label: "Flexible LED Screen",
+            href: "/products/flexible-led-module.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor Flexible LED Screen",
-                "products": [
+                title: "Indoor Flexible LED Screen",
+                products: [
                   {
-                    "name": "Indoor Flexible LED Module P1.25 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-25-indoor.html"
+                    name: "Indoor Flexible LED Module P1.25 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-25-indoor.html",
                   },
                   {
-                    "name": "Indoor Flexible LED Module P1.5 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-5-indoor.html"
+                    name: "Indoor Flexible LED Module P1.5 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-5-indoor.html",
                   },
                   {
-                    "name": "Indoor Flexible LED Module P1.8 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-8-indoor.html"
+                    name: "Indoor Flexible LED Module P1.8 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-8-indoor.html",
                   },
                   {
-                    "name": "Indoor Flexible LED Module P2 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p2-indoor.html"
+                    name: "Indoor Flexible LED Module P2 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p2-indoor.html",
                   },
                   {
-                    "name": "Indoor Flexible LED Module P2.5 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p2-5-indoor.html"
+                    name: "Indoor Flexible LED Module P2.5 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p2-5-indoor.html",
                   },
                   {
-                    "name": "Indoor Flexible LED Module P3 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p3-indoor.html"
-                  }
-                ]
+                    name: "Indoor Flexible LED Module P3 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p3-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor Flexible LED Screen",
-                "products": [
+                title: "Outdoor Flexible LED Screen",
+                products: [
                   {
-                    "name": "Outdoor Flexible LED Module P1.25 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-25-outdoor.html"
+                    name: "Outdoor Flexible LED Module P1.25 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-25-outdoor.html",
                   },
                   {
-                    "name": "Outdoor Flexible LED Module P1.5 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-5-outdoor.html"
+                    name: "Outdoor Flexible LED Module P1.5 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-5-outdoor.html",
                   },
                   {
-                    "name": "Outdoor Flexible LED Module P1.8 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p1-8-outdoor.html"
+                    name: "Outdoor Flexible LED Module P1.8 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p1-8-outdoor.html",
                   },
                   {
-                    "name": "Outdoor Flexible LED Module P2 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p2-outdoor.html"
+                    name: "Outdoor Flexible LED Module P2 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p2-outdoor.html",
                   },
                   {
-                    "name": "Outdoor Flexible LED Module P2.5 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p2-5-outdoor.html"
+                    name: "Outdoor Flexible LED Module P2.5 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p2-5-outdoor.html",
                   },
                   {
-                    "name": "Outdoor Flexible LED Module P3 Curved Ultra-thin",
-                    "image": "/images/product/master-flexible-led-screen-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-led-module/flexible-p3-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "Outdoor Flexible LED Module P3 Curved Ultra-thin",
+                    image:
+                      "/images/product/master-flexible-led-screen-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-led-module/flexible-p3-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "led-display-module",
-            "label": "LED Display Module",
-            "href": "/products/led-display-module.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "led-display-module",
+            label: "LED Display Module",
+            href: "/products/led-display-module.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor LED Display Module",
-                "products": [
+                title: "Indoor LED Display Module",
+                products: [
                   {
-                    "name": "P3 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p3-indoor.html"
+                    name: "P3 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p3-indoor.html",
                   },
                   {
-                    "name": "P4 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p4-indoor.html"
+                    name: "P4 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p4-indoor.html",
                   },
                   {
-                    "name": "P5 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p5-indoor.html"
+                    name: "P5 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p5-indoor.html",
                   },
                   {
-                    "name": "P6 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p6-indoor.html"
+                    name: "P6 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p6-indoor.html",
                   },
                   {
-                    "name": "P6.67 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p6-67-indoor.html"
+                    name: "P6.67 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p6-67-indoor.html",
                   },
                   {
-                    "name": "P8 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p8-indoor.html"
+                    name: "P8 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p8-indoor.html",
                   },
                   {
-                    "name": "P10 Indoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p10-indoor.html"
-                  }
-                ]
+                    name: "P10 Indoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p10-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor LED Display Module",
-                "products": [
+                title: "Outdoor LED Display Module",
+                products: [
                   {
-                    "name": "P3 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p3-outdoor.html"
+                    name: "P3 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p3-outdoor.html",
                   },
                   {
-                    "name": "P4 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p4-outdoor.html"
+                    name: "P4 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p4-outdoor.html",
                   },
                   {
-                    "name": "P5 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p5-outdoor.html"
+                    name: "P5 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p5-outdoor.html",
                   },
                   {
-                    "name": "P6 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p6-outdoor.html"
+                    name: "P6 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p6-outdoor.html",
                   },
                   {
-                    "name": "P6.67 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p6-67-outdoor.html"
+                    name: "P6.67 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p6-67-outdoor.html",
                   },
                   {
-                    "name": "P8 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p8-outdoor.html"
+                    name: "P8 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p8-outdoor.html",
                   },
                   {
-                    "name": "P10 Outdoor LED Display Module",
-                    "image": "/images/product/master-led-display-module-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/led-display-module/p10-outdoor.html"
-                  }
-                ]
-              }
-            ]
+                    name: "P10 Outdoor LED Display Module",
+                    image:
+                      "/images/product/master-led-display-module-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/led-display-module/p10-outdoor.html",
+                  },
+                ],
+              },
+            ],
           },
           {
-            "id": "flexible-transparent-led-film",
-            "label": "Flexible Transparent LED Film",
-            "href": "/products/flexible-transparent-led-film.html",
-            "bannerDesktop": "/images/products/banners/product-listing-hero-desktop.avif",
-            "bannerMobile": "/images/products/banners/product-listing-hero-mobile.avif",
-            "youtubeVideoId": "dQw4w9WgXcQ",
-            "groups": [
+            id: "flexible-transparent-led-film",
+            label: "Flexible Transparent LED Film",
+            href: "/products/flexible-transparent-led-film.html",
+            bannerDesktop:
+              "/images/products/banners/product-listing-hero-desktop.avif",
+            bannerMobile:
+              "/images/products/banners/product-listing-hero-mobile.avif",
+            youtubeVideoId: "dQw4w9WgXcQ",
+            groups: [
               {
-                "title": "Indoor Flexible Transparent LED Film",
-                "products": [
+                title: "Indoor Flexible Transparent LED Film",
+                products: [
                   {
-                    "name": "Flexible Transparent P6.25 Indoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p6-25-indoor.html"
+                    name: "Flexible Transparent P6.25 Indoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p6-25-indoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P8 Indoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p8-indoor.html"
+                    name: "Flexible Transparent P8 Indoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p8-indoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P10 Indoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p10-indoor.html"
+                    name: "Flexible Transparent P10 Indoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p10-indoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P15 Indoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p15-indoor.html"
+                    name: "Flexible Transparent P15 Indoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p15-indoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P20 Indoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-indoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p20-indoor.html"
-                  }
-                ]
+                    name: "Flexible Transparent P20 Indoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-indoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p20-indoor.html",
+                  },
+                ],
               },
               {
-                "title": "Outdoor Flexible Transparent LED Film",
-                "products": [
+                title: "Outdoor Flexible Transparent LED Film",
+                products: [
                   {
-                    "name": "Flexible Transparent P6.25 Outdoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p6-25-outdoor.html"
+                    name: "Flexible Transparent P6.25 Outdoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p6-25-outdoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P8 Outdoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p8-outdoor.html"
+                    name: "Flexible Transparent P8 Outdoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p8-outdoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P10 Outdoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p10-outdoor.html"
+                    name: "Flexible Transparent P10 Outdoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p10-outdoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P15 Outdoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p15-outdoor.html"
+                    name: "Flexible Transparent P15 Outdoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p15-outdoor.html",
                   },
                   {
-                    "name": "Flexible Transparent P20 Outdoor LED Film Display",
-                    "image": "/images/product/master-flexible-transparent-led-film-outdoor.avif",
-                    "price": "Call for Price",
-                    "link": "/products/flexible-transparent-led-film/p20-outdoor.html"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
+                    name: "Flexible Transparent P20 Outdoor LED Film Display",
+                    image:
+                      "/images/product/master-flexible-transparent-led-film-outdoor.avif",
+                    price: "Call for Price",
+                    link: "/products/flexible-transparent-led-film/p20-outdoor.html",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    "label": "Solutions",
-    "type": "dropdown",
-    "columns": 2,
-    "items": [
+    label: "Solutions",
+    type: "dropdown",
+    columns: 2,
+    items: [
       {
-        "label": "Retail & Supermarkets",
-        "href": "/solutions/retail.html",
-        "desc": "Engaging in-store LED display solutions."
+        label: "Retail & Supermarkets",
+        href: "/solutions/retail.html",
+        desc: "Engaging in-store LED display solutions.",
       },
       {
-        "label": "Hospitality",
-        "href": "/solutions/hospitality.html",
-        "desc": "Hotel, restaurant and lobby display solutions."
+        label: "Hospitality",
+        href: "/solutions/hospitality.html",
+        desc: "Hotel, restaurant and lobby display solutions.",
       },
       {
-        "label": "Transportation",
-        "href": "/solutions/transportation.html",
-        "desc": "Wayfinding and passenger information displays."
+        label: "Transportation",
+        href: "/solutions/transportation.html",
+        desc: "Wayfinding and passenger information displays.",
       },
       {
-        "label": "Corporate",
-        "href": "/solutions/corporate.html",
-        "desc": "Meeting room, office and commercial display systems."
-      }
-    ]
+        label: "Corporate",
+        href: "/solutions/corporate.html",
+        desc: "Meeting room, office and commercial display systems.",
+      },
+    ],
   },
   {
-    "label": "Projects",
-    "href": "/projects.html"
+    label: "Projects",
+    href: "/projects.html",
   },
   {
-    "label": "Contact Us",
-    "href": "/contact.html"
+    label: "Contact Us",
+    href: "/contact.html",
   },
   {
-    "label": "Media",
-    "type": "dropdown",
-    "dropdownStyle": "media-list",
-    "items": [
+    label: "Media",
+    type: "dropdown",
+    dropdownStyle: "media-list",
+    items: [
       {
-        "label": "Blogs",
-        "href": "/blogs.html",
-        "desc": "Latest articles, guides and updates."
+        label: "Blogs",
+        href: "/blogs.html",
+        desc: "Latest articles, guides and updates.",
       },
       {
-        "label": "Video",
-        "href": "/videos.html",
-        "desc": "Product videos and solution showcases."
+        label: "Video",
+        href: "/videos.html",
+        desc: "Product videos and solution showcases.",
       },
       {
-        "label": "Podcast",
-        "href": "/podcast.html",
-        "desc": "Audio discussions and industry insights."
-      }
-    ]
+        label: "Podcast",
+        href: "/podcast.html",
+        desc: "Audio discussions and industry insights.",
+      },
+    ],
   },
   {
-    "label": "About Us",
-    "href": "/about.html"
-  }
+    label: "About Us",
+    href: "/about.html",
+  },
 ];

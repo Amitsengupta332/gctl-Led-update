@@ -805,18 +805,20 @@ function renderProductMegaTree(item) {
     const title = getProductTitle(product);
 
     return `
-      <div class="relative flex h-[96px] items-center justify-center overflow-hidden rounded-lg border border-[#e6eefb] bg-[#f8fbff] p-2">
+      <div class="relative flex h-[140px] items-center justify-center overflow-hidden rounded-lg border border-[#e6eefb] bg-[#f8fbff] p-3">
         ${
           image
             ? `
-              <img
-                data-mega-src="${image}"
-                alt="${title}"
-                loading="lazy"
-                decoding="async"
-                class="h-full w-full object-contain"
-                onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');"
-              />
+              <div class="flex h-full w-full items-center justify-center">
+                <img
+                  data-mega-src="${image}"
+                  alt="${title}"
+                  loading="lazy"
+                  decoding="async"
+                  class="block max-h-[112px] max-w-[112px] object-contain"
+                  onerror="this.parentElement.classList.add('hidden'); this.parentElement.nextElementSibling.classList.remove('hidden');"
+                />
+              </div>
 
               <div class="hidden text-center">
                 <div class="mx-auto flex h-9 w-9 items-center justify-center rounded-md border border-blue-100 bg-white text-[17px] text-[#0050a8]">
@@ -993,8 +995,8 @@ function renderProductMegaTree(item) {
                             </a>
                           </div>
 
-                          <div class="overflow-hidden">
-                            <div class="grid grid-cols-5 gap-3">
+                          <div class="max-h-[285px] overflow-y-auto pr-1">
+                            <div class="grid grid-cols-3 gap-4">
                               ${group.products
                                 .slice(0, 5)
                                 .map((product) => {
@@ -1007,7 +1009,7 @@ function renderProductMegaTree(item) {
                                     >
                                       ${renderProductImage(product)}
 
-                                      <h4 class="mt-2 h-[36px] overflow-hidden text-[11px] font-bold leading-[18px] text-slate-900 group-hover/card:text-[#0050a8]">
+                                      <h4 class="mt-2 h-[42px] overflow-hidden text-[12px] font-bold leading-[19px] text-slate-900 group-hover/card:text-[#0050a8]">
                                         ${productTitle}
                                       </h4>
                                     </a>
