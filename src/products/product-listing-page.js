@@ -204,15 +204,11 @@ function productCard(product) {
           ${getProductDesc(product)}
         </p>
 
-        <span class="mt-auto inline-flex pt-4 text-[13px] font-medium text-[#0057d8]">
-          Learn More →
-        </span>
       </div>
     </a>
   `;
 }
 
-// absolute bottom-8 left-1/2 grid h-[66px] w-[66px] -translate-x-1/2 place-items-center rounded-full border-2 border-red-500 bg-transparent text-red-500 shadow-[0_14px_36px_rgba(15,23,42,0.22)] transition duration-300 hover:scale-105 hover:bg-red-500 hover:text-white md:bottom-auto md:left-[75%] md:top-1/2 md:h-[72px] md:w-[72px] md:-translate-x-1/2 md:-translate-y-1/2
 function renderBanner(context, productCount) {
   const title =
     context.type === "group" ? context.group.title : context.category.label;
@@ -280,10 +276,10 @@ function renderBanner(context, productCount) {
           data-product-video-open
           data-youtube-id="${hero.youtubeVideoId}"
           aria-label="Play ${title} video"
-    class="absolute bottom-9 left-1/2 grid h-[64px] w-[64px] -translate-x-1/2 place-items-center rounded-full border-2 border-[#0068d9] bg-transparent text-[#0068d9] shadow-[0_14px_38px_rgba(0,104,217,0.22)] transition duration-300 hover:scale-105 hover:bg-[#0068d9] hover:text-white md:bottom-auto md:left-[76%] md:top-1/2 md:h-[72px] md:w-[72px] md:-translate-x-1/2 md:-translate-y-1/2"
+          class="absolute bottom-9 left-1/2 grid h-[36px] w-[52px] -translate-x-1/2 place-items-center rounded-[11px] bg-[#ff0033] text-white shadow-[0_8px_22px_rgba(255,0,51,0.26)] transition duration-300 hover:scale-105 hover:bg-[#e6002e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#ff0033] md:bottom-auto md:left-[76%] md:top-1/2 md:-translate-y-1/2"
         >
           <svg
-            class="h-7 w-7"
+            class="h-[21px] w-[21px]"
             viewBox="0 0 24 24"
             fill="currentColor"
             aria-hidden="true"

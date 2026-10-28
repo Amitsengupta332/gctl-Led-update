@@ -202,9 +202,6 @@ function relatedCard(product) {
           ${product.desc}
         </p>
 
-        <span class="mt-4 inline-flex text-[13px] font-semibold text-[#0057d8]">
-          Learn More →
-        </span>
       </div>
     </a>
   `;

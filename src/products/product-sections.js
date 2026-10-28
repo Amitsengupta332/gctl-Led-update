@@ -95,12 +95,6 @@ function productCard(product) {
           ${product.desc}
         </p>
 
-        <span
-          class="mt-4 inline-flex items-center gap-1 text-[13px] font-medium text-[#0057d8] transition-all duration-300 group-hover:gap-2"
-        >
-          Learn More
-          <span aria-hidden="true">→</span>
-        </span>
       </div>
     </a>
   `;
