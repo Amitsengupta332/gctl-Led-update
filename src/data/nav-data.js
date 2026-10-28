@@ -1682,6 +1682,7 @@ export const navItems = [
   },
   {
     label: "About Us",
-    href: "/about.html",
+    href: "/about.html", 
+    
   },
 ];
