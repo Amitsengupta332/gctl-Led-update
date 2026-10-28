@@ -3,7 +3,7 @@
 =========================================================== -->
 <section
     id="hero"
-    class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-32 bg-linear-to-b from-white via-slate-50 to-blue-50"
+    class="relative overflow-hidden pt-8 pb-12 sm:pt-12 sm:pb-16 lg:pt-20 lg:pb-32 bg-linear-to-b from-white via-slate-50 to-blue-50"
     aria-labelledby="hero-title">
 
     <!-- Background Glow -->
@@ -18,7 +18,7 @@
     <!-- ===========================
          Background Product Image
     ============================ -->
-    <div class="absolute inset-0 pointer-events-none">
+    <div class="pointer-events-none absolute inset-0 hidden lg:block">
 
         <div class="relative max-w-7xl mx-auto h-full">
 
@@ -55,7 +55,7 @@
             <!-- ===================================
                     LEFT CONTENT
             ==================================== -->
-            <header class="lg:col-span-7">
+            <header class="lg:col-span-7 min-w-0">
                 <!-- H1 -->
                 <h1
                     id="hero-title"
@@ -76,7 +76,7 @@
                 <p
                     data-aos="fade-up"
                     data-aos-delay="200"
-                    class="mt-7 max-w-3xl text-lg leading-8 text-slate-600">
+                    class="mt-5 max-w-3xl text-base leading-7 text-slate-600 sm:mt-7 sm:text-lg sm:leading-8">
 
                     The
                     <strong>50" Floor Standing Kiosk LCD Display</strong>
@@ -89,13 +89,20 @@
 
                 </p>
 
+                
+                <!-- Responsive mobile/tablet product preview (same asset as desktop) -->
+                <div class="relative mt-7 flex justify-center lg:hidden">
+                    <div aria-hidden="true" class="pointer-events-none absolute inset-4 rounded-full bg-sky-300/20 blur-3xl"></div>
+                    <img src="/dsdk-images/gctl-led-1.avif" alt="50 Inch 4K Floor Standing Kiosk LCD Digital Signage Display" loading="eager" decoding="async" class="relative h-auto w-full max-w-[340px] object-contain sm:max-w-[440px] md:max-w-[500px]" />
+                </div>
+
                 <!-- =========================
                      CTA Buttons
                 ========================== -->
                 <div
                     data-aos="fade-up"
                     data-aos-delay="550"
-                    class="flex flex-col sm:flex-row gap-4 mt-12">
+                    class="mt-6 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:gap-4 lg:mt-12">
 
                     <!-- Primary CTA -->
                     <a href="#contact"

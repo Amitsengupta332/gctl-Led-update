@@ -1,4 +1,4 @@
-<section class="py-24 bg-white overflow-hidden">
+<section class="py-12 sm:py-16 lg:py-24 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
 
         <!-- Heading -->
@@ -7,7 +7,7 @@
                 Timing Switch 
             </span>
             <!-- Background Text -->
-            <h2 class="absolute inset-0 flex justify-center text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase text-slate-300/30 select-none pointer-events-none"
+            <h2 class="absolute inset-0 hidden md:flex justify-center text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase text-slate-300/30 select-none pointer-events-none"
                 data-aos="zoom-out"
                 data-aos-duration="1000">
                 Smart content scheduling throughout the day.
@@ -15,7 +15,7 @@
 
             <!-- Main Title -->
             <div  class="relative z-10">
-                <h3 class="text-3xl md:text-5xl font-extrabold" data-aos="fade-down" data-aos-delay="100">
+                <h3 class="text-2xl sm:text-3xl md:text-5xl font-extrabold" data-aos="fade-down" data-aos-delay="100">
 
                     <span class="text-sky-500">
                         Smart content scheduling  
@@ -122,5 +122,33 @@
             </div>
 
         </div>
-    </div>
+    
+        <!-- Mobile and tablet schedule: same six times and labels as desktop -->
+        <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:hidden" aria-label="Daily automated kiosk schedule">
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">06:00</p><p class="text-sm text-slate-600">Timed Startup</p></div>
+          </div>
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">08:00</p><p class="text-sm text-slate-600">Breakfast Ads</p></div>
+          </div>
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">12:00</p><p class="text-sm text-slate-600">Lunch Ads</p></div>
+          </div>
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">14:00</p><p class="text-sm text-slate-600">Switch Content</p></div>
+          </div>
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">18:00</p><p class="text-sm text-slate-600">Dinner Ads</p></div>
+          </div>
+          <div class="flex min-w-0 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+            <span aria-hidden="true" class="size-2.5 shrink-0 rounded-full bg-blue-500"></span>
+            <div class="min-w-0"><p class="text-lg font-bold text-slate-900">23:00</p><p class="text-sm text-slate-600">Shutdown</p></div>
+          </div>
+        </div>
+</div>
 </section>
