@@ -278,8 +278,10 @@ function videoCard(video) {
 
         <span class="absolute inset-0 bg-gradient-to-t from-[#071f4d]/65 via-transparent to-transparent"></span>
 
-        <span class="absolute left-1/2 top-1/2 grid h-14 w-14 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white/95 text-[20px] font-black text-[#0068d9] shadow-[0_12px_32px_rgba(7,31,77,0.22)] transition duration-300 group-hover:scale-110">
-          ▶
+        <span aria-hidden="true" class="absolute left-1/2 top-1/2 grid h-[36px] w-[52px] -translate-x-1/2 -translate-y-1/2 place-items-center rounded-[11px] bg-[#ff0033] text-white shadow-[0_8px_22px_rgba(255,0,51,0.26)] transition duration-300 group-hover:scale-110 group-hover:bg-[#e6002e]">
+          <svg class="h-[21px] w-[21px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M9 6.5v11l8.5-5.5L9 6.5Z"></path>
+          </svg>
         </span>
 
         <span class="absolute bottom-4 right-4 rounded-full bg-[#071f4d]/90 px-3 py-1 text-[11px] font-black text-white">
@@ -335,8 +337,10 @@ function homeVideoCard(video) {
 
       <div class="absolute inset-0 bg-gradient-to-r from-[#06213e]/90 via-[#0d4d8a]/45 to-[#ffffff]/10"></div>
 
-      <span class="absolute right-5 top-5 grid h-12 w-12 place-items-center rounded-full bg-white/95 text-[17px] font-black text-[#0068d9] shadow-[0_10px_28px_rgba(7,31,77,0.22)]">
-        ▶
+      <span aria-hidden="true" class="absolute right-5 top-5 grid h-[36px] w-[52px] place-items-center rounded-[11px] bg-[#ff0033] text-white shadow-[0_8px_22px_rgba(255,0,51,0.26)] transition duration-300 group-hover:scale-110 group-hover:bg-[#e6002e]">
+        <svg class="h-[21px] w-[21px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M9 6.5v11l8.5-5.5L9 6.5Z"></path>
+        </svg>
       </span>
 
       <div class="relative z-10 flex min-h-[220px] max-w-[72%] flex-col justify-between p-6">
@@ -701,8 +705,10 @@ function renderVideoDetails(root, video) {
               </h1>
 
               <div class="mt-5 flex w-full max-w-[520px] flex-wrap items-center gap-4 rounded-full bg-white px-4 py-3 shadow-[0_10px_34px_rgba(7,31,77,0.08)] ring-1 ring-[#edf3fb]">
-                <span class="grid h-11 w-11 place-items-center rounded-full bg-[#e8f3ff] text-[16px] font-black text-[#0068d9]">
-                  ▶
+                <span aria-hidden="true" class="grid h-[36px] w-[52px] shrink-0 place-items-center rounded-[11px] bg-[#ff0033] text-white shadow-[0_8px_22px_rgba(255,0,51,0.26)]">
+                  <svg class="h-[21px] w-[21px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M9 6.5v11l8.5-5.5L9 6.5Z"></path>
+                  </svg>
                 </span>
 
                 <span>

@@ -1,1186 +1,1030 @@
-<!-- CORPORATE SINGLE INDUSTRY PAGE -->
-<div class="bg-white text-[#0b1f33]">
-  <section class="border-b border-slate-200 bg-white">
-    <div class="mx-auto max-w-[1320px] px-4 py-4 sm:px-6 lg:px-8">
-      <nav
-        aria-label="Breadcrumb"
-        class="flex flex-wrap items-center gap-2 text-[11px] font-medium text-slate-500 sm:text-[12px]"
-      >
-        <a href="/index.html" class="transition hover:text-[#0057d8]">Home</a
-        ><span>›</span
-        ><a href="/industries.html" class="transition hover:text-[#0057d8]"
-          >Industries</a
-        ><span>›</span><span class="text-[#0057d8]">Corporate</span>
-      </nav>
-    </div>
-    <div class="mx-auto max-w-[1320px] px-4 pb-8 sm:px-6 lg:px-8 lg:pb-10">
-      <div
-        class="grid overflow-hidden rounded-[18px] border border-slate-200 bg-white shadow-[0_18px_55px_rgba(15,23,42,0.08)] lg:grid-cols-[0.92fr_1.08fr]"
-      >
+<!-- GCTL LED | Corporate solutions — responsive Tailwind + existing Vite / Swiper, no extra CSS. -->
+<svg aria-hidden="true" class="hidden" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="corporate-sparkle" viewbox="0 0 24 24">
+    <path
+      d="m12 2 2.3 7.7L22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3L12 2Z"
+    ></path>
+  </symbol>
+  <symbol id="corporate-pin" viewbox="0 0 24 24">
+    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 0 1 16 0Z"></path>
+    <circle cx="12" cy="10" r="3"></circle>
+  </symbol>
+  <symbol id="corporate-clock" viewbox="0 0 24 24">
+    <circle cx="12" cy="12" r="9"></circle>
+    <path d="M12 7v5l3 2"></path>
+  </symbol>
+  <symbol id="corporate-connect" viewbox="0 0 24 24">
+    <rect height="6" rx="1" width="6" x="4" y="4"></rect>
+    <rect height="6" rx="1" width="6" x="14" y="4"></rect>
+    <rect height="6" rx="1" width="6" x="9" y="14"></rect>
+    <path d="M7 10v2h10v-2M12 12v2"></path>
+  </symbol>
+  <symbol id="corporate-check" viewbox="0 0 24 24">
+    <path d="m5 12 4 4L19 6"></path>
+  </symbol>
+  <symbol id="corporate-crown" viewbox="0 0 24 24">
+    <circle cx="8" cy="8" r="3"></circle>
+    <path d="M2 20v-2a6 6 0 0 1 12 0v2"></path>
+    <path d="M18 11a3 3 0 1 0-1.5-5.6M16 15a5 5 0 0 1 6 5"></path>
+  </symbol>
+  <symbol id="corporate-grid" viewbox="0 0 24 24">
+    <rect height="18" rx="1" width="18" x="3" y="3"></rect>
+    <path d="M9 3v18M15 3v18M3 9h18M3 15h18"></path>
+  </symbol>
+  <symbol id="corporate-settings" viewbox="0 0 24 24">
+    <circle cx="12" cy="12" r="3"></circle>
+    <path
+      d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9 7 7m10 10 2.1 2.1m0-14.2L17 7M7 17l-2.1 2.1"
+    ></path>
+  </symbol>
+  <symbol id="corporate-headset" viewbox="0 0 24 24">
+    <path d="M4 14v-2a8 8 0 0 1 16 0v2"></path>
+    <rect height="7" rx="2" width="5" x="2" y="13"></rect>
+    <rect height="7" rx="2" width="5" x="17" y="13"></rect>
+    <path d="M19 20c-.5 2-3 2-5 2h-2"></path>
+  </symbol>
+  <symbol id="corporate-chevron" viewbox="0 0 24 24">
+    <path d="m9 18 6-6-6-6"></path>
+  </symbol>
+  <symbol id="corporate-utensils" viewbox="0 0 24 24">
+    <path d="M4 3v7c0 3 4 3 4 0V3M6 3v18M15 3v18M15 3c3 0 5 3 5 7v5h-5"></path>
+  </symbol>
+  <symbol id="corporate-bed" viewbox="0 0 24 24">
+    <path
+      d="M3 4v16M21 4v16M3 16h18M6 9h12a3 3 0 0 1 3 3v4H3v-4a3 3 0 0 1 3-3ZM7 9V7h5v2"
+    ></path>
+  </symbol>
+</svg>
+<div class="bg-white text-[#12213c]" data-corporate-page="">
+  <!-- HERO SLIDER | Uses existing src/main.js Swiper initializer -->
+  <section
+    aria-label="Corporate display solutions highlights"
+    class="swiper relative h-[470px] overflow-hidden bg-[#06192f] sm:h-[490px] lg:h-[500px]"
+    data-swiper="hero"
+  >
+    <div class="swiper-wrapper h-full">
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          alt="Modern corporate reception with a large blue digital display"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          decoding="async"
+          fetchpriority="high"
+          loading="eager"
+          src="/images/hero_images_avif/futuristic_corporate_showroom_with_led_display.avif"
+        />
         <div
-          class="flex flex-col justify-center px-5 py-9 sm:px-8 lg:px-10 lg:py-12"
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[30%] to-[#06182c]/10 to-[95%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
         >
-          <p
-            class="mb-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
-          >
-            Corporate Display Solutions
-          </p>
-          <h1
-            class="max-w-[620px] text-[34px] font-semibold leading-[1.02] tracking-[-0.035em] text-[#0a3471] sm:text-[44px] lg:text-[52px]"
-          >
-            Corporate LED Display Solutions
-          </h1>
-          <p class="mt-5 max-w-[650px] text-[14px] leading-7 text-slate-600">
-            Transform workplaces with reception LED walls, meeting-room
-            displays, video walls, dashboards, digital directories and
-            centralized internal communication for offices, headquarters,
-            financial institutions and enterprise campuses.
-          </p>
-          <div class="mt-7 flex flex-wrap gap-3">
-            <a
-              href="/contact.html"
-              class="inline-flex min-h-11 items-center justify-center gap-2 rounded-[8px] bg-[#0057d8] px-5 text-[13px] font-semibold text-white shadow-[0_12px_30px_rgba(0,87,216,0.22)] transition hover:bg-[#0047b3]"
-              >Request Consultation <span>→</span></a
-            ><a
-              href="#corporate-solutions"
-              class="inline-flex min-h-11 items-center justify-center gap-2 rounded-[8px] border border-[#9bbcf1] bg-white px-5 text-[13px] font-semibold text-[#0057d8] transition hover:bg-[#f3f8ff]"
-              >Explore Solutions <span>→</span></a
+          <div class="max-w-[515px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
             >
-          </div>
-        </div>
-        <div
-          class="relative min-h-[330px] overflow-hidden sm:min-h-[420px] lg:min-h-[500px]"
-        >
-          <img
-            src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
-            alt="Corporate LED Display Solutions"
-            fetchpriority="high"
-            decoding="async"
-            class="absolute inset-0 h-full w-full object-cover"
-          />
-          <div
-            class="absolute inset-0 bg-gradient-to-r from-white/25 via-transparent to-transparent"
-          ></div>
-          <div
-            class="absolute bottom-5 left-5 right-5 grid grid-cols-2 gap-2 rounded-[12px] border border-white/40 bg-white/88 p-3 shadow-xl backdrop-blur-md sm:left-auto sm:right-5 sm:w-[310px]"
-          >
-            <div class="rounded-[8px] bg-[#edf5ff] px-3 py-2">
-              <span class="block text-[19px] font-semibold text-[#0057d8]"
-                >Enterprise</span
-              ><span class="text-[10px] font-medium text-slate-600"
-                >Communication</span
-              >
-            </div>
-            <div class="rounded-[8px] bg-[#edf5ff] px-3 py-2">
-              <span class="block text-[19px] font-semibold text-[#0057d8]"
-                >Centralized</span
-              ><span class="text-[10px] font-medium text-slate-600"
-                >Content governance</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-white py-7">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div
-        class="grid overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_35px_rgba(15,23,42,0.05)] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6"
-      >
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Reception Branding
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Create a premium first impression for visitors and clients.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Internal Communication
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Share company news, KPIs and employee updates.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Meeting Collaboration
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Support presentations, conferencing and decision-making.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Data Visualization
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Display dashboards and operational information clearly.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Wayfinding
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Guide people through offices and enterprise campuses.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article
-          class="border-b border-slate-200 p-4 sm:border-r lg:border-b-0"
-        >
-          <div class="flex gap-3">
-            <span
-              class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-              ><svg
-                class="h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.8"
-                aria-hidden="true"
-              >
-                <rect x="4" y="5" width="16" height="12" rx="2" />
-                <path d="M8 21h8M12 17v4" />
-                <path d="m8 10 2 2 5-5" /></svg
-            ></span>
-            <div>
-              <h2 class="text-[12px] font-semibold text-[#0a3471]">
-                Centralized CMS
-              </h2>
-              <p class="mt-1 text-[11px] leading-4 text-slate-500">
-                Control content with consistent corporate governance.
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-[#f7fbff] py-10 sm:py-12">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div
-        class="grid items-center gap-8 lg:grid-cols-[0.94fr_1.06fr] lg:gap-12"
-      >
-        <div
-          class="relative overflow-hidden rounded-[16px] border border-slate-200 bg-[#082b5c] shadow-[0_18px_50px_rgba(15,23,42,0.12)]"
-        >
-          <img
-            src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
-            alt="Corporate content control"
-            loading="lazy"
-            decoding="async"
-            class="h-[320px] w-full object-cover sm:h-[400px]"
-          />
-          <div
-            class="absolute inset-0 bg-gradient-to-t from-[#031c40]/80 via-transparent to-transparent"
-          ></div>
-          <div class="absolute bottom-5 left-5 right-5">
+              <a class="hover:text-white" href="/index.html">Home</a
+              ><span aria-hidden="true">&rsaquo;</span><span>Solutions</span
+              ><span aria-hidden="true">&rsaquo;</span
+              ><span class="text-white">Corporate</span>
+            </nav>
             <p
-              class="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/70"
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
             >
-              Central Content Control
+              Corporate Solutions
             </p>
-            <h2 class="mt-1 text-[20px] font-semibold text-white">
-              One dashboard for every screen and location
-            </h2>
-          </div>
-        </div>
-        <div>
-          <p
-            class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
-          >
-            Built for better experiences
-          </p>
-          <h2
-            class="mt-2 text-[28px] font-semibold leading-tight tracking-[-0.025em] text-[#0a3471] sm:text-[34px]"
-          >
-            Why Corporate Teams Choose GCTL LED
-          </h2>
-          <p
-            class="mt-4 max-w-[700px] text-[13px] leading-6 text-slate-600 sm:text-[14px]"
-          >
-            Our corporate display solutions combine premium visual quality,
-            centralized control and flexible integration for modern workplaces.
-          </p>
-          <div class="mt-6 grid gap-3">
-            <div class="flex gap-3">
-              <span
-                class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-[#0057d8] text-[10px] font-bold text-white"
-                >✓</span
-              >
-              <p class="text-[12px] leading-5 text-slate-600">
-                <strong class="font-semibold text-[#0a3471]"
-                  >Strengthen corporate identity</strong
-                >
-                — Use reception and lobby displays to communicate your brand.
-              </p>
-            </div>
-            <div class="flex gap-3">
-              <span
-                class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-[#0057d8] text-[10px] font-bold text-white"
-                >✓</span
-              >
-              <p class="text-[12px] leading-5 text-slate-600">
-                <strong class="font-semibold text-[#0a3471]"
-                  >Improve internal communication</strong
-                >
-                — Keep employees informed with timely company content.
-              </p>
-            </div>
-            <div class="flex gap-3">
-              <span
-                class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-[#0057d8] text-[10px] font-bold text-white"
-                >✓</span
-              >
-              <p class="text-[12px] leading-5 text-slate-600">
-                <strong class="font-semibold text-[#0a3471]"
-                  >Enable better collaboration</strong
-                >
-                — Equip meeting and board rooms with clear, reliable displays.
-              </p>
-            </div>
-            <div class="flex gap-3">
-              <span
-                class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-[#0057d8] text-[10px] font-bold text-white"
-                >✓</span
-              >
-              <p class="text-[12px] leading-5 text-slate-600">
-                <strong class="font-semibold text-[#0a3471]"
-                  >Visualize business performance</strong
-                >
-                — Present dashboards, KPIs and operational data effectively.
-              </p>
-            </div>
-            <div class="flex gap-3">
-              <span
-                class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-[#0057d8] text-[10px] font-bold text-white"
-                >✓</span
-              >
-              <p class="text-[12px] leading-5 text-slate-600">
-                <strong class="font-semibold text-[#0a3471]"
-                  >Scale across offices</strong
-                >
-                — Manage content consistently across branches and enterprise
-                campuses.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-white py-10 sm:py-12">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div class="mb-6 flex items-end justify-between gap-4">
-        <div>
-          <p
-            class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
-          >
-            Industry use cases
-          </p>
-          <h2
-            class="mt-1 text-[27px] font-semibold leading-tight text-[#0a3471] sm:text-[32px]"
-          >
-            Key Applications in Corporate
-          </h2>
-        </div>
-      </div>
-      <div
-        class="swiper !overflow-visible"
-        data-swiper="industries"
-        id="corporate-applications"
-      >
-        <div class="swiper-wrapper">
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
-              alt="Corporate Reception LED Walls"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Corporate Reception LED Walls
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Create impressive branded entrances and visitor experiences.
-              </p>
-            </div>
-          </article>
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/luxurious_hotel_lobby_with_modern_elegance.avif"
-              alt="Boardroom &amp; Meeting Displays"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Boardroom &amp; Meeting Displays
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Support presentations, video conferencing and collaboration.
-              </p>
-            </div>
-          </article>
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/modern_airport_terminal_with_digital_displays.avif"
-              alt="Business Dashboard Video Walls"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Business Dashboard Video Walls
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Visualize KPIs, operations and performance data at scale.
-              </p>
-            </div>
-          </article>
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/modern_healthcare_reception_with_tech_design.avif"
-              alt="Employee Communication Screens"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Employee Communication Screens
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Share announcements, recognition and internal campaigns.
-              </p>
-            </div>
-          </article>
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/modern_classroom_with_digital_display.avif"
-              alt="Office Wayfinding Displays"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Office Wayfinding Displays
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Guide visitors to departments, rooms and facilities.
-              </p>
-            </div>
-          </article>
-          <article
-            class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-          >
-            <img
-              src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
-              alt="Town Hall &amp; Training LED Screens"
-              loading="lazy"
-              decoding="async"
-              class="h-[170px] w-full object-cover"
-            />
-            <div class="p-4">
-              <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                Town Hall &amp; Training LED Screens
-              </h3>
-              <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                Deliver clear visuals for large internal audiences.
-              </p>
-            </div>
-          </article>
-        </div>
-        <button
-          type="button"
-          data-swiper-prev
-          aria-label="Previous"
-          class="absolute left-2 top-1/2 z-20 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border border-slate-200 bg-white text-[#0057d8] shadow-lg transition hover:bg-[#0057d8] hover:text-white"
-        >
-          ‹
-        </button>
-        <button
-          type="button"
-          data-swiper-next
-          aria-label="Next"
-          class="absolute right-2 top-1/2 z-20 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border border-slate-200 bg-white text-[#0057d8] shadow-lg transition hover:bg-[#0057d8] hover:text-white"
-        >
-          ›
-        </button>
-        <div data-swiper-pagination class="mt-6 flex justify-center"></div>
-      </div>
-    </div>
-  </section>
-  <div id="corporate-solutions">
-    <section class="bg-white py-10 sm:py-12">
-      <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-        <div class="mb-6 flex items-end justify-between gap-4">
-          <div>
-            <p
-              class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
+            <h1
+              class="max-w-[535px] text-[33px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[41px] lg:text-[49px]"
             >
-              Recommended solutions
+              Intelligent Displays<span class="block"
+                >for Modern Workplaces</span
+              >
+            </h1>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Transform offices with impressive reception displays,
+              collaborative meeting spaces and smarter internal communication.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="#corporate-applications"
+                >Explore Solutions</a
+              ><a
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="/contact.html"
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          alt="Corporate boardroom featuring a wide data display"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          decoding="async"
+          loading="lazy"
+          src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[30%] to-[#06182c]/10 to-[95%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
+        >
+          <div class="max-w-[515px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
+            >
+              <a class="hover:text-white" href="/index.html">Home</a
+              ><span aria-hidden="true">&rsaquo;</span><span>Solutions</span
+              ><span aria-hidden="true">&rsaquo;</span
+              ><span class="text-white">Corporate</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
+            >
+              Corporate Solutions
             </p>
             <h2
-              class="mt-1 text-[27px] font-semibold leading-tight text-[#0a3471] sm:text-[32px]"
+              class="max-w-[535px] text-[33px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[41px] lg:text-[49px]"
             >
-              Recommended LED &amp; Digital Signage Solutions
+              Elevate Meetings.<span class="block">Empower Collaboration.</span>
             </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Bring teams and ideas together with sharp, interactive meeting and
+              presentation displays.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="#corporate-applications"
+                >Explore Solutions</a
+              ><a
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="/contact.html"
+                >Contact Sales</a
+              >
+            </div>
           </div>
         </div>
+      </div>
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          alt="Corporate reception lobby with large wall-mounted LED display"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          decoding="async"
+          loading="lazy"
+          src="/images/projects/futuristic_corporate_lobby_with_blue_accents.avif"
+        />
         <div
-          class="swiper !overflow-visible"
-          data-swiper="industries"
-          id="corporate-solutions"
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[30%] to-[#06182c]/10 to-[95%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
         >
-          <div class="swiper-wrapper">
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
+          <div class="max-w-[515px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
             >
-              <img
-                src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
-                alt="Fine Pixel Pitch LED Wall"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Fine Pixel Pitch LED Wall
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Premium close-viewing visuals for lobbies and boardrooms.
-                </p>
-              </div>
-            </article>
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
+              <a class="hover:text-white" href="/index.html">Home</a
+              ><span aria-hidden="true">&rsaquo;</span><span>Solutions</span
+              ><span aria-hidden="true">&rsaquo;</span
+              ><span class="text-white">Corporate</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
             >
-              <img
-                src="/images/industries/luxurious_hotel_lobby_with_modern_elegance.avif"
-                alt="Commercial Meeting Display"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Commercial Meeting Display
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Reliable presentations and workplace collaboration.
-                </p>
-              </div>
-            </article>
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
+              Corporate Solutions
+            </p>
+            <h2
+              class="max-w-[535px] text-[33px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[41px] lg:text-[49px]"
             >
-              <img
-                src="/images/industries/modern_airport_terminal_with_digital_displays.avif"
-                alt="Corporate Video Wall"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Corporate Video Wall
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Multi-screen monitoring and dashboard visualization.
-                </p>
-              </div>
-            </article>
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
+              A Better Welcome.<span class="block">A Stronger Brand.</span>
+            </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
             >
-              <img
-                src="/images/industries/modern_healthcare_reception_with_tech_design.avif"
-                alt="Interactive Touch Display"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Interactive Touch Display
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Collaborative meetings, annotation and workshops.
-                </p>
-              </div>
-            </article>
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-            >
-              <img
-                src="/images/industries/modern_classroom_with_digital_display.avif"
-                alt="Digital Directory Kiosk"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Digital Directory Kiosk
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Visitor guidance and office information.
-                </p>
-              </div>
-            </article>
-            <article
-              class="swiper-slide h-auto overflow-hidden rounded-[14px] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(15,23,42,0.06)]"
-            >
-              <img
-                src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
-                alt="Enterprise Signage CMS"
-                loading="lazy"
-                decoding="async"
-                class="h-[170px] w-full object-cover"
-              />
-              <div class="p-4">
-                <h3 class="text-[15px] font-semibold text-[#0a3471]">
-                  Enterprise Signage CMS
-                </h3>
-                <p class="mt-2 text-[12px] leading-5 text-slate-600">
-                  Central content control across offices and branches.
-                </p>
-              </div>
-            </article>
+              Create a memorable first impression with professional signage
+              across your reception and visitor areas.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="#corporate-applications"
+                >Explore Solutions</a
+              ><a
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="/contact.html"
+                >Contact Sales</a
+              >
+            </div>
           </div>
-          <button
-            type="button"
-            data-swiper-prev
-            aria-label="Previous"
-            class="absolute left-2 top-1/2 z-20 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border border-slate-200 bg-white text-[#0057d8] shadow-lg transition hover:bg-[#0057d8] hover:text-white"
-          >
-            ‹
-          </button>
-          <button
-            type="button"
-            data-swiper-next
-            aria-label="Next"
-            class="absolute right-2 top-1/2 z-20 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border border-slate-200 bg-white text-[#0057d8] shadow-lg transition hover:bg-[#0057d8] hover:text-white"
-          >
-            ›
-          </button>
-          <div data-swiper-pagination class="mt-6 flex justify-center"></div>
         </div>
       </div>
-    </section>
-  </div>
-
-  <section class="bg-[#eef5ff] py-10 sm:py-12">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <p
-          class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          alt="Office team presenting information using a large collaboration display"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          decoding="async"
+          loading="lazy"
+          src="/images/blog/modern_office_meeting_with_tech_visuals.avif"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[30%] to-[#06182c]/10 to-[95%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
         >
-          Business outcomes
-        </p>
-        <h2
-          class="mt-1 text-[27px] font-semibold text-[#0a3471] sm:text-[32px]"
-        >
-          Benefits for Corporate
-        </h2>
-      </div>
-      <div class="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
+          <div class="max-w-[515px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
             >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Premium Brand Presence
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Create professional and memorable workplace spaces.
-          </p>
-        </article>
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
+              <a class="hover:text-white" href="/index.html">Home</a
+              ><span aria-hidden="true">&rsaquo;</span><span>Solutions</span
+              ><span aria-hidden="true">&rsaquo;</span
+              ><span class="text-white">Corporate</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
             >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Clearer Internal Messaging
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Reach employees with timely visual communication.
-          </p>
-        </article>
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
-            >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Better Collaboration
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Improve meetings, training and presentations.
-          </p>
-        </article>
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
-            >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Actionable Data Visibility
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Keep teams aligned with live dashboards and KPIs.
-          </p>
-        </article>
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
-            >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Central Governance
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Maintain consistent content and brand standards.
-          </p>
-        </article>
-        <article
-          class="rounded-[12px] border border-[#d8e6f8] bg-white p-4 text-center"
-        >
-          <span
-            class="mx-auto grid h-10 w-10 place-items-center rounded-full bg-[#edf5ff] text-[#0057d8]"
-            ><svg
-              class="h-5 w-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.8"
-              aria-hidden="true"
-            >
-              <rect x="4" y="5" width="16" height="12" rx="2" />
-              <path d="M8 21h8M12 17v4" />
-              <path d="m8 10 2 2 5-5" /></svg
-          ></span>
-          <h3 class="mt-3 text-[13px] font-semibold text-[#0a3471]">
-            Enterprise Scalability
-          </h3>
-          <p class="mt-1 text-[11px] leading-5 text-slate-500">
-            Expand across floors, branches and countries.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-white py-10 sm:py-12">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <p
-          class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
-        >
-          Our process
-        </p>
-        <h2
-          class="mt-1 text-[27px] font-semibold text-[#0a3471] sm:text-[32px]"
-        >
-          How We Deliver Corporate Display Projects
-        </h2>
-      </div>
-      <div class="mt-7 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <article
-          class="relative rounded-[14px] border border-slate-200 bg-white p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)]"
-        >
-          <span
-            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0057d8] text-[12px] font-semibold text-white"
-            >1</span
-          >
-          <div class="pl-10">
-            <h3 class="text-[13px] font-semibold text-[#0a3471]">
-              Consultation
-            </h3>
-            <p class="mt-2 text-[11px] leading-5 text-slate-500">
-              We understand your goals, audience and operating environment.
+              Corporate Solutions
             </p>
-          </div>
-        </article>
-        <article
-          class="relative rounded-[14px] border border-slate-200 bg-white p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)]"
-        >
-          <span
-            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0057d8] text-[12px] font-semibold text-white"
-            >2</span
-          >
-          <div class="pl-10">
-            <h3 class="text-[13px] font-semibold text-[#0a3471]">
-              Site Survey &amp; Design
-            </h3>
-            <p class="mt-2 text-[11px] leading-5 text-slate-500">
-              We assess viewing distance, brightness, structure and system
-              needs.
+            <h2
+              class="max-w-[535px] text-[33px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[41px] lg:text-[49px]"
+            >
+              Share Information.<span class="block">Connect Every Team.</span>
+            </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Deliver workplace updates, training content and brand messages
+              with confidence.
             </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="#corporate-applications"
+                >Explore Solutions</a
+              ><a
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                href="/contact.html"
+                >Contact Sales</a
+              >
+            </div>
           </div>
-        </article>
-        <article
-          class="relative rounded-[14px] border border-slate-200 bg-white p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)]"
-        >
-          <span
-            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0057d8] text-[12px] font-semibold text-white"
-            >3</span
-          >
-          <div class="pl-10">
-            <h3 class="text-[13px] font-semibold text-[#0a3471]">
-              Installation &amp; Integration
-            </h3>
-            <p class="mt-2 text-[11px] leading-5 text-slate-500">
-              We install, configure and connect the complete display solution.
-            </p>
-          </div>
-        </article>
-        <article
-          class="relative rounded-[14px] border border-slate-200 bg-white p-5 shadow-[0_10px_28px_rgba(15,23,42,0.05)]"
-        >
-          <span
-            class="absolute left-4 top-4 grid h-7 w-7 place-items-center rounded-full bg-[#0057d8] text-[12px] font-semibold text-white"
-            >4</span
-          >
-          <div class="pl-10">
-            <h3 class="text-[13px] font-semibold text-[#0a3471]">
-              Training &amp; Support
-            </h3>
-            <p class="mt-2 text-[11px] leading-5 text-slate-500">
-              We train your team and provide ongoing technical assistance.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-[#f7fbff] py-10 sm:py-12">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-      <div class="grid gap-5 lg:grid-cols-[1.4fr_1fr]">
-        <article
-          class="rounded-[16px] border border-slate-200 bg-white p-6 shadow-[0_14px_40px_rgba(15,23,42,0.06)]"
-        >
-          <span class="text-[36px] font-semibold text-[#0057d8]">“</span>
-          <p class="mt-2 text-[14px] leading-7 text-slate-600">
-            GCTL LED helped us improve communication across our corporate
-            environment. The displays are clear, easy to manage and supported by
-            a responsive technical team.
-          </p>
-          <p class="mt-4 text-[13px] font-semibold text-[#0a3471]">
-            Industry Project Client
-          </p>
-          <p class="text-[11px] text-slate-500">
-            Operations &amp; Communications Team
-          </p>
-        </article>
-        <div class="grid grid-cols-2 gap-4">
-          <article
-            class="rounded-[14px] border border-slate-200 bg-white p-5 text-center"
-          >
-            <strong class="block text-[26px] text-[#0057d8]">24/7</strong
-            ><span class="text-[11px] text-slate-500">Technical Support</span>
-          </article>
-          <article
-            class="rounded-[14px] border border-slate-200 bg-white p-5 text-center"
-          >
-            <strong class="block text-[26px] text-[#0057d8]">99.5%</strong
-            ><span class="text-[11px] text-slate-500">System Uptime Goal</span>
-          </article>
-          <article
-            class="rounded-[14px] border border-slate-200 bg-white p-5 text-center"
-          >
-            <strong class="block text-[26px] text-[#0057d8]">2,500+</strong
-            ><span class="text-[11px] text-slate-500">Projects Delivered</span>
-          </article>
-          <article
-            class="rounded-[14px] border border-slate-200 bg-white p-5 text-center"
-          >
-            <strong class="block text-[26px] text-[#0057d8]">50+</strong
-            ><span class="text-[11px] text-slate-500">Countries Served</span>
-          </article>
         </div>
       </div>
     </div>
+    <button
+      aria-label="Previous corporate highlight"
+      class="absolute left-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:left-4"
+      data-swiper-prev=""
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-5 w-5 rotate-180 shrink-0 fill-none stroke-current stroke-[1.8]"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="#corporate-chevron"></use>
+      </svg>
+    </button>
+    <button
+      aria-label="Next corporate highlight"
+      class="absolute right-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-4"
+      data-swiper-next=""
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-5 w-5 shrink-0 fill-none stroke-current stroke-[1.8]"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="#corporate-chevron"></use>
+      </svg>
+    </button>
+    <div
+      class="swiper-pagination !bottom-4 [&amp;_.swiper-pagination-bullet]:!bg-white [&amp;_.swiper-pagination-bullet]:!opacity-55 [&amp;_.swiper-pagination-bullet-active]:!opacity-100"
+      data-swiper-pagination=""
+    ></div>
   </section>
-
-  <section class="bg-white py-10 sm:py-12">
-    <div class="mx-auto max-w-[1100px] px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
+  <section
+    aria-labelledby="corporate-overview-heading"
+    class="border-b border-[#e9eff6] bg-white py-9 sm:py-10"
+  >
+    <div
+      class="mx-auto grid max-w-[1320px] gap-7 px-5 sm:px-8 lg:grid-cols-[40%_1fr] lg:items-center lg:gap-9 lg:px-10"
+    >
+      <div>
         <p
-          class="text-[11px] font-semibold uppercase tracking-[0.18em] text-[#0057d8]"
+          class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
         >
-          Common questions
+          Overview
         </p>
         <h2
-          class="mt-1 text-[27px] font-semibold text-[#0a3471] sm:text-[32px]"
+          class="text-[25px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          id="corporate-overview-heading"
         >
-          Frequently Asked Questions
+          Create a More Connected Workplace
         </h2>
+        <p class="mt-3 max-w-[480px] text-[13px] leading-6 text-slate-500">
+          Bring teams, visitors and information together with professional
+          display experiences designed for everyday business environments.
+        </p>
       </div>
-      <div data-about-faq class="mt-7 grid gap-3 md:grid-cols-2">
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
         >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-1"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >What display is best for a corporate lobby?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-          </button>
-          <div
-            id="corporate-faq-1"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Fine-pixel LED walls, commercial displays and video walls are
-              common options depending on size and viewing distance.
-            </p>
-          </div>
+              <use href="#corporate-sparkle"></use></svg
+          ></span>
+          <h3 class="text-[12px] font-extrabold leading-[1.3] text-[#111f37]">
+            BETTER
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Communication
+          </p>
         </article>
         <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
         >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-2"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >Can the system show live dashboards?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-          </button>
-          <div
-            id="corporate-faq-2"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Yes. Displays can present dashboards and data sources through
-              suitable players, controllers or integrations.
-            </p>
-          </div>
+              <use href="#corporate-connect"></use></svg
+          ></span>
+          <h3 class="text-[12px] font-extrabold leading-[1.3] text-[#111f37]">
+            SMART
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Collaboration
+          </p>
         </article>
         <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
         >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-3"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >Do you provide meeting-room solutions?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-          </button>
-          <div
-            id="corporate-faq-3"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Yes. Solutions can include commercial displays, interactive panels
-              and video-conferencing-ready systems.
-            </p>
-          </div>
+              <use href="#corporate-pin"></use></svg
+          ></span>
+          <h3 class="text-[12px] font-extrabold leading-[1.3] text-[#111f37]">
+            FLEXIBLE
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">Integration</p>
         </article>
         <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
         >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-4"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >Can content be controlled by headquarters?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-          </button>
-          <div
-            id="corporate-faq-4"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Yes. A centralized CMS can manage screens across offices and
-              branches.
-            </p>
-          </div>
-        </article>
-        <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
-        >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-5"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >Can the displays run company news and emergency notices?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
-            >
-          </button>
-          <div
-            id="corporate-faq-5"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Yes. Scheduled content and priority announcements can be
-              configured.
-            </p>
-          </div>
-        </article>
-        <article
-          class="overflow-hidden rounded-[10px] border border-slate-200 bg-white"
-        >
-          <button
-            type="button"
-            data-about-faq-button
-            aria-expanded="false"
-            aria-controls="corporate-faq-6"
-            class="flex w-full items-center justify-between gap-4 px-4 py-4 text-left"
-          >
-            <span class="text-[12px] font-semibold text-[#0a3471]"
-              >Do you provide installation outside normal office hours?</span
-            ><span data-about-faq-icon class="text-[18px] text-[#0057d8]"
-              >+</span
-            >
-          </button>
-          <div
-            id="corporate-faq-6"
-            class="hidden border-t border-slate-100 px-4 py-4"
-          >
-            <p class="text-[12px] leading-6 text-slate-600">
-              Project scheduling can be coordinated to reduce disruption to
-              business operations.
-            </p>
-          </div>
+              <use href="#corporate-clock"></use></svg
+          ></span>
+          <h3 class="text-[12px] font-extrabold leading-[1.3] text-[#111f37]">
+            STRONG
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Brand Presence
+          </p>
         </article>
       </div>
     </div>
   </section>
-
-  <section class="bg-white pb-10">
-    <div class="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
+  <section
+    aria-labelledby="corporate-applications-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+    id="corporate-applications"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
       <div
-        class="flex flex-col items-start justify-between gap-5 rounded-[16px] bg-gradient-to-r from-[#003c93] to-[#005ed6] px-6 py-7 text-white shadow-[0_18px_50px_rgba(0,74,170,0.22)] md:flex-row md:items-center"
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
       >
         <div>
-          <h2 class="text-[25px] font-semibold">
-            Transform Corporate Experiences with GCTL LED
-          </h2>
-          <p class="mt-2 max-w-[720px] text-[12px] leading-5 text-white/80">
-            Engage audiences, communicate faster and manage every screen with a
-            reliable LED display and digital signage solution.
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Key Applications
           </p>
+          <h2
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+            id="corporate-applications-heading"
+          >
+            Versatile Displays for Every Corporate Space
+          </h2>
         </div>
         <a
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
+          href="#corporate-more-applications"
+          >View All Applications <span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          href="/products/wall-mount-display.html"
+          ><img
+            alt="Reception &amp; Lobby corporate display application"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            decoding="async"
+            loading="lazy"
+            src="/images/projects/futuristic_corporate_lobby_with_blue_accents.avif"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Reception &amp; Lobby</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Make a confident first impression.
+            </p>
+          </div></a
+        >
+        <a
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          href="/products/interactive-touch-panel.html"
+          ><img
+            alt="Meeting Rooms corporate display application"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            decoding="async"
+            loading="lazy"
+            src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Meeting Rooms</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Present and collaborate clearly.
+            </p>
+          </div></a
+        >
+        <a
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          href="/products/lcd-video-wall.html"
+          ><img
+            alt="Internal Messaging corporate display application"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            decoding="async"
+            loading="lazy"
+            src="/images/categories/futuristic_corporate_meeting_room_design.avif"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Internal Messaging</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Share company news across teams.
+            </p>
+          </div></a
+        >
+        <a
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          href="/products/interactive-touch-panel.html"
+          ><img
+            alt="Training &amp; Events corporate display application"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            decoding="async"
+            loading="lazy"
+            src="/images/blog/modern_office_meeting_with_tech_visuals.avif"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Training &amp; Events</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Create engaging shared experiences.
+            </p>
+          </div></a
+        >
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#eff6fd] py-10 sm:py-12">
+    <div
+      class="mx-auto grid max-w-[1320px] items-center gap-7 px-5 sm:px-8 lg:grid-cols-2 lg:gap-10 lg:px-10"
+    >
+      <div
+        class="overflow-hidden rounded-[12px] shadow-[0_12px_30px_rgba(8,54,99,0.10)]"
+      >
+        <img
+          alt="Conference room with a wall display for modern workplace collaboration"
+          class="h-[245px] w-full object-cover sm:h-[300px] lg:h-[335px]"
+          decoding="async"
+          loading="lazy"
+          src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+        />
+      </div>
+      <div>
+        <p
+          class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+        >
+          Digital Signage in Action
+        </p>
+        <h2
+          class="max-w-[560px] text-[26px] font-bold leading-[1.15] tracking-[-0.035em] text-[#112140] sm:text-[33px]"
+        >
+          Bring better communication into focus
+        </h2>
+        <p class="mt-4 max-w-[560px] text-[13px] leading-6 text-slate-500">
+          From boardrooms to busy office floors, help people connect with the
+          information and experiences that matter.
+        </p>
+        <div
+          class="mt-4 grid grid-cols-1 gap-x-5 gap-y-2 text-[12px] text-[#243d5c] sm:grid-cols-2"
+        >
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.8]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#corporate-check"></use></svg></span
+            ><span>Stronger team engagement</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.8]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#corporate-check"></use></svg></span
+            ><span>Clear, effective information</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.8]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#corporate-check"></use></svg></span
+            ><span>Flexible screen configurations</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.8]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#corporate-check"></use></svg></span
+            ><span>Professional project support</span>
+          </div>
+        </div>
+        <a
+          class="mt-5 inline-flex items-center gap-2 text-[12px] font-bold text-[#0059b8] hover:text-[#003a78]"
+          href="#corporate-products"
+          >Explore Our Solutions <span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="corporate-benefits-heading"
+    class="bg-[#f7f9fc] py-10 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Why GCTL LED
+          </p>
+          <h2
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+            id="corporate-benefits-heading"
+          >
+            Built Around How Teams Work
+          </h2>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#corporate-crown"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">
+            Stronger Engagement
+          </h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Make messages visible and easy to understand.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#corporate-grid"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">
+            Flexible &amp; Scalable
+          </h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Display options for diverse corporate spaces.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#corporate-settings"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">Easy Integration</h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Support modern presentation and content workflows.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.8]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#corporate-headset"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">
+            Dedicated Support
+          </h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Practical help from consultation to deployment.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="corporate-products-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+    id="corporate-products"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Recommended Solutions
+          </p>
+          <h2
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+            id="corporate-products-heading"
+          >
+            The Right Displays for Every Space
+          </h2>
+        </div>
+        <a
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
+          href="/products/interactive-touch-panel.html"
+          >View All Products <span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a
+          class="group flex h-full flex-col overflow-hidden rounded-[12px] border border-[#dbe8f5] bg-white shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(0,87,216,0.14)]"
+          href="/products/interactive-touch-panel.html"
+        >
+          <div class="relative h-[185px] shrink-0 bg-white">
+            <img
+              alt="Interactive Touch Panel"
+              class="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105"
+              decoding="async"
+              loading="lazy"
+              src="/images/categories/Interactive-touch.avif"
+            />
+          </div>
+          <div class="flex flex-1 flex-col p-4">
+            <h3 class="text-[15px] font-medium leading-6 text-[#0b1f33]">
+              Interactive Touch Panel
+            </h3>
+            <p class="mt-2 text-[12px] leading-5 text-[#5d6b7a]">
+              Collaborative touch displays for meetings, presentations and
+              training.
+            </p>
+          </div> </a
+        ><a
+          class="group flex h-full flex-col overflow-hidden rounded-[12px] border border-[#dbe8f5] bg-white shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(0,87,216,0.14)]"
+          href="/products/lcd-video-wall.html"
+        >
+          <div class="relative h-[185px] shrink-0 bg-white">
+            <img
+              alt="LCD Video Wall"
+              class="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105"
+              decoding="async"
+              loading="lazy"
+              src="/images/categories/lcd-video-wall.avif"
+            />
+          </div>
+          <div class="flex flex-1 flex-col p-4">
+            <h3 class="text-[15px] font-medium leading-6 text-[#0b1f33]">
+              LCD Video Wall
+            </h3>
+            <p class="mt-2 text-[12px] leading-5 text-[#5d6b7a]">
+              High-impact video walls for receptions and corporate environments.
+            </p>
+          </div> </a
+        ><a
+          class="group flex h-full flex-col overflow-hidden rounded-[12px] border border-[#dbe8f5] bg-white shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(0,87,216,0.14)]"
+          href="/products/wall-mount-display.html"
+        >
+          <div class="relative h-[185px] shrink-0 bg-white">
+            <img
+              alt="Wall Mount Display"
+              class="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105"
+              decoding="async"
+              loading="lazy"
+              src="/images/product/master-wall-mount-android-display.avif"
+            />
+          </div>
+          <div class="flex flex-1 flex-col p-4">
+            <h3 class="text-[15px] font-medium leading-6 text-[#0b1f33]">
+              Wall Mount Display
+            </h3>
+            <p class="mt-2 text-[12px] leading-5 text-[#5d6b7a]">
+              Professional screens for office news, branding and communication.
+            </p>
+          </div> </a
+        ><a
+          class="group flex h-full flex-col overflow-hidden rounded-[12px] border border-[#dbe8f5] bg-white shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(0,87,216,0.14)]"
+          href="/products/floor-standing-signage.html"
+        >
+          <div class="relative h-[185px] shrink-0 bg-white">
+            <img
+              alt="Floor Standing Signage"
+              class="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105"
+              decoding="async"
+              loading="lazy"
+              src="/images/product/master-floor-standing-signage-indoor.avif"
+            />
+          </div>
+          <div class="flex flex-1 flex-col p-4">
+            <h3 class="text-[15px] font-medium leading-6 text-[#0b1f33]">
+              Floor Standing Signage
+            </h3>
+            <p class="mt-2 text-[12px] leading-5 text-[#5d6b7a]">
+              Freestanding signage for welcome messages and office directories.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="corporate-concept-heading"
+    class="bg-[#f7f9fc] py-11 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Corporate Application
+          </p>
+          <h2
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+            id="corporate-concept-heading"
+          >
+            Inspired by Real-World Environments
+          </h2>
+          <p class="mt-2 max-w-[680px] text-[13px] leading-6 text-slate-500">
+            Illustrative corporate application concept showing how integrated
+            displays can enhance workplace collaboration and professional
+            communication.
+          </p>
+        </div>
+      </div>
+      <div
+        class="grid overflow-hidden rounded-[12px] border border-[#e0eaf5] bg-white shadow-[0_7px_25px_rgba(13,50,96,0.06)] md:grid-cols-[58%_42%]"
+      >
+        <div class="p-2">
+          <img
+            alt="Smart boardroom display for presentations and business collaboration"
+            class="h-[245px] w-full rounded-[8px] object-cover sm:h-[285px] md:h-[270px]"
+            decoding="async"
+            loading="lazy"
+            src="/images/industries/modern_corporate_meeting_room_with_data_dashboard.avif"
+          />
+        </div>
+        <div class="flex flex-col justify-center px-5 py-6 sm:px-7 lg:px-9">
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Featured Solution Concept
+          </p>
+          <h3
+            class="text-[20px] font-bold leading-tight tracking-[-0.025em] text-[#112140] sm:text-[23px]"
+          >
+            Smart Meeting Room Display Solution
+          </h3>
+          <p class="mt-3 text-[13px] leading-6 text-slate-500">
+            A modern conference room visual setup designed for presentations,
+            hybrid collaboration and professional business communication.
+          </p>
+          <a
+            class="mt-4 inline-flex items-center gap-1 self-start text-[12px] font-bold text-[#0059b8] hover:text-[#003c80]"
+            href="/products/interactive-touch-panel.html"
+            >Explore This Solution <span aria-hidden="true">&rarr;</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="corporate-more-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+    id="corporate-more-applications"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Explore More
+          </p>
+          <h2
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+            id="corporate-more-heading"
+          >
+            Applications Across the Industry
+          </h2>
+        </div>
+        <a
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
           href="/contact.html"
-          class="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[8px] bg-white px-5 text-[13px] font-semibold text-[#0057d8] transition hover:bg-[#edf5ff]"
-          >Request a Demo <span>→</span></a
+          >Explore More <span aria-hidden="true">&rarr;</span></a
+        >
+      </div>
+      <div class="grid gap-3 sm:grid-cols-3">
+        <a
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          href="/products/interactive-touch-panel.html"
+          ><img
+            alt="Executive Conference Room display application"
+            class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"
+            decoding="async"
+            loading="lazy"
+            src="/images/categories/futuristic_corporate_meeting_room_design.avif"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Executive Conference Room
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">&rsaquo;</span>
+            </p>
+          </div></a
+        >
+        <a
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          href="/products/wall-mount-display.html"
+          ><img
+            alt="Corporate Reception Lobby display application"
+            class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"
+            decoding="async"
+            loading="lazy"
+            src="/images/projects/futuristic_corporate_lobby_with_blue_accents.avif"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Corporate Reception Lobby
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">&rsaquo;</span>
+            </p>
+          </div></a
+        >
+        <a
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          href="/products/lcd-video-wall.html"
+          ><img
+            alt="Employee Communication Hub display application"
+            class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"
+            decoding="async"
+            loading="lazy"
+            src="/images/blog/modern_office_meeting_with_tech_visuals.avif"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Employee Communication Hub
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">&rsaquo;</span>
+            </p>
+          </div></a
+        >
+      </div>
+    </div>
+  </section>
+  <section class="bg-white px-5 pb-9 sm:px-8 lg:px-10">
+    <div
+      class="mx-auto flex max-w-[1240px] flex-col gap-5 rounded-[12px] bg-gradient-to-r from-[#07407e] via-[#0065bc] to-[#0758a1] px-6 py-6 text-white shadow-[0_8px_20px_rgba(0,63,125,0.1)] sm:flex-row sm:items-center sm:justify-between sm:px-9"
+    >
+      <div>
+        <h2
+          class="text-[20px] font-bold leading-tight tracking-[-0.02em] sm:text-[24px]"
+        >
+          Build a More Connected Workplace
+        </h2>
+        <p class="mt-2 text-[12px] text-blue-100">
+          Find the right display solution for your organization.
+        </p>
+      </div>
+      <div class="flex items-center gap-6">
+        <span class="hidden text-[#a2e4ff] lg:block"
+          ><svg
+            aria-hidden="true"
+            class="h-12 w-12 shrink-0 fill-none stroke-current stroke-[1.8]"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <use href="#corporate-grid"></use></svg></span
+        ><a
+          class="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[7px] bg-white px-5 text-[12px] font-bold text-[#004b94] transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          href="/contact.html"
+          >Talk to an Expert <span aria-hidden="true">&rarr;</span></a
         >
       </div>
     </div>

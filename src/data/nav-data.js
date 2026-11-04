@@ -1630,22 +1630,22 @@ export const navItems = [
     items: [
       {
         label: "Retail & Supermarkets",
-        href: "/solutions/retail.html",
+        href: "/retail-supermarkets.html",
         desc: "Engaging in-store LED display solutions.",
       },
       {
         label: "Hospitality",
-        href: "/solutions/hospitality.html",
+        href: "/hospitality.html",
         desc: "Hotel, restaurant and lobby display solutions.",
       },
       {
         label: "Transportation",
-        href: "/solutions/transportation.html",
+        href: "/transportation.html",
         desc: "Wayfinding and passenger information displays.",
       },
       {
         label: "Corporate",
-        href: "/solutions/corporate.html",
+        href: "/corporate.html",
         desc: "Meeting room, office and commercial display systems.",
       },
     ],

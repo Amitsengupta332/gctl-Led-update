@@ -726,12 +726,11 @@ function renderSimpleDropdown(item) {
       <div class="group relative">
         <button
           type="button"
-          class="relative flex h-[76px] items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
+          class="relative flex h-[76px] cursor-pointer items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
           after:absolute after:bottom-0 after:left-0 after:h-[4px] after:rounded-full after:bg-[#0050a8] after:transition-all after:duration-300 group-hover:after:w-full
           ${isActive ? "text-[#0050a8] after:w-full" : "after:w-0"}"
         >
           ${item.label}
-          ${dropdownChevronIcon()}
         </button>
 
        <div class="invisible absolute left-0 top-full z-50 w-[300px] pt-0 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
@@ -741,11 +740,10 @@ function renderSimpleDropdown(item) {
                 (child, index) => `
                   <a
                     href="${child.href}"
-                    class="flex items-center justify-between gap-4 px-5 py-4 text-[14px] font-bold text-slate-900 transition hover:bg-[#f7fbff] hover:text-[#0050a8]
+                    class="flex cursor-pointer items-center px-5 py-3.5 text-[14px] font-medium text-slate-900 transition hover:bg-slate-50 hover:text-[#0050a8]
                     ${index !== item.items.length - 1 ? "border-b border-slate-100" : ""}"
                   >
                     <span>${child.label}</span>
-                    <span class="text-[15px] text-[#0050a8]">→</span>
                   </a>
                 `,
               )
@@ -763,7 +761,7 @@ function renderSimpleDropdown(item) {
     <div class="group relative">
       <button
         type="button"
-        class="relative flex h-[76px] items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
+        class="relative flex h-[76px] cursor-pointer items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
         after:absolute after:bottom-0 after:left-0 after:h-[4px] after:rounded-full after:bg-[#0050a8] after:transition-all after:duration-300 group-hover:after:w-full
         ${isActive ? "text-[#0050a8] after:w-full" : "after:w-0"}"
       >
@@ -787,6 +785,25 @@ function renderSimpleDropdown(item) {
       </div>
     </div>
   `;
+}
+
+// Show up to three distinct real products, preferring the selected group.
+// When the selected size only has one product, fill from the same category.
+function getMegaFeaturedProducts(sub, group, maxProducts = 3) {
+  const selectedProducts = group.products || [];
+  const categoryProducts = (sub.groups || []).flatMap(
+    (otherGroup) => otherGroup === group ? [] : (otherGroup.products || []),
+  );
+  const seen = new Set();
+
+  return [...selectedProducts, ...categoryProducts].filter((product) => {
+    const key = typeof product === "object"
+      ? product.link || getProductTitle(product)
+      : product;
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).slice(0, maxProducts);
 }
 
 function renderProductMegaTree(item) {
@@ -844,7 +861,7 @@ function renderProductMegaTree(item) {
     <div class="group">
       <button
         type="button"
-        class="relative flex h-[76px] items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
+        class="relative flex h-[76px] cursor-pointer items-center gap-1.5 text-[14px] font-medium transition hover:text-[#0050a8]
         after:absolute after:bottom-0 after:left-0 after:h-[4px] after:w-0 after:rounded-full after:bg-[#0050a8] after:transition-all after:duration-300 group-hover:after:w-full
           ${isActive ? "text-[#0050a8] after:w-full" : "after:w-0"}       
         "
@@ -974,16 +991,16 @@ function renderProductMegaTree(item) {
                       return `
                         <div
                           data-tree-product-panel="${groupKey}"
-                          class="${isActiveGroup ? "" : "hidden"} flex h-full flex-col"
+                          class="${isActiveGroup ? "" : "hidden"} flex h-full min-h-[430px] flex-col"
                         >
-                          <div class="mb-4 flex items-start justify-between gap-4">
-                            <div>
-                              <h3 class="text-[15px] font-bold leading-snug text-slate-900">
+                          <div class="mb-4 flex h-[60px] shrink-0 items-start justify-between gap-4">
+                            <div class="min-w-0">
+                              <h3 class="line-clamp-2 text-[15px] font-bold leading-snug text-slate-900">
                                 ${group.title}
                               </h3>
 
                               <p class="mt-1 text-[12px] leading-5 text-slate-500">
-                                Featured product variants
+                                Featured products in this category
                               </p>
                             </div>
 
@@ -991,14 +1008,14 @@ function renderProductMegaTree(item) {
                               href="${sub.href}"
                               class="shrink-0 rounded-md border border-blue-100 px-4 py-2 text-[11px] font-bold text-[#0050a8] hover:bg-blue-50"
                             >
-                              View Category →
+                              View All Products →
                             </a>
                           </div>
 
-                          <div class="max-h-[285px] overflow-y-auto pr-1">
+                          <!-- Three static product cards, no scrolling. -->
+                          <div class="h-[212px] shrink-0 overflow-hidden">
                             <div class="grid grid-cols-3 gap-4">
-                              ${group.products
-                                .slice(0, 5)
+                              ${getMegaFeaturedProducts(sub, group)
                                 .map((product) => {
                                   const productTitle = getProductTitle(product);
 
@@ -1020,8 +1037,8 @@ function renderProductMegaTree(item) {
                           </div>
 
                           <!-- QUALITY ROW -->
-                          <div class="mt-4 grid grid-cols-3 gap-4 border-t border-slate-100 pt-4">
-                            <div class="flex items-center gap-3">
+                          <div class="mt-4 grid min-h-[56px] shrink-0 grid-cols-3 items-center gap-3 border-t border-slate-100 pt-4">
+                            <div class="flex min-w-0 items-center gap-3">
                               <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[15px] text-[#0050a8]">✓</span>
                               <div>
                                 <h4 class="text-[12px] font-bold text-slate-900">Premium Quality</h4>
@@ -1029,7 +1046,7 @@ function renderProductMegaTree(item) {
                               </div>
                             </div>
 
-                            <div class="flex items-center gap-3">
+                            <div class="flex min-w-0 items-center gap-3">
                               <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[15px] text-[#0050a8]">⚙</span>
                               <div>
                                 <h4 class="text-[12px] font-bold text-slate-900">Latest Technology</h4>
@@ -1037,7 +1054,7 @@ function renderProductMegaTree(item) {
                               </div>
                             </div>
 
-                            <div class="flex items-center gap-3">
+                            <div class="flex min-w-0 items-center gap-3">
                               <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[15px] text-[#0050a8]">☎</span>
                               <div>
                                 <h4 class="text-[12px] font-bold text-slate-900">Global Support</h4>
@@ -1046,8 +1063,8 @@ function renderProductMegaTree(item) {
                             </div>
                           </div>
 
-                          <!-- HELP BANNER -->
-                          <div class="mt-auto rounded-xl bg-gradient-to-r from-[#eef6ff] via-[#f8fbff] to-[#eaf3ff] px-4 py-3">
+                          <!-- HELP BANNER: keep 12px space below the three benefits -->
+                          <div class="mt-3 shrink-0 rounded-xl bg-gradient-to-r from-[#eef6ff] via-[#f8fbff] to-[#eaf3ff] px-4 py-3">
                             <div class="flex items-center justify-between gap-4">
                               <div>
                                 <h3 class="text-[13px] font-bold text-slate-900">
@@ -1144,7 +1161,7 @@ function renderDesktopNav() {
       return `
         <a
           href="${item.href}"
-          class="relative flex h-[76px] items-center text-[14px] font-medium transition hover:text-[#0050a8]
+          class="relative flex h-[76px] cursor-pointer items-center text-[14px] font-medium transition hover:text-[#0050a8]
           after:absolute after:bottom-0 after:left-0 after:h-[4px] after:rounded-full after:bg-[#0050a8] after:transition-all after:duration-300 hover:after:w-full
           ${isActive ? "text-[#0050a8] after:w-full" : "after:w-0"}"
         >
