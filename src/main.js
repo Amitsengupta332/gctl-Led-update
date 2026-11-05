@@ -731,6 +731,7 @@ function renderSimpleDropdown(item) {
           ${isActive ? "text-[#0050a8] after:w-full" : "after:w-0"}"
         >
           ${item.label}
+          ${dropdownChevronIcon()}
         </button>
 
        <div class="invisible absolute left-0 top-full z-50 w-[300px] pt-0 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
