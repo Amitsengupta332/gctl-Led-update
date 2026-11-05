@@ -3,139 +3,1071 @@
      Shared navbar and footer are rendered by the root retail-supermarkets.html file.
 -->
 <svg class="hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-<symbol id="retail-tag" viewBox="0 0 24 24"><path d="M20 13 11 22 2 13V4h9l9 9Z"/><circle cx="7.5" cy="8.5" r="1"/></symbol>
-<symbol id="retail-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
-<symbol id="retail-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
-<symbol id="retail-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-<symbol id="retail-support" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="2" y="13" width="5" height="7" rx="2"/><rect x="17" y="13" width="5" height="7" rx="2"/><path d="M19 20c-.5 2-3 2-5 2h-2"/></symbol>
-<symbol id="retail-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
-<symbol id="retail-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
-<symbol id="retail-network" viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3h12V9M12 12v3"/></symbol>
-<symbol id="retail-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
-<symbol id="retail-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="1.5"/><path d="M8 22h8M12 18v4"/></symbol>
-<symbol id="retail-store" viewBox="0 0 24 24"><path d="M3 9 5 3h14l2 6M5 13v8h14v-8M9 21v-6h6v6M3 9a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0"/></symbol>
-<symbol id="retail-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></symbol>
-<symbol id="retail-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 2h3l2.4 13h14l2-10H5"/></symbol>
-<symbol id="retail-spark" viewBox="0 0 24 24"><path d="m12 2 2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></symbol>
-<symbol id="retail-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
-<symbol id="retail-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
-<symbol id="retail-gift" viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="12" rx="1"/><path d="M3 13h18M12 9v12M12 9c-4.8 0-7-1.2-7-4a3 3 0 0 1 5.1-2.2C11.3 4 12 9 12 9Zm0 0c4.8 0 7-1.2 7-4a3 3 0 0 0-5.1-2.2C12.7 4 12 9 12 9Z"/></symbol>
-<symbol id="retail-layers" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 17l9 5 9-5"/></symbol>
-<symbol id="retail-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1-2 2-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-.9 1.5V21h-3v-.2a1.6 1.6 0 0 0-.9-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1-2-2 .1-.1A1.6 1.6 0 0 0 7 15.8a1.6 1.6 0 0 0-1.5-.9H5v-3h.5A1.6 1.6 0 0 0 7 11a1.6 1.6 0 0 0-.3-1.8L6.6 9l2-2 .1.1a1.6 1.6 0 0 0 1.8.3 1.6 1.6 0 0 0 .9-1.5V5h3v.9a1.6 1.6 0 0 0 .9 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1 2 2-.1.1a1.6 1.6 0 0 0-.3 1.8 1.6 1.6 0 0 0 1.5.9h.7v3h-.7a1.6 1.6 0 0 0-1.5.9Z"/></symbol>
+  <symbol id="retail-tag" viewBox="0 0 24 24">
+    <path d="M20 13 11 22 2 13V4h9l9 9Z" />
+    <circle cx="7.5" cy="8.5" r="1" />
+  </symbol>
+  <symbol id="retail-users" viewBox="0 0 24 24">
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+  </symbol>
+  <symbol id="retail-pin" viewBox="0 0 24 24">
+    <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 0 1 16 0Z" />
+    <circle cx="12" cy="10" r="3" />
+  </symbol>
+  <symbol id="retail-clock" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3 2" />
+  </symbol>
+  <symbol id="retail-support" viewBox="0 0 24 24">
+    <path d="M4 14v-2a8 8 0 0 1 16 0v2" />
+    <rect x="2" y="13" width="5" height="7" rx="2" />
+    <rect x="17" y="13" width="5" height="7" rx="2" />
+    <path d="M19 20c-.5 2-3 2-5 2h-2" />
+  </symbol>
+  <symbol id="retail-check" viewBox="0 0 24 24">
+    <path d="m5 12 4 4L19 6" />
+  </symbol>
+  <symbol id="retail-eye" viewBox="0 0 24 24">
+    <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z" />
+    <circle cx="12" cy="12" r="3" />
+  </symbol>
+  <symbol id="retail-network" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="6" height="6" rx="1" />
+    <rect x="15" y="3" width="6" height="6" rx="1" />
+    <rect x="9" y="15" width="6" height="6" rx="1" />
+    <path d="M6 9v3h12V9M12 12v3" />
+  </symbol>
+  <symbol id="retail-shield" viewBox="0 0 24 24">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+    <path d="m9 12 2 2 4-4" />
+  </symbol>
+  <symbol id="retail-monitor" viewBox="0 0 24 24">
+    <rect x="3" y="4" width="18" height="14" rx="1.5" />
+    <path d="M8 22h8M12 18v4" />
+  </symbol>
+  <symbol id="retail-store" viewBox="0 0 24 24">
+    <path
+      d="M3 9 5 3h14l2 6M5 13v8h14v-8M9 21v-6h6v6M3 9a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0"
+    />
+  </symbol>
+  <symbol id="retail-grid" viewBox="0 0 24 24">
+    <rect x="3" y="3" width="18" height="18" rx="2" />
+    <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
+  </symbol>
+  <symbol id="retail-cart" viewBox="0 0 24 24">
+    <circle cx="9" cy="21" r="1" />
+    <circle cx="20" cy="21" r="1" />
+    <path d="M1 2h3l2.4 13h14l2-10H5" />
+  </symbol>
+  <symbol id="retail-spark" viewBox="0 0 24 24">
+    <path d="m12 2 2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z" />
+  </symbol>
+  <symbol id="retail-arrow" viewBox="0 0 24 24">
+    <path d="M5 12h14m-6-6 6 6-6 6" />
+  </symbol>
+  <symbol id="retail-chevron" viewBox="0 0 24 24">
+    <path d="m9 18 6-6-6-6" />
+  </symbol>
+  <symbol id="retail-gift" viewBox="0 0 24 24">
+    <rect x="3" y="9" width="18" height="12" rx="1" />
+    <path
+      d="M3 13h18M12 9v12M12 9c-4.8 0-7-1.2-7-4a3 3 0 0 1 5.1-2.2C11.3 4 12 9 12 9Zm0 0c4.8 0 7-1.2 7-4a3 3 0 0 0-5.1-2.2C12.7 4 12 9 12 9Z"
+    />
+  </symbol>
+  <symbol id="retail-layers" viewBox="0 0 24 24">
+    <path d="m12 2 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 17l9 5 9-5" />
+  </symbol>
+  <symbol id="retail-settings" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="3" />
+    <path
+      d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1-2 2-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-.9 1.5V21h-3v-.2a1.6 1.6 0 0 0-.9-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1-2-2 .1-.1A1.6 1.6 0 0 0 7 15.8a1.6 1.6 0 0 0-1.5-.9H5v-3h.5A1.6 1.6 0 0 0 7 11a1.6 1.6 0 0 0-.3-1.8L6.6 9l2-2 .1.1a1.6 1.6 0 0 0 1.8.3 1.6 1.6 0 0 0 .9-1.5V5h3v.9a1.6 1.6 0 0 0 .9 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1 2 2-.1.1a1.6 1.6 0 0 0-.3 1.8 1.6 1.6 0 0 0 1.5.9h.7v3h-.7a1.6 1.6 0 0 0-1.5.9Z"
+    />
+  </symbol>
 </svg>
 
 <div class="bg-white text-[#12213c]" data-retail-page>
-<!-- 01: Hero carousel. Swiper is already installed and initialized in src/main.js -->
-<section aria-label="Retail and supermarket solutions highlights" data-swiper="hero" class="swiper relative h-[470px] overflow-hidden bg-[#071a32] sm:h-[490px] lg:h-[500px]">
-  <div class="swiper-wrapper h-full">
-<div class="swiper-slide relative h-full overflow-hidden">
-<img src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif" alt="Modern supermarket with digital promotion screens" class="absolute inset-0 h-full w-full object-cover object-center" loading="eager" decoding="async" fetchpriority="high"/>
-<div class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"></div>
-<div class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10">
-  <div class="max-w-[510px] text-white">
-  <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"><a href="/index.html" class="hover:text-white">Home</a><span aria-hidden="true">›</span><span>Solutions</span><span aria-hidden="true">›</span><span class="text-white">Retail &amp; Supermarkets</span></nav>
-  <p class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]">Retail &amp; Supermarket Solutions</p>
-  <h1 class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]">Smarter Retail Displays.<span class="block">Better Shopping Experiences.</span></h1>
-  <p class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]">Help stores engage shoppers, promote products, and improve in-store communication across retail stores and supermarkets.</p>
-  <div class="mt-6 flex flex-wrap gap-3"><a href="#retail-applications" class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Explore Solutions</a><a href="/contact.html" class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contact Sales</a></div>
-  </div>
-</div>
-</div>
-<div class="swiper-slide relative h-full overflow-hidden">
-<img src="/images/blog/modern_boutique_with_digital_displays.avif" alt="Premium retail showroom with digital displays" class="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async"/>
-<div class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"></div>
-<div class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10">
-  <div class="max-w-[510px] text-white">
-  <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"><a href="/index.html" class="hover:text-white">Home</a><span aria-hidden="true">›</span><span>Solutions</span><span aria-hidden="true">›</span><span class="text-white">Retail &amp; Supermarkets</span></nav>
-  <p class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]">Retail &amp; Supermarket Solutions</p>
-  <h2 class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]">Turn Every Display<span class="block">Into a Shopping Opportunity.</span></h2>
-  <p class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]">Create high-impact storefront promotions and memorable brand moments with versatile digital signage.</p>
-  <div class="mt-6 flex flex-wrap gap-3"><a href="#retail-applications" class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Explore Solutions</a><a href="/contact.html" class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contact Sales</a></div>
-  </div>
-</div>
-</div>
-<div class="swiper-slide relative h-full overflow-hidden">
-<img src="/images/blog/modern_mall_lobby_with_digital_signage.avif" alt="Shopping mall with high visibility digital signage" class="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async"/>
-<div class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"></div>
-<div class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10">
-  <div class="max-w-[510px] text-white">
-  <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"><a href="/index.html" class="hover:text-white">Home</a><span aria-hidden="true">›</span><span>Solutions</span><span aria-hidden="true">›</span><span class="text-white">Retail &amp; Supermarkets</span></nav>
-  <p class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]">Retail &amp; Supermarket Solutions</p>
-  <h2 class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]">Captivate Shoppers.<span class="block">Connect Every Aisle.</span></h2>
-  <p class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]">Show offers, launch new campaigns and connect customers with the products they need.</p>
-  <div class="mt-6 flex flex-wrap gap-3"><a href="#retail-applications" class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Explore Solutions</a><a href="/contact.html" class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contact Sales</a></div>
-  </div>
-</div>
-</div>
-<div class="swiper-slide relative h-full overflow-hidden">
-<img src="/images/blog/ordering_at_the_modern_food_kiosk.avif" alt="Customer using interactive digital kiosk" class="absolute inset-0 h-full w-full object-cover object-center" loading="lazy" decoding="async"/>
-<div class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"></div>
-<div class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10">
-  <div class="max-w-[510px] text-white">
-  <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"><a href="/index.html" class="hover:text-white">Home</a><span aria-hidden="true">›</span><span>Solutions</span><span aria-hidden="true">›</span><span class="text-white">Retail &amp; Supermarkets</span></nav>
-  <p class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]">Retail &amp; Supermarket Solutions</p>
-  <h2 class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]">More Convenient Stores.<span class="block">More Engaged Customers.</span></h2>
-  <p class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]">Use interactive screens and clear digital information to make every customer journey easier.</p>
-  <div class="mt-6 flex flex-wrap gap-3"><a href="#retail-applications" class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Explore Solutions</a><a href="/contact.html" class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contact Sales</a></div>
-  </div>
-</div>
-</div>
-</div>
-<button data-swiper-prev type="button" aria-label="Previous retail highlight" class="absolute left-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:left-4"><svg aria-hidden="true" class="h-5 w-5 rotate-180 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-chevron"></use></svg></button>
-<button data-swiper-next type="button" aria-label="Next retail highlight" class="absolute right-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-4"><svg aria-hidden="true" class="h-5 w-5 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-chevron"></use></svg></button>
-<div data-swiper-pagination class="swiper-pagination !bottom-4 [&_.swiper-pagination-bullet]:!bg-white [&_.swiper-pagination-bullet]:!opacity-55 [&_.swiper-pagination-bullet-active]:!opacity-100"></div>
-</section>
-<section aria-labelledby="retail-overview-heading" class="border-b border-[#e9eff6] bg-white py-9 sm:py-10"><div class="mx-auto grid max-w-[1320px] gap-7 px-5 sm:px-8 lg:grid-cols-[40%_1fr] lg:items-center lg:gap-9 lg:px-10"><div>
-<p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Overview</p>
-<h2 id="retail-overview-heading" class="text-[25px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">Drive More In-Store Engagement</h2><p class="mt-3 max-w-[480px] text-[13px] leading-6 text-slate-500">Deliver dynamic promotions, product information, and branded content for retail and supermarket spaces.</p></div><div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
-<article class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"> <span class="mb-3 text-[#006ae6]"><svg aria-hidden="true" class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-tag"></use></svg></span><h3 class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]">PROMOTIONS</h3><p class="mt-1.5 text-[10px] leading-4 text-slate-500">Boost sales &amp; offers</p></article>
-<article class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"> <span class="mb-3 text-[#006ae6]"><svg aria-hidden="true" class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-users"></use></svg></span><h3 class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]">SHOPPER ENGAGEMENT</h3><p class="mt-1.5 text-[10px] leading-4 text-slate-500">Attract &amp; retain shoppers</p></article>
-<article class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"> <span class="mb-3 text-[#006ae6]"><svg aria-hidden="true" class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-pin"></use></svg></span><h3 class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]">SMART NAVIGATION</h3><p class="mt-1.5 text-[10px] leading-4 text-slate-500">Guide shoppers easily</p></article>
-<article class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"> <span class="mb-3 text-[#006ae6]"><svg aria-hidden="true" class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-support"></use></svg></span><h3 class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]">24/7 SUPPORT</h3><p class="mt-1.5 text-[10px] leading-4 text-slate-500">Reliable operation</p></article>
-</div></div></section>
-<section id="retail-applications" aria-labelledby="retail-applications-heading" class="scroll-mt-24 bg-white py-11 sm:py-12"><div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
-<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Key Applications</p><h2 id="retail-applications-heading" class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">Display Solutions for Every Retail Space</h2></div><a href="#retail-more-applications" class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]">View All Applications <span aria-hidden="true">→</span></a></div>
-<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<a href="/products/led-poster-display.html" class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"><img src="/images/blog/modern_boutique_with_digital_displays.avif" alt="Storefront Promotions display environment" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-500 group-hover:scale-105"/><div class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"></div><div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white"><h3 class="text-[14px] font-bold">Storefront Promotions</h3><p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">Attract shoppers with eye-catching offers.</p></div></a>
-<a href="/products/led-poster-display.html" class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"><img src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif" alt="Aisle Advertising display environment" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-500 group-hover:scale-105"/><div class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"></div><div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white"><h3 class="text-[14px] font-bold">Aisle Advertising</h3><p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">Promote products right at the shelf.</p></div></a>
-<a href="/products/wall-mount-display.html" class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"><img src="/images/projects/modern_fast_casual_interior_with_digital_displays.avif" alt="Checkout Displays display environment" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-500 group-hover:scale-105"/><div class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"></div><div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white"><h3 class="text-[14px] font-bold">Checkout Displays</h3><p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">Inform, engage and streamline checkout.</p></div></a>
-<a href="/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html" class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"><img src="/images/blog/modern_mall_lobby_with_digital_signage.avif" alt="In-Store Information display environment" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-500 group-hover:scale-105"/><div class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"></div><div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white"><h3 class="text-[14px] font-bold">In-Store Information</h3><p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">Share updates, navigation and more.</p></div></a>
-</div></div></section>
-<section class="bg-[#eff6fd] py-10 sm:py-12"><div class="mx-auto grid max-w-[1320px] items-center gap-7 px-5 sm:px-8 lg:grid-cols-2 lg:gap-10 lg:px-10"><div class="overflow-hidden rounded-[12px] shadow-[0_12px_30px_rgba(8,54,99,0.10)]"><img src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif" alt="Supermarket digital signage promoting fresh produce" class="h-[245px] w-full object-cover sm:h-[300px] lg:h-[335px]" loading="lazy" decoding="async"/></div><div>
-<p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Digital Signage in Action</p>
-<h2 class="max-w-[560px] text-[26px] font-bold leading-[1.15] tracking-[-0.035em] text-[#112140] sm:text-[33px]">Digital signage that drives every shopping journey</h2><p class="mt-4 max-w-[560px] text-[13px] leading-6 text-slate-500">From eye-catching promotions to real-time product updates, deliver impactful messages that enhance the in-store shopping experience.</p><div class="mt-4 grid grid-cols-1 gap-x-5 gap-y-2 text-[12px] text-[#243d5c] sm:grid-cols-2">
-<div class="flex items-center gap-2"><span class="text-[#0067d8]"><svg aria-hidden="true" class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-check"></use></svg></span><span>Immersive digital experiences</span></div>
-<div class="flex items-center gap-2"><span class="text-[#0067d8]"><svg aria-hidden="true" class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-check"></use></svg></span><span>Real-time campaign updates</span></div>
-<div class="flex items-center gap-2"><span class="text-[#0067d8]"><svg aria-hidden="true" class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-check"></use></svg></span><span>Flexible screen configurations</span></div>
-<div class="flex items-center gap-2"><span class="text-[#0067d8]"><svg aria-hidden="true" class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-check"></use></svg></span><span>Professional project support</span></div>
-</div><a href="#retail-products" class="mt-5 inline-flex items-center gap-2 text-[12px] font-bold text-[#0059b8] hover:text-[#003a78]">Explore Our Solutions <span aria-hidden="true">→</span></a></div></div></section>
-<section aria-labelledby="retail-benefits-heading" class="bg-[#f7f9fc] py-10 sm:py-12"><div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
-<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Why GCTL LED</p><h2 id="retail-benefits-heading" class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">Built for Demanding Retail Environments</h2></div></div>
-<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-<article class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"><div class="mb-3 text-[#0065db]"><svg aria-hidden="true" class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-clock"></use></svg></div><h3 class="text-[14px] font-bold text-[#101f3d]">Timely Promotions</h3><p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">Keep offers and campaigns up to date across all stores.</p></article>
-<article class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"><div class="mb-3 text-[#0065db]"><svg aria-hidden="true" class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-shield"></use></svg></div><h3 class="text-[14px] font-bold text-[#101f3d]">High Visibility</h3><p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">Deliver bright, clear content in busy retail spaces.</p></article>
-<article class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"><div class="mb-3 text-[#0065db]"><svg aria-hidden="true" class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-network"></use></svg></div><h3 class="text-[14px] font-bold text-[#101f3d]">Scalable Network</h3><p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">Manage multiple displays and stores from a central platform.</p></article>
-<article class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"><div class="mb-3 text-[#0065db]"><svg aria-hidden="true" class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-support"></use></svg></div><h3 class="text-[14px] font-bold text-[#101f3d]">Project Support</h3><p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">Full support from planning to installation and after-sales service.</p></article>
-</div></div></section>
-<section id="retail-products" aria-labelledby="retail-products-heading" class="scroll-mt-24 bg-white py-11 sm:py-12"><div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
-<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Recommended Solutions</p><h2 id="retail-products-heading" class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">The Right Displays for Every Space</h2></div><a href="/products/floor-standing-signage.html" class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]">View All Products <span aria-hidden="true">→</span></a></div>
-<div class="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
-<a href="/products/led-poster-display.html" class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"><div class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"><img src="/images/product/master-led-poster-display-indoor.avif" alt="Digital Poster product" loading="lazy" decoding="async" class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"/></div><h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">Digital Poster</h3><p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">Explore Display Solution <span aria-hidden="true">›</span></p></a>
-<a href="/products/wall-mount-display.html" class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"><div class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"><img src="/images/product/master-wall-mount-android-display.avif" alt="Wall Mount Display product" loading="lazy" decoding="async" class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"/></div><h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">Wall Mount Display</h3><p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">Explore Display Solution <span aria-hidden="true">›</span></p></a>
-<a href="/products/interactive-touch-panel.html" class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"><div class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"><img src="/images/categories/Interactive-touch.avif" alt="Interactive Touch Panel product" loading="lazy" decoding="async" class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"/></div><h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">Interactive Touch Panel</h3><p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">Explore Display Solution <span aria-hidden="true">›</span></p></a>
-<a href="/products/floor-standing-signage.html" class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"><div class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"><img src="/images/product/master-floor-standing-signage-indoor.avif" alt="Floor Standing Signage product" loading="lazy" decoding="async" class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"/></div><h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">Floor Standing Signage</h3><p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">Explore Display Solution <span aria-hidden="true">›</span></p></a>
-</div></div></section>
-<section aria-labelledby="retail-real-world-heading" class="bg-[#f7f9fc] py-11 sm:py-12"><div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
-<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Retail Application</p><h2 id="retail-real-world-heading" class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">Inspired by Real-World Retail Environments</h2><p class="mt-2 max-w-[680px] text-[13px] leading-6 text-slate-500">A real in-store application concept showing how digital signage enhances promotions, pricing updates, and the overall shopping experience.</p></div></div>
-<div class="grid overflow-hidden rounded-[12px] border border-[#e0eaf5] bg-white shadow-[0_7px_25px_rgba(13,50,96,0.06)] md:grid-cols-[58%_42%]"><div class="p-2"><img src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif" alt="Illustrative supermarket promotion display network concept" loading="lazy" decoding="async" class="h-[245px] w-full rounded-[8px] object-cover sm:h-[285px] md:h-[270px]"/></div><div class="flex flex-col justify-center px-5 py-6 sm:px-7 lg:px-9">
-<p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Featured Solution Concept</p>
-<h3 class="text-[20px] font-bold leading-tight tracking-[-0.025em] text-[#112140] sm:text-[23px]">Supermarket Promotion Display Network</h3><p class="mt-3 text-[13px] leading-6 text-slate-500">A coordinated in-store display network that delivers promotions, pricing updates, and shopper guidance across key areas including entrances, aisles, and checkout zones.</p><a href="/products/led-poster-display.html" class="mt-4 inline-flex items-center gap-1 self-start text-[12px] font-bold text-[#0059b8] hover:text-[#003c80]">Explore This Solution <span aria-hidden="true">→</span></a></div></div></div></section>
-<section id="retail-more-applications" aria-labelledby="retail-more-apps-heading" class="scroll-mt-24 bg-white py-11 sm:py-12"><div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
-<div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"><div><p class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]">Explore More</p><h2 id="retail-more-apps-heading" class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]">Applications Across the Industry</h2></div><a href="/contact.html" class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]">Explore More <span aria-hidden="true">→</span></a></div>
-<div class="grid gap-3 sm:grid-cols-3">
-<a href="/products/led-poster-display.html" class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"><img src="/images/blog/modern_boutique_with_digital_displays.avif" alt="Retail Entrance Displays" loading="lazy" decoding="async" class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"/><div class="min-w-0"><h3 class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]">Retail Entrance Displays</h3><p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">Explore Application <span aria-hidden="true">›</span></p></div></a>
-<a href="/products/wall-mount-display.html" class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"><img src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif" alt="Supermarket Shelf Signage" loading="lazy" decoding="async" class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"/><div class="min-w-0"><h3 class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]">Supermarket Shelf Signage</h3><p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">Explore Application <span aria-hidden="true">›</span></p></div></a>
-<a href="/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html" class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"><img src="/images/blog/modern_mall_lobby_with_digital_signage.avif" alt="Interactive Store Directory" loading="lazy" decoding="async" class="h-[68px] w-[90px] shrink-0 rounded-[6px] object-cover sm:w-[80px] xl:w-[106px]"/><div class="min-w-0"><h3 class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]">Interactive Store Directory</h3><p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">Explore Application <span aria-hidden="true">›</span></p></div></a>
-</div></div></section>
-<section class="bg-white px-5 pb-9 sm:px-8 lg:px-10"><div class="mx-auto flex max-w-[1240px] flex-col gap-5 rounded-[12px] bg-gradient-to-r from-[#07407e] via-[#0065bc] to-[#0758a1] px-6 py-6 text-white shadow-[0_8px_20px_rgba(0,63,125,0.1)] sm:flex-row sm:items-center sm:justify-between sm:px-9"><div><h2 class="text-[20px] font-bold leading-tight tracking-[-0.02em] sm:text-[24px]">Power a Smarter Retail Experience</h2><p class="mt-2 text-[12px] text-blue-100">Explore digital display solutions for your next retail project.</p></div><div class="flex items-center gap-6"><span class="hidden text-[#a2e4ff] lg:block"><svg aria-hidden="true" class="h-12 w-12 shrink-0 fill-none stroke-current stroke-[1.7]" stroke-linecap="round" stroke-linejoin="round"><use href="#retail-cart"></use></svg></span><a href="/contact.html" class="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[7px] bg-white px-5 text-[12px] font-bold text-[#004b94] transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Talk to an Expert <span aria-hidden="true">→</span></a></div></div></section>
+  <!-- 01: Hero carousel. Swiper is already installed and initialized in src/main.js -->
+  <section
+    aria-label="Retail and supermarket solutions highlights"
+    data-swiper="hero"
+    class="swiper relative h-[470px] overflow-hidden bg-[#071a32] sm:h-[490px] lg:h-[500px]"
+  >
+    <div class="swiper-wrapper h-full">
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+          alt="Modern supermarket with digital promotion screens"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
+        >
+          <div class="max-w-[510px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
+            >
+              <a href="/index.html" class="hover:text-white">Home</a
+              ><span aria-hidden="true">›</span><span>Solutions</span
+              ><span aria-hidden="true">›</span
+              ><span class="text-white">Retail &amp; Supermarkets</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
+            >
+              Retail &amp; Supermarket Solutions
+            </p>
+            <h1
+              class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]"
+            >
+              Smarter Retail Displays.<span class="block"
+                >Better Shopping Experiences.</span
+              >
+            </h1>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Help stores engage shoppers, promote products, and improve
+              in-store communication across retail stores and supermarkets.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                href="#retail-applications"
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Explore Solutions</a
+              ><a
+                href="/contact.html"
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          src="/images/blog/modern_boutique_with_digital_displays.avif"
+          alt="Premium retail showroom with digital displays"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          loading="lazy"
+          decoding="async"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
+        >
+          <div class="max-w-[510px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
+            >
+              <a href="/index.html" class="hover:text-white">Home</a
+              ><span aria-hidden="true">›</span><span>Solutions</span
+              ><span aria-hidden="true">›</span
+              ><span class="text-white">Retail &amp; Supermarkets</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
+            >
+              Retail &amp; Supermarket Solutions
+            </p>
+            <h2
+              class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]"
+            >
+              Turn Every Display<span class="block"
+                >Into a Shopping Opportunity.</span
+              >
+            </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Create high-impact storefront promotions and memorable brand
+              moments with versatile digital signage.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                href="#retail-applications"
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Explore Solutions</a
+              ><a
+                href="/contact.html"
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          src="/images/blog/modern_mall_lobby_with_digital_signage.avif"
+          alt="Shopping mall with high visibility digital signage"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          loading="lazy"
+          decoding="async"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
+        >
+          <div class="max-w-[510px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
+            >
+              <a href="/index.html" class="hover:text-white">Home</a
+              ><span aria-hidden="true">›</span><span>Solutions</span
+              ><span aria-hidden="true">›</span
+              ><span class="text-white">Retail &amp; Supermarkets</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
+            >
+              Retail &amp; Supermarket Solutions
+            </p>
+            <h2
+              class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]"
+            >
+              Captivate Shoppers.<span class="block">Connect Every Aisle.</span>
+            </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Show offers, launch new campaigns and connect customers with the
+              products they need.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                href="#retail-applications"
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Explore Solutions</a
+              ><a
+                href="/contact.html"
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide relative h-full overflow-hidden">
+        <img
+          src="/images/blog/ordering_at_the_modern_food_kiosk.avif"
+          alt="Customer using interactive digital kiosk"
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          loading="lazy"
+          decoding="async"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-[#06182c] from-[0%] via-[#06182c]/95 via-[26%] to-[#06182c]/10 to-[92%]"
+        ></div>
+        <div
+          class="relative mx-auto flex h-full max-w-[1320px] items-center px-6 pb-6 pt-7 sm:px-8 lg:px-10"
+        >
+          <div class="max-w-[510px] text-white">
+            <nav
+              aria-label="Breadcrumb"
+              class="mb-8 flex flex-wrap items-center gap-2 text-[12px] text-blue-100/90"
+            >
+              <a href="/index.html" class="hover:text-white">Home</a
+              ><span aria-hidden="true">›</span><span>Solutions</span
+              ><span aria-hidden="true">›</span
+              ><span class="text-white">Retail &amp; Supermarkets</span>
+            </nav>
+            <p
+              class="mb-3 text-[11px] font-bold uppercase tracking-[0.15em] text-[#77d4ff]"
+            >
+              Retail &amp; Supermarket Solutions
+            </p>
+            <h2
+              class="max-w-[530px] text-[32px] font-extrabold leading-[1.13] tracking-[-0.045em] sm:text-[40px] lg:text-[49px]"
+            >
+              More Convenient Stores.<span class="block"
+                >More Engaged Customers.</span
+              >
+            </h2>
+            <p
+              class="mt-4 max-w-[455px] text-[13px] leading-[1.7] text-[#e3eef9] sm:text-[14px]"
+            >
+              Use interactive screens and clear digital information to make
+              every customer journey easier.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a
+                href="#retail-applications"
+                class="inline-flex min-h-11 items-center justify-center rounded-md bg-[#0064c5] px-6 text-[12px] font-semibold text-white shadow-lg transition hover:bg-[#0076de] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Explore Solutions</a
+              ><a
+                href="/contact.html"
+                class="inline-flex min-h-11 items-center justify-center rounded-md border border-white/70 px-6 text-[12px] font-semibold text-white transition hover:bg-white hover:text-[#092b4b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      data-swiper-prev
+      type="button"
+      aria-label="Previous retail highlight"
+      class="absolute left-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:left-4"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-5 w-5 rotate-180 shrink-0 fill-none stroke-current stroke-[1.7]"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="#retail-chevron"></use>
+      </svg>
+    </button>
+    <button
+      data-swiper-next
+      type="button"
+      aria-label="Next retail highlight"
+      class="absolute right-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0056a7] shadow-lg transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-4"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-5 w-5 shrink-0 fill-none stroke-current stroke-[1.7]"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <use href="#retail-chevron"></use>
+      </svg>
+    </button>
+    <div
+      data-swiper-pagination
+      class="swiper-pagination !bottom-4 [&_.swiper-pagination-bullet]:!bg-white [&_.swiper-pagination-bullet]:!opacity-55 [&_.swiper-pagination-bullet-active]:!opacity-100"
+    ></div>
+  </section>
+  <section
+    aria-labelledby="retail-overview-heading"
+    class="border-b border-[#e9eff6] bg-white py-9 sm:py-10"
+  >
+    <div
+      class="mx-auto grid max-w-[1320px] gap-7 px-5 sm:px-8 lg:grid-cols-[40%_1fr] lg:items-center lg:gap-9 lg:px-10"
+    >
+      <div>
+        <p
+          class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+        >
+          Overview
+        </p>
+        <h2
+          id="retail-overview-heading"
+          class="text-[25px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+        >
+          Drive More In-Store Engagement
+        </h2>
+        <p class="mt-3 max-w-[480px] text-[13px] leading-6 text-slate-500">
+          Deliver dynamic promotions, product information, and branded content
+          for retail and supermarket spaces.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <article
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
+        >
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-tag"></use></svg
+          ></span>
+          <h3
+            class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]"
+          >
+            PROMOTIONS
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Boost sales &amp; offers
+          </p>
+        </article>
+        <article
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
+        >
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-users"></use></svg
+          ></span>
+          <h3
+            class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]"
+          >
+            SHOPPER ENGAGEMENT
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Attract &amp; retain shoppers
+          </p>
+        </article>
+        <article
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
+        >
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-pin"></use></svg
+          ></span>
+          <h3
+            class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]"
+          >
+            SMART NAVIGATION
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Guide shoppers easily
+          </p>
+        </article>
+        <article
+          class="flex min-h-[132px] flex-col items-center justify-center rounded-[12px] border border-[#e2eaf5] bg-white px-3 py-4 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)]"
+        >
+          <span class="mb-3 text-[#006ae6]"
+            ><svg
+              aria-hidden="true"
+              class="h-8 w-8 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-support"></use></svg
+          ></span>
+          <h3
+            class="max-w-[155px] text-[11px] font-extrabold leading-[1.3] text-[#111f37] sm:text-[12px]"
+          >
+            24/7 SUPPORT
+          </h3>
+          <p class="mt-1.5 text-[10px] leading-4 text-slate-500">
+            Reliable operation
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section
+    id="retail-applications"
+    aria-labelledby="retail-applications-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Key Applications
+          </p>
+          <h2
+            id="retail-applications-heading"
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          >
+            Display Solutions for Every Retail Space
+          </h2>
+        </div>
+        <a
+          href="#retail-more-applications"
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
+          >View All Applications <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <a
+          href="/products/led-poster-display.html"
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          ><img
+            src="/images/blog/modern_boutique_with_digital_displays.avif"
+            alt="Storefront Promotions display environment"
+            loading="lazy"
+            decoding="async"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Storefront Promotions</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Attract shoppers with eye-catching offers.
+            </p>
+          </div></a
+        >
+        <a
+          href="/products/led-poster-display.html"
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          ><img
+            src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+            alt="Aisle Advertising display environment"
+            loading="lazy"
+            decoding="async"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Aisle Advertising</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Promote products right at the shelf.
+            </p>
+          </div></a
+        >
+        <a
+          href="/products/wall-mount-display.html"
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          ><img
+            src="/images/projects/modern_fast_casual_interior_with_digital_displays.avif"
+            alt="Checkout Displays display environment"
+            loading="lazy"
+            decoding="async"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">Checkout Displays</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Inform, engage and streamline checkout.
+            </p>
+          </div></a
+        >
+        <a
+          href="/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html"
+          class="group relative block h-[210px] overflow-hidden rounded-[10px] bg-[#0e2843] shadow-[0_6px_18px_rgba(2,27,56,0.12)] sm:h-[235px] lg:h-[245px]"
+          ><img
+            src="/images/blog/modern_mall_lobby_with_digital_signage.avif"
+            alt="In-Store Information display environment"
+            loading="lazy"
+            decoding="async"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-[#031a33]/95 via-[#031a33]/20 to-transparent"
+          ></div>
+          <div class="absolute inset-x-0 bottom-0 px-4 pb-4 pt-10 text-white">
+            <h3 class="text-[14px] font-bold">In-Store Information</h3>
+            <p class="mt-1 text-[11px] leading-4 text-[#eff6ff]">
+              Share updates, navigation and more.
+            </p>
+          </div></a
+        >
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#eff6fd] py-10 sm:py-12">
+    <div
+      class="mx-auto grid max-w-[1320px] items-center gap-7 px-5 sm:px-8 lg:grid-cols-2 lg:gap-10 lg:px-10"
+    >
+      <div
+        class="overflow-hidden rounded-[12px] shadow-[0_12px_30px_rgba(8,54,99,0.10)]"
+      >
+        <img
+          src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+          alt="Supermarket digital signage promoting fresh produce"
+          class="h-[245px] w-full object-cover sm:h-[300px] lg:h-[335px]"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div>
+        <p
+          class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+        >
+          Digital Signage in Action
+        </p>
+        <h2
+          class="max-w-[560px] text-[26px] font-bold leading-[1.15] tracking-[-0.035em] text-[#112140] sm:text-[33px]"
+        >
+          Digital signage that drives every shopping journey
+        </h2>
+        <p class="mt-4 max-w-[560px] text-[13px] leading-6 text-slate-500">
+          From eye-catching promotions to real-time product updates, deliver
+          impactful messages that enhance the in-store shopping experience.
+        </p>
+        <div
+          class="mt-4 grid grid-cols-1 gap-x-5 gap-y-2 text-[12px] text-[#243d5c] sm:grid-cols-2"
+        >
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#retail-check"></use></svg></span
+            ><span>Immersive digital experiences</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#retail-check"></use></svg></span
+            ><span>Real-time campaign updates</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#retail-check"></use></svg></span
+            ><span>Flexible screen configurations</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#0067d8]"
+              ><svg
+                aria-hidden="true"
+                class="h-4 w-4 shrink-0 fill-none stroke-current stroke-[1.7]"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#retail-check"></use></svg></span
+            ><span>Professional project support</span>
+          </div>
+        </div>
+        <a
+          href="#retail-products"
+          class="mt-5 inline-flex items-center gap-2 text-[12px] font-bold text-[#0059b8] hover:text-[#003a78]"
+          >Explore Our Solutions <span aria-hidden="true">→</span></a
+        >
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="retail-benefits-heading"
+    class="bg-[#f7f9fc] py-10 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Why GCTL LED
+          </p>
+          <h2
+            id="retail-benefits-heading"
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          >
+            Built for Demanding Retail Environments
+          </h2>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-clock"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">
+            Timely Promotions
+          </h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Keep offers and campaigns up to date across all stores.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-shield"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">High Visibility</h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Deliver bright, clear content in busy retail spaces.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-network"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">Scalable Network</h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Manage multiple displays and stores from a central platform.
+          </p>
+        </article>
+        <article
+          class="rounded-[10px] border border-[#e2eaf5] bg-white p-5 shadow-[0_5px_15px_rgba(9,43,84,0.04)]"
+        >
+          <div class="mb-3 text-[#0065db]">
+            <svg
+              aria-hidden="true"
+              class="h-7 w-7 shrink-0 fill-none stroke-current stroke-[1.7]"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <use href="#retail-support"></use>
+            </svg>
+          </div>
+          <h3 class="text-[14px] font-bold text-[#101f3d]">Project Support</h3>
+          <p class="mt-1.5 text-[12px] leading-[1.55] text-slate-500">
+            Full support from planning to installation and after-sales service.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section
+    id="retail-products"
+    aria-labelledby="retail-products-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Recommended Solutions
+          </p>
+          <h2
+            id="retail-products-heading"
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          >
+            The Right Displays for Every Space
+          </h2>
+        </div>
+        <a
+          href="/products/floor-standing-signage.html"
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
+          >View All Products <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+        <a
+          href="/products/led-poster-display.html"
+          class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"
+          ><div
+            class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"
+          >
+            <img
+              src="/images/product/master-led-poster-display-indoor.avif"
+              alt="Digital Poster product"
+              loading="lazy"
+              decoding="async"
+              class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"
+            />
+          </div>
+          <h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">
+            Digital Poster
+          </h3>
+          <p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">
+            Explore Display Solution <span aria-hidden="true">›</span>
+          </p></a
+        >
+        <a
+          href="/products/wall-mount-display.html"
+          class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"
+          ><div
+            class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"
+          >
+            <img
+              src="/images/product/master-wall-mount-android-display.avif"
+              alt="Wall Mount Display product"
+              loading="lazy"
+              decoding="async"
+              class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"
+            />
+          </div>
+          <h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">
+            Wall Mount Display
+          </h3>
+          <p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">
+            Explore Display Solution <span aria-hidden="true">›</span>
+          </p></a
+        >
+        <a
+          href="/products/portable-signage-poster.html"
+          class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"
+          ><div
+            class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"
+          >
+            <img
+              src="/images/product/master-portable-digital-signage-poster-indoor.avif"
+              alt="Portable Digital Signage Poster product"
+              loading="lazy"
+              decoding="async"
+              class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"
+            />
+          </div>
+          <h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">
+            Portable Digital Signage Poster
+          </h3>
+          <p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">
+            Explore Display Solution <span aria-hidden="true">›</span>
+          </p></a
+        >
+        <a
+          href="/products/floor-standing-signage.html"
+          class="group flex flex-col items-center rounded-[11px] border border-[#e2eaf5] bg-white px-3 pb-5 pt-3 text-center shadow-[0_6px_20px_rgba(14,48,89,0.06)] transition hover:-translate-y-1 hover:border-[#a8d0ff] hover:shadow-[0_12px_26px_rgba(14,48,89,0.11)]"
+          ><div
+            class="flex h-[145px] w-full items-center justify-center sm:h-[170px] lg:h-[180px]"
+          >
+            <img
+              src="/images/product/master-floor-standing-signage-indoor.avif"
+              alt="Floor Standing Signage product"
+              loading="lazy"
+              decoding="async"
+              class="h-full w-full object-contain transition duration-300 group-hover:scale-[1.045]"
+            />
+          </div>
+          <h3 class="mt-3 text-[12px] font-bold text-[#10213f] sm:text-[14px]">
+            Floor Standing Signage
+          </h3>
+          <p class="mt-1 text-[10px] text-slate-500 sm:text-[11px]">
+            Explore Display Solution <span aria-hidden="true">›</span>
+          </p></a
+        >
+      </div>
+    </div>
+  </section>
+  <section
+    aria-labelledby="retail-real-world-heading"
+    class="bg-[#f7f9fc] py-11 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Retail Application
+          </p>
+          <h2
+            id="retail-real-world-heading"
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          >
+            Inspired by Real-World Retail Environments
+          </h2>
+          <p class="mt-2 max-w-[680px] text-[13px] leading-6 text-slate-500">
+            A real in-store application concept showing how digital signage
+            enhances promotions, pricing updates, and the overall shopping
+            experience.
+          </p>
+        </div>
+      </div>
+      <div
+        class="grid overflow-hidden rounded-[12px] border border-[#e0eaf5] bg-white shadow-[0_7px_25px_rgba(13,50,96,0.06)] md:grid-cols-[58%_42%]"
+      >
+        <div class="p-2">
+          <img
+            src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+            alt="Illustrative supermarket promotion display network concept"
+            loading="lazy"
+            decoding="async"
+            class="h-[245px] w-full rounded-[8px] object-cover sm:h-[285px] md:h-[270px]"
+          />
+        </div>
+        <div class="flex flex-col justify-center px-5 py-6 sm:px-7 lg:px-9">
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Featured Solution Concept
+          </p>
+          <h3
+            class="text-[20px] font-bold leading-tight tracking-[-0.025em] text-[#112140] sm:text-[23px]"
+          >
+            Supermarket Promotion Display Network
+          </h3>
+          <p class="mt-3 text-[13px] leading-6 text-slate-500">
+            A coordinated in-store display network that delivers promotions,
+            pricing updates, and shopper guidance across key areas including
+            entrances, aisles, and checkout zones.
+          </p>
+          <a
+            href="/products/led-poster-display.html"
+            class="mt-4 inline-flex items-center gap-1 self-start text-[12px] font-bold text-[#0059b8] hover:text-[#003c80]"
+            >Explore This Solution <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    id="retail-more-applications"
+    aria-labelledby="retail-more-apps-heading"
+    class="scroll-mt-24 bg-white py-11 sm:py-12"
+  >
+    <div class="mx-auto max-w-[1320px] px-5 sm:px-8 lg:px-10">
+      <div
+        class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between"
+      >
+        <div>
+          <p
+            class="mb-2 text-[11px] font-bold uppercase tracking-[0.14em] text-[#0059b8]"
+          >
+            Explore More
+          </p>
+          <h2
+            id="retail-more-apps-heading"
+            class="text-[24px] font-bold leading-tight tracking-[-0.035em] text-[#101f3d] sm:text-[28px]"
+          >
+            Applications Across the Industry
+          </h2>
+        </div>
+        <a
+          href="/contact.html"
+          class="inline-flex shrink-0 items-center gap-1 text-[12px] font-semibold text-[#0059b8] transition hover:text-[#003c80]"
+          >Explore More <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="grid gap-3 sm:grid-cols-3">
+        <a
+          href="/products/led-poster-display.html"
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          ><img
+            src="/images/blog/modern_boutique_with_digital_displays.avif"
+            alt="Retail Entrance Displays"
+            loading="lazy"
+            decoding="async"
+            class="h-[110px] w-[115px] shrink-0 rounded-[6px] object-cover sm:w-[125px] xl:w-[145px]"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Retail Entrance Displays
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">›</span>
+            </p>
+          </div></a
+        >
+        <a
+          href="/products/wall-mount-display.html"
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          ><img
+            src="/images/industries/modern_supermarket_interior_with_vibrant_displays.avif"
+            alt="Supermarket Shelf Signage"
+            loading="lazy"
+            decoding="async"
+            class="h-[110px] w-[115px] shrink-0 rounded-[6px] object-cover sm:w-[125px] xl:w-[145px]"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Supermarket Shelf Signage
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">›</span>
+            </p>
+          </div></a
+        >
+        <a
+          href="/products/interactive-wayfinding/indoor-floor-standing-wayfinding-display.html"
+          class="group flex items-center gap-3 rounded-[10px] border border-[#e0eaf4] bg-white p-2.5 shadow-[0_4px_16px_rgba(13,50,96,0.05)] transition hover:border-blue-300 hover:shadow-md"
+          ><img
+            src="/images/blog/modern_mall_lobby_with_digital_signage.avif"
+            alt="Interactive Store Directory"
+            loading="lazy"
+            decoding="async"
+            class="h-[110px] w-[115px] shrink-0 rounded-[6px] object-cover sm:w-[125px] xl:w-[145px]"
+          />
+          <div class="min-w-0">
+            <h3
+              class="text-[12px] font-bold leading-snug text-[#12213a] sm:text-[13px]"
+            >
+              Interactive Store Directory
+            </h3>
+            <p class="mt-1.5 text-[11px] font-semibold text-[#005ab8]">
+              Explore Application <span aria-hidden="true">›</span>
+            </p>
+          </div></a
+        >
+      </div>
+    </div>
+  </section>
+  <section class="bg-white px-5 pb-9 sm:px-8 lg:px-10">
+    <div
+      class="mx-auto flex max-w-[1240px] flex-col gap-5 rounded-[12px] bg-gradient-to-r from-[#07407e] via-[#0065bc] to-[#0758a1] px-6 py-6 text-white shadow-[0_8px_20px_rgba(0,63,125,0.1)] sm:flex-row sm:items-center sm:justify-between sm:px-9"
+    >
+      <div>
+        <h2
+          class="text-[20px] font-bold leading-tight tracking-[-0.02em] sm:text-[24px]"
+        >
+          Power a Smarter Retail Experience
+        </h2>
+        <p class="mt-2 text-[12px] text-blue-100">
+          Explore digital display solutions for your next retail project.
+        </p>
+      </div>
+      <div class="flex items-center gap-6">
+        <span class="hidden text-[#a2e4ff] lg:block"
+          ><svg
+            aria-hidden="true"
+            class="h-12 w-12 shrink-0 fill-none stroke-current stroke-[1.7]"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <use href="#retail-cart"></use></svg></span
+        ><a
+          href="/contact.html"
+          class="inline-flex min-h-11 shrink-0 items-center justify-center gap-2 rounded-[7px] bg-white px-5 text-[12px] font-bold text-[#004b94] transition hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >Talk to an Expert <span aria-hidden="true">→</span></a
+        >
+      </div>
+    </div>
+  </section>
 </div>
