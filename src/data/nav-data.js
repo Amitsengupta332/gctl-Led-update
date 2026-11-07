@@ -467,19 +467,19 @@ export const navItems = [
                 products: [
                   {
                     name: "46-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/46-inch-lcd-video-wall-3-5mm.html",
                   },
                   {
                     name: "46-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/46-inch-lcd-video-wall-0-88mm.html",
                   },
                   {
                     name: "46-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/46-inch-lcd-video-wall-1-8mm.html",
                   },
@@ -490,19 +490,19 @@ export const navItems = [
                 products: [
                   {
                     name: "55-inch LCD Video Wall Display 3.5mm Narrow Bezel",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/55-inch-lcd-video-wall-3-5mm.html",
                   },
                   {
                     name: "55-inch Ultra-Narrow Bezel 0.88mm LCD Video Wall Display",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/55-inch-lcd-video-wall-0-88mm.html",
                   },
                   {
                     name: "55-inch Ultra-Narrow Bezel 1.8mm LCD Video Wall Display",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                     link: "/products/lcd-video-wall/55-inch-lcd-video-wall-1-8mm.html",
                   },
@@ -513,12 +513,12 @@ export const navItems = [
                 products: [
                   {
                     name: "Video Wall Controller Processor Matrix Switching 4K",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                   },
                   {
                     name: "4K60 UHD Video Wall Controller 4 HDMI Supports 4 Inputs 9 Outputs",
-                    image: "/images/product/master-lcd-video-wall.png",
+                    image: "/images/product/master-lcd-video-wall.avif",
                     price: "Call for Price",
                   },
                 ],
